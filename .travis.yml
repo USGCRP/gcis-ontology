@@ -1,3 +1,4 @@
+language: python
 before_install:
   - wget http://mirror.tcpdiag.net/apache/jena/binaries/apache-jena-2.13.0.tar.gz -O /tmp/apache-jena.tar.gz
   - tar -xvf /tmp/apache-jena.tar.gz
