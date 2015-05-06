@@ -29,7 +29,7 @@ gcis:xiaogang_ma a foaf:Person ;
 
 gcis:curt_tilmes a foaf:Person ;
 	foaf:name "Curt Tilmes" ;
-	foaf:mbox <mailto:urt.tilmes@nasa.gov> .
+	foaf:mbox <mailto:curt.tilmes@nasa.gov> .
 
 gcis:peter_fox a foaf:Person ;
 	foaf:name "Peter Fox" ;
