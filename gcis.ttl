@@ -45,11 +45,11 @@ gcis:justin_goldstein a foaf:Person ;
 
 gcis:linyun_fu a foaf:Person ;
 	foaf:name "Linyun Fu" ;
-	foaf:mbox <ful2@rpi.edu> .
+	foaf:mbox <mailto:ful2@rpi.edu> .
 
 gcis:brian_duggan a foaf:Person ;
 	foaf:name "Brian Duggan" ;
-	foaf:mbox <mailto:duggan@ucar.edu> .
+	foaf:mbox <mailto:bduggan@usgcrp.gov> .
 
 gcis:patrick_west a foaf:Person ;
 	foaf:name "Patrick West" ;
