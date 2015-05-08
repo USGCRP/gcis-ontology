@@ -420,7 +420,7 @@ gcis:Editor a prov:Role ;
 
 gcis:Mediator a prov:Role ;
 	rdfs:label "Mediator" ;
-	rdfs:comment "One who negotiates between parties and/or resrouces seeking agreement or access." .
+	rdfs:comment "One who negotiates between parties and/or resources seeking agreement or access." .
 
 gcis:RightsHolder a prov:Role ;
 	rdfs:label "Rights Holder" ;
