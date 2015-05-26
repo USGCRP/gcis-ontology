@@ -568,18 +568,6 @@ gcis:hasVersion a owl:DatatypeProperty ;
 	rdfs:range xsd:string ;
 	rdfs:subPropertyOf dcterms:hasVersion .
 
-gcis:hasSpatialExtents a owl:ObjectProperty ;
-	rdfs:label "Has Spatial Extents" ;
-	rdfs:comment "An entity of model run may have spatial extents." ;
-	rdfs:domain gcis:ModelRun ;
-	rdfs:range gcis:SpatialExtents .
-
-gcis:hasTemporalExtents a owl:ObjectProperty ;
-	rdfs:label "Has Temporal Extents" ;
-	rdfs:comment "An entity of model run may have temporal extents." ;
-	rdfs:domain gcis:ModelRun ;
-	rdfs:range gcis:TemporalExtents .
-
 gcis:hasSpatialResolution a owl:ObjectProperty ;
 	rdfs:label "Has Spatial Resolution" ;
 	rdfs:comment "An entity of model run may have a spatial resolution." ;
