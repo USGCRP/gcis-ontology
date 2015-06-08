@@ -869,11 +869,23 @@ gcis:startedAt a owl:DatatypeProperty ;
 	rdfs:domain gcis:TemporalExtents ;
 	rdfs:range xsd:dateTime .
 
+gcis:startDate a owl:DatatypeProperty ;
+	rdfs:label "Start Date" ;
+	rdfs:comment "The start date of a temporal extent" ;
+	rdfs:domain gcis:TemporalExtents ;
+	rdfs:range xsd:date .
+
 gcis:endedAt a owl:DatatypeProperty ;
 	rdfs:label "Ended At" ;
 	rdfs:comment "The end date/time of a temporal extent." ;
 	rdfs:domain gcis:TemporalExtents ;
 	rdfs:range xsd:dateTime .
+
+gcis:endDate a owl:DatatypeProperty ;
+	rdfs:label "End Date" ;
+	rdfs:comment "The end date of a temporalExtent" ;
+	rdfs:domain gcis:TemporalExtents ;
+	rdfs:range xsd:date .
 
 gcis:resolution a owl:DatatypeProperty ;
 	rdfs:label "Resolution" ;
