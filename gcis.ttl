@@ -889,7 +889,7 @@ gcis:equivalentScale a owl:DatatypeProperty ;
 
 gcis:hasTemporalUnit a owl:ObjectProperty ;
 	rdfs:label "Has Temporal Unit" ;
-	rdfs:comment "A temporal resolution has one or more tempporal units." ;
+	rdfs:comment "A temporal resolution has one or more temporal units." ;
 	rdfs:domain gcis:TemporalResolution ;
 	rdfs:range gcis:TemporalUnit .
 
