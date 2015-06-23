@@ -561,13 +561,6 @@ gcis:hasInputDataset a owl:ObjectProperty ;
 	rdfs:subPropertyOf prov:used ;
 	rdfs:range gcis:Dataset .
 
-gcis:hasVersion a owl:DatatypeProperty ;
-	rdfs:label "Has Version" ;
-	rdfs:comment "A model may have a version." ;
-	rdfs:domain gcis:Model ;
-	rdfs:range xsd:string ;
-	rdfs:subPropertyOf dcterms:hasVersion .
-
 gcis:hasSpatialResolution a owl:ObjectProperty ;
 	rdfs:label "Has Spatial Resolution" ;
 	rdfs:comment "An entity of model run may have a spatial resolution." ;
