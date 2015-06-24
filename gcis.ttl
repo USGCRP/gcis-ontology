@@ -8,6 +8,7 @@
 @prefix dctype: <http://purl.org/dc/dcmitype/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix org: <http://www.w3.org/ns/org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -560,6 +561,10 @@ gcis:hasInputDataset a owl:ObjectProperty ;
 	rdfs:comment "An activity may have input datasets." ;
 	rdfs:subPropertyOf prov:used ;
 	rdfs:range gcis:Dataset .
+
+gcis:version a owl:DatatypeProperty ;
+	rdfs:label "version" ;
+	rdfs:subPropertyOf dbpprop:version ;
 
 gcis:hasSpatialResolution a owl:ObjectProperty ;
 	rdfs:label "Has Spatial Resolution" ;
