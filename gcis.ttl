@@ -1036,6 +1036,6 @@ gcis:isSupportedBy  a owl:ObjectProperty ;
 
 gcis:computingEnvironmentsUsed a owl:DatatypeProperty ;
 	rdfs:label "computing environments used" ;
-	rdfs:comment "Description of the computing environments of software agents associated in an activity" ;
+	rdfs:comment "Description of the computing environment(s) associated with an activity" ;
 	rdfs:domain prov:Activity ;
 	rdfs:range xsd:string .
