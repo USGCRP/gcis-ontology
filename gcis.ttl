@@ -795,13 +795,13 @@ gcis:describesScenario a owl:ObjectProperty ;
 	rdfs:label "Describes Scenario" ;
 	rdfs:comment "A report may describe one or more scenarios." ;
 	rdfs:domain gcis:Report;
-	rdfs:range xsd:Scenario .
+	rdfs:range gcis:Scenario .
 
 gcis:isDescribedIn a owl:ObjectProperty ;
 	rdfs:label "Is Described In" ;
 	rdfs:comment "A scenario is described in a report." ;
 	rdfs:domain gcis:Scenario ;
-	rdfs:range xsd:Report .
+	rdfs:range gcis:Report .
 
 gcis:tableNumber a owl:DatatypeProperty ;
 	rdfs:label "Table Number" ;
