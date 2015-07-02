@@ -1039,9 +1039,21 @@ gcis:descriptionOfOutputFiles a owl:DatatypeProperty ;
 	rdfs:range xsd:string .
 
 gcis:Book a owl:Class ;
-	rdfs:label "Book" ;
-	rdfs:subClassOf gcis:Publication .
+	rdfs:subClassOf gcis:Publication , bibo:Book , prov:Entity ;
+	rdfs:label "Book" ;	
+	rdfs:comment "A written or printed work of fiction or nonfiction, usually on sheets of paper fastened or bound together within covers." .	
 	
 gcis:Journal a owl:Class ;
+	rdfs:subClassOf gcis:Publication , bibo:Journal , prov:Entity ;
 	rdfs:label "Journal" ;
-	rdfs:subClassOf gcis:Publication .
+	rdfs:comment "A periodical of scholarly journal Articles." .
+
+gcis:Article a owl:Class ;
+	rdfs:subClassOf gcis:Publication , bibo:Article , prov:Entity ;
+	rdfs:label "Article" ;
+	rdfs:comment "A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, as a newspaper or magazine." .	
+	
+gcis:Webpage a owl:Class ;
+	rdfs:subClassOf gcis:Publication , bibo:Webpage , prov:Entity ;
+	rdfs:label "Webpage" ;
+	rdfs:comment "A web page is an online document available (at least initially) on the world wide web. A web page is written first and foremost to appear on the web, as distinct from other online resources such as books, manuscripts or audio documents which use the web primarily as a distribution mechanism alongside other more traditional methods such as print." .	
