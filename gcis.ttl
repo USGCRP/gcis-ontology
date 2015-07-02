@@ -1041,3 +1041,7 @@ gcis:descriptionOfOutputFiles a owl:DatatypeProperty ;
 gcis:Book a owl:Class ;
 	rdfs:label "Book" ;
 	rdfs:subClassOf gcis:Publication .
+	
+gcis:Journal a owl:Class ;
+	rdfs:label "Journal" ;
+	rdfs:subClassOf gcis:Publication .
