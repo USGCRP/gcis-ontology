@@ -28,7 +28,7 @@ gcis:xiaogang_ma a foaf:Person ;
 	foaf:name "Xiaogang Ma" ;
 	foaf:mbox <mailto:max7@rpi.edu> .
 	
-gcis:xiaogang_ma a foaf:Person ;
+gcis:stephan_zednik a foaf:Person ;
 	foaf:name "Stephan Zednik" ;
 	foaf:mbox <mailto:zednis2@rpi.edu> .
 
