@@ -125,7 +125,7 @@ gcis:SpatialResolution a owl:Class ;
 	
 gcis:TemporalExtents a owl:Class ;
 	rdfs:label "Temporal Extents" ;
-	rdfs:comment "The time information, including the earliest and last observations, of a dataset." ;
+	rdfs:comment "The time information, including that of the earliest and last observations, of a dataset." ;
 	rdfs:subClassOf prov:Entity .	
 
 gcis:TemporalResolution a owl:Class ;
