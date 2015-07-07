@@ -247,7 +247,7 @@ gcis:implements a owl:ObjectProperty ;
 
 gcis:hasMember a owl:ObjectProperty ;
 	rdfs:label "Has Member" ;
-	rdfs:comment "An agent has some members." ;
+	rdfs:comment "An agent has one or more members." ;
 	rdfs:subPropertyOf prov:hadDelegate.
 
 gcis:hasGoverningOrganization a owl:ObjectProperty ;
