@@ -564,7 +564,7 @@ gcis:hasInputDataset a owl:ObjectProperty ;
 
 gcis:version a owl:DatatypeProperty ;
 	rdfs:label "version" ;
-	rdfs:subPropertyOf dbpprop:version ;
+	rdfs:subPropertyOf dbpprop:version .
 
 gcis:hasSpatialResolution a owl:ObjectProperty ;
 	rdfs:label "Has Spatial Resolution" ;
