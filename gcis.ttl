@@ -770,7 +770,7 @@ gcis:hasCaption a owl:DatatypeProperty ;
 	
 gcis:Mission a owl:Class ;
 	rdfs:label "Mission" ;
-	rdfs:comment "An official job that a person or group of people with which is tasked." ;
+	rdfs:comment "An official job with which individual(s) and/or groups are tasked." ;
 	rdfs:subClassOf prov:Entity .
 
 gcis:Experiment a owl:Class ;
