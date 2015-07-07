@@ -527,7 +527,7 @@ gcis:targetSensor a owl:ObjectProperty ;
 	rdfs:range gcis:Sensor .
 
 gcis:publicationStatus a owl:DatatypeProperty ;
-	rdfs:label "Publication Status " ;
+	rdfs:label "Publication Status" ;
 	rdfs:comment "The status of the publication of a document." ;
 	rdfs:domain gcis:Publication ;
 	rdfs:range xsd:string .		
