@@ -247,7 +247,7 @@ gcis:implements a owl:ObjectProperty ;
 
 gcis:hasMember a owl:ObjectProperty ;
 	rdfs:label "Has Member" ;
-	rdfs:comment "An agent has some members." ;
+	rdfs:comment "An agent has one or more members." ;
 	rdfs:subPropertyOf prov:hadDelegate.
 
 gcis:hasGoverningOrganization a owl:ObjectProperty ;
@@ -1022,7 +1022,7 @@ gcis:isPublisherOf a owl:ObjectProperty ;
 	rdfs:range gcis:Publication ;
 	rdfs:subPropertyOf prov:contributed .
 
-gcis:hasSubOrganization  a owl:ObjectProperty ;
+gcis:hasSubOrganization a owl:ObjectProperty ;
 	rdfs:label "Has Sub Organization" ;
 	rdfs:comment "Represents hierarchical containment of Organizations or OrganizationalUnits; indicates an organization which is a sub-part or child of this organization." ;
 	owl:inverseOf gcis:subOrganizationOf ;
@@ -1031,7 +1031,7 @@ gcis:hasSubOrganization  a owl:ObjectProperty ;
 	rdfs:subPropertyOf prov:hadDelegate ;
 	rdfs:subPropertyOf org:hasSubOrganization .
 
-gcis:isSupportedBy  a owl:ObjectProperty ;
+gcis:isSupportedBy a owl:ObjectProperty ;
 	rdfs:label "Is Supported By" ;
 	rdfs:comment "A finding is supported by data, models, model runs, software, etc.";
 	rdfs:domain gcis:Finding .	
@@ -1066,5 +1066,4 @@ gcis:Article a owl:Class ;
 gcis:Webpage a owl:Class ;
 	rdfs:subClassOf gcis:Publication , bibo:Webpage , prov:Entity ;
 	rdfs:label "Webpage" ;
-	rdfs:comment "A web page is an online document available (at least initially) on the world wide web. A web page is written first and foremost to appear on the web, as distinct from other online resources such as books, manuscripts or audio documents which use the web primarily as a distribution mechanism alongside other more traditional methods such as print." .	
-	
+	rdfs:comment "A web page is an online document available (at least initially) on the world wide web. A web page is written first and foremost to appear on the web, as distinct from other online resources such as books, manuscripts or audio documents which use the web primarily as a distribution mechanism alongside other more traditional methods such as print." .
