@@ -144,7 +144,7 @@ gcis:Algorithm a owl:Class ;
 
 gcis:Platform a owl:Class ;
 	rdfs:label "Platform" ;
-	rdfs:comment "A scientific data collection entity to which other entities can be attached - particuarly instruments, sensors and other platforms." ;
+	rdfs:comment "A scientific data collection entity to which other entities - particuarly instruments, sensors and other platforms - can be attached." ;
 	rdfs:subClassOf prov:Entity .
 
 gcis:hasChapter a owl:ObjectProperty ;
@@ -221,7 +221,7 @@ gcis:sourceModel a owl:ObjectProperty ;
 
 gcis:inPlatform a owl:ObjectProperty ;
 	rdfs:label "In Platform" ;
-	rdfs:comment "An instrument is deployed in a platform." ;
+	rdfs:comment "An instrument is deployed on a platform." ;
 	rdfs:domain gcis:Instrument ;
 	rdfs:range gcis:Platform ;
 	rdfs:subPropertyOf dcterms:isPartOf .
@@ -364,7 +364,7 @@ gcis:Reviewer a prov:Role ;
 	rdfs:comment "A person who examines and evluates the draft of a writing work." .
 	
 gcis:CoAuthor a prov:Role ;
-	rdfs:label "Co Author" ;
+	rdfs:label "Co-Author" ;
 	rdfs:comment "A party who jointly authors a resource." .
 
 gcis:ResourceProvider a prov:Role ;
