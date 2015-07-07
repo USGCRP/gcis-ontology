@@ -228,7 +228,7 @@ gcis:inPlatform a owl:ObjectProperty ;
 
 gcis:hasInstrument a owl:ObjectProperty ;
 	rdfs:label "Has Instrument" ;
-	rdfs:comment "An platform has one or more instruments." ;
+	rdfs:comment "A platform has one or more instruments." ;
 	rdfs:domain gcis:Platform ;
 	rdfs:range gcis:Instrument ;
 	rdfs:subPropertyOf dcterms:hasPart .	
@@ -241,7 +241,7 @@ gcis:implementedIn a owl:ObjectProperty ;
 	
 gcis:implements a owl:ObjectProperty ;
 	rdfs:label "Implements" ;
-	rdfs:comment "A software systemAn implements one or more algorithms." ;
+	rdfs:comment "A software system implements one or more algorithms." ;
 	rdfs:domain gcis:Software ;
 	rdfs:range gcis:Algorithm .	
 
