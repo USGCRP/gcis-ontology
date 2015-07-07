@@ -90,7 +90,7 @@ gcis:Report a owl:Class ;
 gcis:Chapter a owl:Class ;
 	rdfs:subClassOf bibo:Chapter , gcis:Publication ;
 	rdfs:label "Chapter" ;
-	rdfs:comment "One of the main divisions of a relatively lengthy piece of writing, such as a book, that is usually numbered and/or titled." .
+	rdfs:comment "One of the main divisions of a relatively lengthy piece of writing, such as a report, that is usually numbered and/or titled." .
 
 gcis:Committee a owl:Class ;
 	rdfs:label "Committee" ;
