@@ -164,13 +164,13 @@ gcis:hasAuthor a owl:ObjectProperty ;
 
 gcis:hasFinding a owl:ObjectProperty ;
 	rdfs:label "Has Finding" ;
-	rdfs:comment "A publication may have zero or more findings." ;
+	rdfs:comment "A publication may contain findings." ;
 	rdfs:range gcis:Finding ;
 	rdfs:subPropertyOf dcterms:hasPart.
 
 gcis:hasFigure a owl:ObjectProperty ;
 	rdfs:label "Has Figure" ;
-	rdfs:comment "A publication may have zero or more figures."; 
+	rdfs:comment "A publication may contain figures."; 
 	rdfs:domain gcis:Publication ;
 	rdfs:range gcis:Figure ;
 	rdfs:subPropertyOf dcterms:hasPart .
@@ -489,7 +489,7 @@ gcis:isBasedOn a owl:ObjectProperty ;
 
 gcis:hasTable a owl:ObjectProperty ;
 	rdfs:label "Has Table" ;
-	rdfs:comment "A publication may have zero or more tables." ;
+	rdfs:comment "A publication may contain tables." ;
 	rdfs:domain gcis:Publication ;
 	rdfs:range gcis:Table ;
 	rdfs:subPropertyOf dcterms:hasPart .
