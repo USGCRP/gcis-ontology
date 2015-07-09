@@ -18,7 +18,7 @@
 	dcterms:title "GCIS Ontology" ;
 	dcterms:date "2013-12-01";
 	owl:versionInfo "1.2";
-	rdfs:comment "An ontology designed for the Global Change Information System in the U.S. Global Change Research Program (www.globalchange.gov). Different versions of the ontology are  available at: http://escience.rpi.edu/ontology/GCIS-IMSAP/. The ontology uses the namespace prefix gcis." ;
+	rdfs:comment "An ontology designed for the Global Change Information System of the U.S. Global Change Research Program (http://www.globalchange.gov).  The ontology uses the namespace prefix gcis." ;
     	dcterms:identifier "http://data.globalchange.gov/gcis.owl" ;
 	dcterms:creator gcis:xiaogang_ma, gcis:curt_tilmes, gcis:peter_fox ;
 	dcterms:contributor gcis:jin_guang_zheng, gcis:justin_goldstein, gcis:linyun_fu, gcis:brian_duggan, gcis:patrick_west, gcis:steve_aulenbach, gcis:chengcong_du, gcis:jun_xu, gcis:anusha_akkiraju ;
