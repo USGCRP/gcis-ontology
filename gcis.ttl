@@ -1052,6 +1052,11 @@ gcis:Article a owl:Class ;
 	rdfs:subClassOf gcis:Publication , bibo:Article , prov:Entity ;
 	rdfs:label "Article" ;
 	rdfs:comment "A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, such as a journal, newspaper or magazine." .	
+
+gcis:AcademicArticle a owl:Class ;
+	rdfs:subClassOf gcis:Article ;
+	rdfs:label "Academic Article" ;
+	rdfs:comment "A scholarly academic article, typically published in a journal." .		
 	
 gcis:Webpage a owl:Class ;
 	rdfs:subClassOf gcis:Publication , bibo:Webpage , prov:Entity ;
