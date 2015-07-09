@@ -1051,7 +1051,7 @@ gcis:descriptionOfOutputFiles a owl:DatatypeProperty ;
 gcis:Book a owl:Class ;
 	rdfs:subClassOf gcis:Publication , bibo:Book , prov:Entity ;
 	rdfs:label "Book" ;	
-	rdfs:comment "A written or printed work of fiction or nonfiction, usually on sheets of paper fastened or bound together within covers." .	
+	rdfs:comment "A written or printed work of fiction or nonfiction, usually on sheets of paper fastened or bound together within covers, or released just as a digital file." .	
 	
 gcis:Journal a owl:Class ;
 	rdfs:subClassOf gcis:Publication , bibo:Journal , prov:Entity ;
@@ -1061,7 +1061,12 @@ gcis:Journal a owl:Class ;
 gcis:Article a owl:Class ;
 	rdfs:subClassOf gcis:Publication , bibo:Article , prov:Entity ;
 	rdfs:label "Article" ;
-	rdfs:comment "A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, as a newspaper or magazine." .	
+	rdfs:comment "A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, such as a journal, newspaper or magazine." .	
+
+gcis:AcademicArticle a owl:Class ;
+	rdfs:subClassOf gcis:Article ;
+	rdfs:label "Academic Article" ;
+	rdfs:comment "A scholarly academic article, typically published in a journal." .		
 	
 gcis:Webpage a owl:Class ;
 	rdfs:subClassOf gcis:Publication , bibo:Webpage , prov:Entity ;
