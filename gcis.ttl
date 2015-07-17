@@ -79,7 +79,7 @@ gcis:anusha_akkiraju a foaf:Person ;
 gcis:Publication a owl:Class ;
 	rdfs:subClassOf bibo:Document ;
 	rdfs:label "Publication" ;
-	rdfs:comment "A bounded physical representation of a body of information designed with the capacity (and usually intent) to communicate, and which has been made available to the public." ;
+	rdfs:comment "A distinct work with intent to communicate information that has been made available" ;
 	rdfs:subClassOf bibo:Document , prov:Entity .
 
 gcis:Report a owl:Class ;
