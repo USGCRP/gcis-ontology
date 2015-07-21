@@ -18,11 +18,10 @@
 	dcterms:title "GCIS Ontology" ;
 	dcterms:date "2013-12-01";
 	owl:versionInfo "1.2";
-	rdfs:comment "An ontology designed for the Global Change Information System in the U.S. Global Change Research Program (www.globalchange.gov). Different versions of the ontology are  available at: http://escience.rpi.edu/ontology/GCIS-IMSAP/. The ontology uses the namespace prefix gcis." ;
-    	dcterms:identifier "http://data.globalchange.gov/gcis.owl" ;
+	rdfs:comment An ontology designed for the Global Change Information System of the U.S. Global Change Research Program (http://www.globalchange.gov). The ontology is available at: https://data.globalchange.gov/gcis.owl. The ontology uses the namespace prefix gcis."  ;
 	dcterms:creator gcis:xiaogang_ma, gcis:curt_tilmes, gcis:peter_fox ;
 	dcterms:contributor gcis:jin_guang_zheng, gcis:justin_goldstein, gcis:linyun_fu, gcis:brian_duggan, gcis:patrick_west, gcis:steve_aulenbach, gcis:chengcong_du, gcis:jun_xu, gcis:anusha_akkiraju ;
-	skos:historyNote "The ontology is a part of the result of the GCIS-IMSAP project (2012-2013) at Tetherless World Constellation, Rensselaer Polytechnic Institute. More details of that project is accessible at: http://tw.rpi.edu/web/project/gcis-imsap." . 
+	skos:historyNote "The ontology is a part of the result of the GCIS-IMSAP project (2012-2013) at Tetherless World Constellation, Rensselaer Polytechnic Institute. More details of that project are accessible at: http://tw.rpi.edu/web/project/gcis-imsap." . 
 
 gcis:xiaogang_ma a foaf:Person ;
 	foaf:name "Xiaogang Ma" ;
@@ -1065,5 +1064,4 @@ gcis:Article a owl:Class ;
 gcis:Webpage a owl:Class ;
 	rdfs:subClassOf gcis:Publication , bibo:Webpage , prov:Entity ;
 	rdfs:label "Webpage" ;
-	rdfs:comment "A web page is an online document available (at least initially) on the world wide web. A web page is written first and foremost to appear on the web, as distinct from other online resources such as books, manuscripts or audio documents which use the web primarily as a distribution mechanism alongside other more traditional methods such as print." .	
-	
+	rdfs:comment "A web page is an online document available (at least initially) on the World Wide Web. A web page is written first and foremost to appear on the web, as distinct from other online resources such as books, manuscripts or audio documents which use the web primarily as a distribution mechanism alongside other more traditional methods such as print." .
