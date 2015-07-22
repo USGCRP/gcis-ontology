@@ -35,8 +35,9 @@ else
     ok "valid gcis.ttl"
 fi
 
+cat gcis.ttl ./t/data/*.ttl > /tmp/triples.ttl
+
 cd t
-cat ./data/*.ttl > /tmp/triples.ttl
 
 for i in ./sparql/*.sparql; do
     base=`basename $i .sparql`
