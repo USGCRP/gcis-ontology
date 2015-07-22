@@ -1,0 +1,7 @@
+PREFIX gcis: <http://data.globalchange.gov/gcis.owl#>
+
+SELECT ?s
+ {
+     ?s ?p gcis:Report .
+ }
+
