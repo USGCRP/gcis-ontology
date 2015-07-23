@@ -790,7 +790,7 @@ gcis:Expedition a owl:Class ;
 
 gcis:Scenario a owl:Class ;
 	rdfs:label "Scenario" ;
-	rdfs:comment "A coherent description of a potential future situation that serves as input to more detailed analyses or modeling. Scenarios are tools that explore, 'if�, then�.' statements, and are not predictions of or prescriptions for the future." ;
+	rdfs:comment "Sets of assumptions used to help understand potential future conditions such as population growth, land use, and sea level rise. Scenarios are neither predictions nor forecasts. Scenarios are commonly used for planning purposes." ;
 	rdfs:subClassOf prov:Entity .
 	
 gcis:describesScenario a owl:ObjectProperty ;
