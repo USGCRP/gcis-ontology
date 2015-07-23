@@ -118,7 +118,7 @@ gcis:Model a owl:Class ;
 	rdfs:subClassOf prov:Entity .
 	
 gcis:Region a owl:Class ;
-	rdfs:label Region" ;
+	rdfs:label "Region" ;
 	rdfs:comment "A spatial area defined by a common characteristic (e.g. coastal, southwest, rural communities, etc.)." ;
 	rdfs:subClassOf prov:Entity .	
 
