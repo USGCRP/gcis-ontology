@@ -1,0 +1,6 @@
+SELECT DISTINCT ?p
+{
+  ?s ?p ?o .
+  FILTER regex(STR(?p), "http://data\\.globalchange\\.gov")
+  FILTER regex(STR(?p), "#[A-Z]")
+}
