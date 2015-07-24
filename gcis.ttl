@@ -711,8 +711,8 @@ gcis:findingProcess a owl:DatatypeProperty ;
 	rdfs:range xsd:string .
 	
 gcis:findingStatement a owl:DatatypeProperty ;
-	rdfs:label "Key Finding" ;
-	rdfs:comment "The text of a Finding in a Highly Influential Scientific Document." ;
+	rdfs:label "Key finding" ;
+	rdfs:comment "The text of a Finding in a Highly Influential Scientific Assessment." ;
 	rdfs:domain gcis:Finding ;
 	rdfs:range xsd:string .
 
