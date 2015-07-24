@@ -1025,7 +1025,7 @@ gcis:isPublisherOf a owl:ObjectProperty ;
 	rdfs:range gcis:Publication ;
 	rdfs:subPropertyOf prov:contributed .
 
-gcis:hasSubOrganization  a owl:ObjectProperty ;
+gcis:hasSubOrganization a owl:ObjectProperty ;
 	rdfs:label "Has Sub Organization" ;
 	rdfs:comment "Represents hierarchical containment of Organizations or OrganizationalUnits; indicates an organization which is a sub-part or child of this organization." ;
 	owl:inverseOf gcis:subOrganizationOf ;
