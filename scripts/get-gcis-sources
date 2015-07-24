@@ -1,0 +1,61 @@
+#!/bin/bash -e
+
+# get-gcis-sources
+#
+# Get sources for ontologies in GCIS and convert them all into turtle.
+# The list of sources is taken from http://data.globalchange.gov/resources.yaml
+# 
+# Usage:
+#   ./get-gcis-sources > /tmp/all.ttl
+#
+
+warn() {
+    >&2 echo $1
+}
+dest=/tmp/gcis-ontology-sources.$$
+dir=`mktemp -d`
+output=/tmp/all.ttl
+
+curl -s http://data.globalchange.gov/resources.yaml \
+    | perl -lne 'print if /rdf_sources/..1 ' \
+    | perl -lpe 's/://' \
+    | egrep -v '(gcis.ttl|~|rdf_sources)' \
+    | egrep '\w' \
+    > $dir/urls
+
+mkdir $dir/rdf-in
+
+# Get files
+cat $dir/urls | while read label url; do
+    out=$dir/rdf-in/$label
+    warn "$label : getting $url"
+    curl --fail --connect-timeout 2 -m 5 -s -L $url > $out || warn "error $?"
+    [ -s $out ] || rm $out
+done
+
+# Convert to turtle if necessary
+mkdir $dir/rdf-out
+for file in $dir/rdf-in/*; do
+    type=`file $file`
+    base=`basename $file`
+    if [[ $type =~ (X|SG)ML ]]; then
+        # xml/sgml
+        mv $file $file.xml
+        out=$dir/tmpfile
+        riot --output turtle $file.xml > $out
+        if egrep -q '(ERROR|WARN)' $out; then
+            echo "Errors parsing $base"
+            cat $out
+        else
+            mv $out $dir/rdf-out/$base.ttl
+        fi
+    else
+        # turtle
+        cp $file $dir/rdf-out/$base.ttl
+    fi
+done
+
+mkdir $dest
+mv $dir/rdf-out/* $dest/
+echo "Wrote to $dest"
+

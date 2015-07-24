@@ -19,3 +19,11 @@ results file, the test will fail.  The format of the output of run-tests.sh
  follows the Test Anything Protocol (<http://testanything.org>).  A non-zero
 exit code from run-tests.sh means that there was at least one test failure.
 
+Testing directory structure:
+
+    scripts/get-gcis-sources : Get sources for external ontologies
+    t/data/ext : Turtle for the above
+    t/data/gcis : Sample instance data from the live GCIS
+    t/sparql : SPARQL queries to run in the test suite
+    t/results: Expected results corresponding to the SPARQL queries
+

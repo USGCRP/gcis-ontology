@@ -1,0 +1,697 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix dc:  <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix msg0:  <http://web.resource.org/cc/> .
+@prefix vann:  <http://purl.org/vocab/vann/> .
+@prefix status:  <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+
+<http://vocab.org/places/schema.rdf>
+        rdf:type           foaf:Document ;
+        rdf:type           <http://purl.org/dc/dcmitype/Text> ;
+        foaf:primaryTopic  <http://purl.org/ontology/places> ;
+        dct:hasFormat      <http://vocab.org/places/schema.html> ;
+        dct:hasFormat      <http://vocab.org/places/schema.json> ;
+        dct:hasFormat      <http://vocab.org/places/schema.turtle> ;
+        foaf:topic         <http://purl.org/ontology/places> .
+
+<http://vocab.org/places/schema.html>
+        rdf:type    <http://purl.org/dc/dcmitype/Text> ;
+        rdf:type    foaf:Document ;
+        dc:format   "text/html" ;
+        rdfs:label  "HTML" .
+
+<http://vocab.org/places/schema.json>
+        rdf:type    <http://purl.org/dc/dcmitype/Text> ;
+        rdf:type    foaf:Document ;
+        dc:format   "application/json" ;
+        rdfs:label  "JSON" .
+
+<http://vocab.org/places/schema.turtle>
+        rdf:type    <http://purl.org/dc/dcmitype/Text> ;
+        rdf:type    foaf:Document ;
+        dc:format   "text/plain" ;
+        rdfs:label  "Turtle" .
+
+<http://creativecommons.org/licenses/by/1.0/>
+        rdf:type       msg0:Licence ;
+        msg0:permits   msg0:DerivativeWorks ;
+        msg0:permits   msg0:Distribution ;
+        msg0:permits   msg0:Reproduction ;
+        msg0:requires  msg0:Attribution ;
+        msg0:requires  msg0:Notice .
+
+<http://purl.org/ontology/places>
+        rdf:type                       owl:Ontology ;
+        rdf:type                       msg0:Work ;
+        dct:created                    "2010-11-27"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        dct:description                "The Places Ontology is a simple lightweight ontology for describing places of geographic interest."@en ;
+        dct:title                      "The Places Ontology"@en ;
+        dct:type                       <http://purl.org/dc/dcmitype/Text> ;
+        vann:preferredNamespacePrefix  "place" ;
+        vann:preferredNamespaceUri     "http://purl.org/ontology/places#" ;
+        msg0:license                   <http://creativecommons.org/licenses/by/1.0/> ;
+        rdfs:comment                   "The Places Ontology is a simple lightweight ontology for describing places of geographic interest."@en ;
+        foaf:maker                     <http://purl.org/ontology/places/#michael> ;
+        foaf:maker                     <http://purl.org/ontology/places/#rob> ;
+        foaf:maker                     <http://purl.org/ontology/places/#tom> .
+
+<http://purl.org/ontology/places#ArbitraryRegion>
+        rdf:type            owl:Class ;
+        rdfs:comment        "An area that is useful to illustrate a particular point but does not have a recognised political or cultural identity." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Arbitraria Región"@es ;
+        rdfs:label          "Arbitrary Region"@en ;
+        rdfs:label          "ArbitraryRegion" ;
+        rdfs:label          "Région Arbitraire"@fr-fr ;
+        rdfs:label          "Willkürliche Region"@de ;
+        rdfs:label          "任意区域"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Bay>
+        rdf:type            owl:Class ;
+        rdfs:comment        "An indentation to a shoreline, a body of water enclosed but with a large mouth to a wider body of water." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Bahía"@es ;
+        rdfs:label          "Bay" ;
+        rdfs:label          "Bay"@de ;
+        rdfs:label          "Bay"@en ;
+        rdfs:label          "Bay"@fr-fr ;
+        rdfs:label          "湾"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Beach>
+        rdf:type            owl:Class ;
+        rdfs:comment        "The shore of a body of water, usually sandy or pebbly." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Beach" ;
+        rdfs:label          "Beach"@de ;
+        rdfs:label          "Beach"@en ;
+        rdfs:label          "Beach"@fr-fr ;
+        rdfs:label          "Playa"@es ;
+        rdfs:label          "海滩"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Borough>
+        rdf:type            owl:Class ;
+        rdfs:comment        "An administrative region of governance." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Arrondissement"@fr-fr ;
+        rdfs:label          "Bezirk"@de ;
+        rdfs:label          "Borough" ;
+        rdfs:label          "Borough"@en ;
+        rdfs:label          "Municipio"@es ;
+        rdfs:label          "伯勒"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Boundary>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A Boundary resource specifies a sequence of points which, if joined, give the boundary of a geographical area. The sequence may be a serious of resources, each with a latitude and longitude, or a series of points using the datatype place:latlong. If the final point is the same as the first then the boundary is considered to be a closed area, whereas if the first and last points differ the boundary is considered to be a border line." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Boundary" ;
+        rdfs:subClassOf     rdf:Seq ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Cape>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A strip of land projecting into a body of water" ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Cabo"@es ;
+        rdfs:label          "Cap"@fr-fr ;
+        rdfs:label          "Cape" ;
+        rdfs:label          "Cape"@de ;
+        rdfs:label          "Cape"@en ;
+        rdfs:label          "披肩"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#City>
+        rdf:type             owl:Class ;
+        rdfs:comment         "A large settlement, often with some form of formal political recognition." ;
+        rdfs:isDefinedBy     <http://purl.org/ontology/places#> ;
+        rdfs:label           "City" ;
+        rdfs:label           "City"@de ;
+        rdfs:label           "City"@en ;
+        rdfs:label           "City"@fr-fr ;
+        rdfs:label           "Ciudad"@es ;
+        rdfs:label           "市"@zh ;
+        rdfs:seeAlso         <http://en.wikipedia.org/wiki/City> ;
+        owl:equivalentClass  <http://dbpedia.org/ontology/City> ;
+        status:term_status   "testing" .
+
+<http://purl.org/ontology/places#Cliff>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A steep high face of rock." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Acantilado"@es ;
+        rdfs:label          "Cliff" ;
+        rdfs:label          "Cliff"@de ;
+        rdfs:label          "Cliff"@en ;
+        rdfs:label          "Cliff"@fr-fr ;
+        rdfs:label          "悬崖"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Continent>
+        rdf:type             owl:Class ;
+        rdfs:comment         "A large landmass recognised by convention as a continent." ;
+        rdfs:isDefinedBy     <http://purl.org/ontology/places#> ;
+        rdfs:label           "Continent" ;
+        rdfs:label           "Continent"@en ;
+        rdfs:label           "Continent"@fr-fr ;
+        rdfs:label           "Continente"@es ;
+        rdfs:label           "Kontinent"@de ;
+        rdfs:label           "大陆"@zh ;
+        rdfs:seeAlso         <http://en.wikipedia.org/wiki/Continent> ;
+        owl:equivalentClass  <http://dbpedia.org/ontology/Continent> ;
+        owl:equivalentClass  <http://www.telegraphis.net/ontology/geography/geography#Continent> ;
+        status:term_status   "testing" .
+
+<http://purl.org/ontology/places#Country>
+        rdf:type             owl:Class ;
+        rdfs:comment         "A region considered to be the territory of a recognised political state." ;
+        rdfs:isDefinedBy     <http://purl.org/ontology/places#> ;
+        rdfs:label           "Country" ;
+        rdfs:label           "Country"@en ;
+        rdfs:label           "Land"@de ;
+        rdfs:label           "Pays"@fr-fr ;
+        rdfs:label           "País"@es ;
+        rdfs:label           "国家"@zh ;
+        rdfs:seeAlso         <http://en.wikipedia.org/wiki/Country> ;
+        owl:equivalentClass  <http://dbpedia.org/ontology/Country> ;
+        status:term_status   "testing" .
+
+<http://purl.org/ontology/places#County>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A county is a land area of local governance within a country. A county may have cities and towns within its area." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Comté"@fr-fr ;
+        rdfs:label          "Condado"@es ;
+        rdfs:label          "County" ;
+        rdfs:label          "County"@de ;
+        rdfs:label          "County"@en ;
+        rdfs:label          "县"@zh ;
+        rdfs:seeAlso        <http://en.wikipedia.org/wiki/County> ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Desert>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A desert is a landscape or region that receives an extremely low amount of precipitation, less than enough to support growth of most plants." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Desert" ;
+        rdfs:label          "Desert"@de ;
+        rdfs:label          "Desert"@en ;
+        rdfs:label          "Desert"@fr-fr ;
+        rdfs:label          "Desierto"@es ;
+        rdfs:label          "沙漠"@zh ;
+        rdfs:seeAlso        <http://en.wikipedia.org/wiki/Desert> ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#District>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A region of governance." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Bezirk"@de ;
+        rdfs:label          "District" ;
+        rdfs:label          "District"@en ;
+        rdfs:label          "District"@fr-fr ;
+        rdfs:label          "Distrito"@es ;
+        rdfs:label          "区"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Estuary>
+        rdf:type            owl:Class ;
+        rdfs:comment        "The widened area of a river as it opens to meet the sea or ocean." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Estuaire"@fr-fr ;
+        rdfs:label          "Estuario"@es ;
+        rdfs:label          "Estuary" ;
+        rdfs:label          "Estuary"@en ;
+        rdfs:label          "Mündung"@de ;
+        rdfs:label          "河口"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Glacier>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A slow-moving mass of ice." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Glaciar"@es ;
+        rdfs:label          "Glacier" ;
+        rdfs:label          "Glacier"@en ;
+        rdfs:label          "Glacier"@fr-fr ;
+        rdfs:label          "Gletscher"@de ;
+        rdfs:label          "冰川"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Gulf>
+        rdf:type            owl:Class ;
+        rdfs:comment        "Part of a sea or ocean that is partially enclosed by land. Like a bay but larger." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Golfe"@fr-fr ;
+        rdfs:label          "Golfo"@es ;
+        rdfs:label          "Gulf" ;
+        rdfs:label          "Gulf"@de ;
+        rdfs:label          "Gulf"@en ;
+        rdfs:label          "海湾"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Hamlet>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A Hamlet is a small human settlement consisting of just a few dwellings." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Aldea"@es ;
+        rdfs:label          "Hamlet" ;
+        rdfs:label          "Hamlet"@en ;
+        rdfs:label          "Hamlet"@fr-fr ;
+        rdfs:label          "Weiler"@de ;
+        rdfs:label          "村庄"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Hill>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A hill is a landform that extends above the surrounding terrain." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Hill" ;
+        rdfs:label          "Hill"@de ;
+        rdfs:label          "Hill"@en ;
+        rdfs:label          "Hill"@es ;
+        rdfs:label          "Hill"@fr-fr ;
+        rdfs:label          "希尔"@zh ;
+        rdfs:seeAlso        <http://en.wikipedia.org/wiki/Hill> ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Island>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A landmass surrounded entirely by water." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Isla"@es ;
+        rdfs:label          "Island" ;
+        rdfs:label          "Island"@de ;
+        rdfs:label          "Island"@en ;
+        rdfs:label          "Island"@fr-fr ;
+        rdfs:label          "岛"@zh ;
+        rdfs:seeAlso        <http://en.wikipedia.org/wiki/Island> ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Isthmus>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A narrow strip of land, bounded by water on two sides, and connecting two larger landmasses." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Isthme"@fr-fr ;
+        rdfs:label          "Isthmus" ;
+        rdfs:label          "Isthmus"@de ;
+        rdfs:label          "Isthmus"@en ;
+        rdfs:label          "Istmo"@es ;
+        rdfs:label          "地峡"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Lake>
+        rdf:type             owl:Class ;
+        rdfs:comment         "An inland body of water." ;
+        rdfs:isDefinedBy     <http://purl.org/ontology/places#> ;
+        rdfs:label           "Lago"@es ;
+        rdfs:label           "Lake" ;
+        rdfs:label           "Lake"@de ;
+        rdfs:label           "Lake"@en ;
+        rdfs:label           "Lake"@fr-fr ;
+        rdfs:label           "湖"@zh ;
+        rdfs:seeAlso         <http://en.wikipedia.org/wiki/Lake> ;
+        owl:equivalentClass  <http://dbpedia.org/ontology/Lake> ;
+        status:term_status   "testing" .
+
+<http://purl.org/ontology/places#LandMass>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A piece of land, useful in combination with Continent, Plate and others." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "La masse continentale"@fr-fr ;
+        rdfs:label          "LandMass" ;
+        rdfs:label          "Landmass"@en ;
+        rdfs:label          "Landmasse"@de ;
+        rdfs:label          "Masa de tierra"@es ;
+        rdfs:label          "陆地"@zh ;
+        rdfs:seeAlso        <http://en.wikipedia.org/wiki/Landmass> ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Mountain>
+        rdf:type             owl:Class ;
+        rdfs:comment         "A mountain is a large landform that stretches above the surrounding land in a limited area usually in the form of a peak. A mountain is generally steeper than a hill." ;
+        rdfs:isDefinedBy     <http://purl.org/ontology/places#> ;
+        rdfs:label           "Montaña"@es ;
+        rdfs:label           "Mountain" ;
+        rdfs:label           "Mountain"@de ;
+        rdfs:label           "Mountain"@en ;
+        rdfs:label           "Mountain"@fr-fr ;
+        rdfs:label           "山"@zh ;
+        rdfs:seeAlso         <http://en.wikipedia.org/wiki/Mountain> ;
+        owl:equivalentClass  <http://dbpedia.org/ontology/Mountain> ;
+        status:term_status   "testing" .
+
+<http://purl.org/ontology/places#Municipality>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A region of governance, often self-governed." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Gemeinde"@de ;
+        rdfs:label          "Municipality" ;
+        rdfs:label          "Municipality"@en ;
+        rdfs:label          "Municipalité"@fr-fr ;
+        rdfs:label          "Municipio"@es ;
+        rdfs:label          "市"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Ocean>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A major body of salt water." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Mar"@es ;
+        rdfs:label          "Ocean" ;
+        rdfs:label          "Ocean"@de ;
+        rdfs:label          "Ocean"@en ;
+        rdfs:label          "Ocean"@fr-fr ;
+        rdfs:label          "海洋"@zh ;
+        rdfs:seeAlso        <http://en.wikipedia.org/wiki/Ocean> ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Parish>
+        rdf:type            owl:Class ;
+        rdfs:comment        "An area of regional governance stemming from the geographical area associated with a church." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Gemeinde"@de ;
+        rdfs:label          "Parish" ;
+        rdfs:label          "Parish"@en ;
+        rdfs:label          "Paroisse"@fr-fr ;
+        rdfs:label          "Parroquia"@es ;
+        rdfs:label          "教区"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Path>
+        rdf:type            owl:Class ;
+        rdfs:comment        " A Path is a recognised and maintained route from one place to another that is suitable for pedestrians." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Path" ;
+        rdfs:label          "Path"@de ;
+        rdfs:label          "Path"@en ;
+        rdfs:label          "Path"@fr-fr ;
+        rdfs:label          "Ruta"@es ;
+        rdfs:label          "路径"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Peninsula>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A landmass projecting out into a body of water." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Halbinsel"@de ;
+        rdfs:label          "Peninsula" ;
+        rdfs:label          "Peninsula"@en ;
+        rdfs:label          "Península"@es ;
+        rdfs:label          "Péninsule"@fr-fr ;
+        rdfs:label          "半岛"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Plain>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A level area of land." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Llanura"@es ;
+        rdfs:label          "Plain" ;
+        rdfs:label          "Plain"@de ;
+        rdfs:label          "Plain"@en ;
+        rdfs:label          "Plain"@fr-fr ;
+        rdfs:label          "平原"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Plate>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A geological plate, a piece of the earth’s crust. Useful for geological descriptions involving the movement and separation of continents." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Placa"@es ;
+        rdfs:label          "Plate" ;
+        rdfs:label          "Plate"@en ;
+        rdfs:label          "Plate"@fr-fr ;
+        rdfs:label          "Tafel"@de ;
+        rdfs:label          "板"@zh ;
+        rdfs:seeAlso        <http://en.wikipedia.org/wiki/Tectonic_plate> ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Plateau>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A flat highland, a large area of flat land higher than the surrounding land." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Meseta"@es ;
+        rdfs:label          "Plateau" ;
+        rdfs:label          "Plateau"@de ;
+        rdfs:label          "Plateau"@en ;
+        rdfs:label          "Plateau"@fr-fr ;
+        rdfs:label          "高原"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Province>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A region of governance." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Province" ;
+        rdfs:label          "Province"@en ;
+        rdfs:label          "Province"@fr-fr ;
+        rdfs:label          "Provincia"@es ;
+        rdfs:label          "Provinz"@de ;
+        rdfs:label          "省"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Region>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A politically or culturally recognised area." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Region" ;
+        rdfs:label          "Region"@de ;
+        rdfs:label          "Region"@en ;
+        rdfs:label          "Región"@es ;
+        rdfs:label          "Région"@fr-fr ;
+        rdfs:label          "区"@zh ;
+        rdfs:seeAlso        <http://en.wikipedia.org/wiki/Region> ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Reservoir>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A man-made or natural lake used for the storage and regulation of a water supply." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Depósito"@es ;
+        rdfs:label          "Reservoir" ;
+        rdfs:label          "Reservoir"@de ;
+        rdfs:label          "Reservoir"@en ;
+        rdfs:label          "Réservoir"@fr-fr ;
+        rdfs:label          "水库"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Ridge>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A long elevation or striation in the land." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Ridge" ;
+        rdfs:label          "Ridge"@de ;
+        rdfs:label          "Ridge"@en ;
+        rdfs:label          "Ridge"@es ;
+        rdfs:label          "Ridge"@fr-fr ;
+        rdfs:label          "脊"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#River>
+        rdf:type             owl:Class ;
+        rdfs:comment         "A natural watercourse flowing towards an ocean, sea or lake." ;
+        rdfs:isDefinedBy     <http://purl.org/ontology/places#> ;
+        rdfs:label           "River" ;
+        rdfs:label           "River"@de ;
+        rdfs:label           "River"@en ;
+        rdfs:label           "River"@fr-fr ;
+        rdfs:label           "Río"@es ;
+        rdfs:label           "河"@zh ;
+        rdfs:seeAlso         <http://en.wikipedia.org/wiki/River> ;
+        owl:equivalentClass  <http://dbpedia.org/ontology/River> ;
+        status:term_status   "testing" .
+
+<http://purl.org/ontology/places#Road>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A Road is a recognised and maintained route from one place to another that is suitable for vehicles." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Por carretera"@es ;
+        rdfs:label          "Road" ;
+        rdfs:label          "Road"@de ;
+        rdfs:label          "Road"@en ;
+        rdfs:label          "Road"@fr-fr ;
+        rdfs:label          "路"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Sea>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A large body of salt water, usually connected to an ocean." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Mar"@es ;
+        rdfs:label          "Mer"@fr-fr ;
+        rdfs:label          "Sea" ;
+        rdfs:label          "Sea"@de ;
+        rdfs:label          "Sea"@en ;
+        rdfs:label          "海"@zh ;
+        rdfs:seeAlso        <http://en.wikipedia.org/wiki/Sea> ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Settlement>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A Settlement is an area of land inhabited by humans and usually having buildings." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Liquidación"@es ;
+        rdfs:label          "Règlement"@fr-fr ;
+        rdfs:label          "Settlement" ;
+        rdfs:label          "Settlement"@en ;
+        rdfs:label          "Siedlung"@de ;
+        rdfs:label          "解决"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#State>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A State is a land area of governance within a country. A state may have counties, cities and towns within its area." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Estado"@es ;
+        rdfs:label          "Staat"@de ;
+        rdfs:label          "State" ;
+        rdfs:label          "State"@en ;
+        rdfs:label          "État"@fr-fr ;
+        rdfs:label          "国家"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Strait>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A narrow channel of a sea joining two larger bodies of water." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Détroit"@fr-fr ;
+        rdfs:label          "Estrecho"@es ;
+        rdfs:label          "Meerenge"@de ;
+        rdfs:label          "Strait" ;
+        rdfs:label          "Strait"@en ;
+        rdfs:label          "海峡"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Town>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A settlement smaller than a city but larger than a village." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Ciudad"@es ;
+        rdfs:label          "Town" ;
+        rdfs:label          "Town"@de ;
+        rdfs:label          "Town"@en ;
+        rdfs:label          "Ville"@fr-fr ;
+        rdfs:label          "镇"@zh ;
+        rdfs:seeAlso        <http://en.wikipedia.org/wiki/Town> ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Township>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A settlement and geographic area, less formally recognised than a town." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Canton"@fr-fr ;
+        rdfs:label          "Municipio"@es ;
+        rdfs:label          "Township" ;
+        rdfs:label          "Township"@de ;
+        rdfs:label          "Township"@en ;
+        rdfs:label          "乡"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Valley>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A depressed area of land, often between mountains and often containing a river." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Valle"@es ;
+        rdfs:label          "Valley" ;
+        rdfs:label          "Valley"@de ;
+        rdfs:label          "Valley"@en ;
+        rdfs:label          "Vallée"@fr-fr ;
+        rdfs:label          "谷"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Village>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A small human settlement." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Pueblo"@es ;
+        rdfs:label          "Village" ;
+        rdfs:label          "Village"@de ;
+        rdfs:label          "Village"@en ;
+        rdfs:label          "Village"@fr-fr ;
+        rdfs:label          "村"@zh ;
+        rdfs:seeAlso        <http://en.wikipedia.org/wiki/Village> ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Volcano>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A volcano is a crack in the Earth's crust that allows lava and hot gases to escape." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Volcan"@fr-fr ;
+        rdfs:label          "Volcano" ;
+        rdfs:label          "Volcano"@en ;
+        rdfs:label          "Volcán"@es ;
+        rdfs:label          "Vulkan"@de ;
+        rdfs:label          "火山"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#Watershed>
+        rdf:type            owl:Class ;
+        rdfs:comment        "A ridge of land seperating two adjacent water systems." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "Cuencas"@es ;
+        rdfs:label          "Des bassins versants"@fr-fr ;
+        rdfs:label          "Wasserscheide"@de ;
+        rdfs:label          "Watershed" ;
+        rdfs:label          "Watershed"@en ;
+        rdfs:label          "流域"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#bounded_by>
+        rdf:type            owl:ObjectProperty ;
+        rdfs:comment        "The bounded by property relates any place to a boundary that marks out the geographic area it covers." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "bounded by" ;
+        rdfs:range          <http://purl.org/ontology/places#Boundary> ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#in>
+        rdf:type            owl:ObjectProperty ;
+        rdfs:comment        "in is a property that allows you to say that a place is entirely within the boundaries of another place. It allows you to make statements like \"Paris is in france\"." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "dans"@fr-fr ;
+        rdfs:label          "en"@es ;
+        rdfs:label          "in" ;
+        rdfs:label          "in"@de ;
+        rdfs:label          "in"@en ;
+        rdfs:label          "在"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#latlong>
+        rdf:type      rdfs:Datatype ;
+        rdfs:comment  "The Lat/long datatype allows us to specify that a literal value is a latitude/longitude pair, based in the WGS84 projection and in the comma-seperated, decimal format. e.g. \"38.897605896,-77.0365219116\"^^place:latlong would specify the WGS84 geographic co-ordinates of The White House, Washington DC." ;
+        rdfs:label    "Lat/Long" .
+
+<http://purl.org/ontology/places#overlaps>
+        rdf:type            owl:ObjectProperty ;
+        rdfs:comment        "Overlaps is a property for saying that a particular place shares an area of land with another place but that neither place is entirely within the other." ;
+        rdfs:isDefinedBy    <http://purl.org/ontology/places#> ;
+        rdfs:label          "chevauchements"@fr-fr ;
+        rdfs:label          "overlaps" ;
+        rdfs:label          "overlaps"@en ;
+        rdfs:label          "solapamientos"@es ;
+        rdfs:label          "Überschneidungen"@de ;
+        rdfs:label          "重叠"@zh ;
+        status:term_status  "testing" .
+
+<http://purl.org/ontology/places#point_on_map>
+        rdf:type      owl:DatatypeProperty ;
+        rdfs:comment  "The point on map property indicates where a place should be shown by a pin on a map." ;
+        rdfs:label    "Point on map" .
+
+<http://purl.org/ontology/places/#michael>
+        rdf:type   foaf:Person ;
+        foaf:name  "Michael Smethurst" .
+
+<http://purl.org/ontology/places/#rob>
+        rdf:type   foaf:Person ;
+        foaf:name  "Rob Styles" .
+
+<http://purl.org/ontology/places/#tom>
+        rdf:type   foaf:Person ;
+        foaf:name  "Tom Scott" .

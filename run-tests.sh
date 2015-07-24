@@ -3,7 +3,11 @@
 status=0
 
 n=1
-tests=3
+
+# count tests
+tests=`find ./t/sparql/ -name *.sparql | wc -l`
+# 1 more for gcis.ttl
+let "tests++"
 
 echo "1..$tests"
 
@@ -27,6 +31,7 @@ bail_out() {
     exit 1;
 }
 
+# Validate.
 riot --validate ./gcis.ttl > /tmp/errs
 if grep -q -i error /tmp/errs; then
     cat /tmp/errs
@@ -35,26 +40,28 @@ else
     ok "valid gcis.ttl"
 fi
 
-cat gcis.ttl ./t/data/*.ttl > /tmp/triples.ttl
+# Concatenate.
+find t/data -name '*.ttl' | xargs cat ./gcis.ttl > /tmp/triples.ttl
 
+# Test.
 cd t
-
 for i in ./sparql/*.sparql; do
     base=`basename $i .sparql`
     tdbquery --mem=/tmp/triples.ttl --file=$i > /tmp/$base.txt
     if [ ! -e ./results/$base.txt ]; then
         diagcat /tmp/$base.txt
-        pwd
-        bail_out "missing ./results/$base.txt"
-    fi
-    if diff /tmp/$base.txt ./results/$base.txt > /tmp/errs;
-    then ok $base 
+        not_ok "missing results/$base.txt"
     else
-         not_ok $base;
-         diagcat /tmp/errs;
+        if diff /tmp/$base.txt ./results/$base.txt > /tmp/errs;
+        then ok $base.sparql
+        else
+             not_ok $base;
+             diagcat /tmp/errs;
+        fi
     fi
 done
 
+# Report total.
 let "n--"
 if [ $n -ne $tests ]; then
     echo "# Wrong number of tests: $n vs $tests"
