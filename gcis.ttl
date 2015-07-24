@@ -1078,4 +1078,4 @@ gcis:cryptographicHash a owl:ObjectProperty ;
 gcis:hashFunction a owl:ObjectProperty ;
 	rdfs:label "hash function" ;
 	rdfs:comment "The function used to compute a hash value." ;
-	rdfs:domain gcis:CryptograhicHash .
+	rdfs:domain gcis:CryptographicHash .
