@@ -572,14 +572,12 @@ gcis:version a owl:DatatypeProperty ;
 
 gcis:hasSpatialResolution a owl:ObjectProperty ;
 	rdfs:label "Has Spatial Resolution" ;
-	rdfs:comment "An entity of model run may have a spatial resolution." ;
-	rdfs:domain gcis:ModelRun ;
+	rdfs:comment "Description of the smallest quantity that is discernable in a geographic feature." ;
 	rdfs:range gcis:SpatialResolution .
 
 gcis:hasTemporalResolution a owl:ObjectProperty ;
 	rdfs:label "Has Temporal Resolution" ;
-	rdfs:comment "An entity of model run may have a temporal resoltuion." ;
-	rdfs:domain gcis:ModelRun ;
+	rdfs:comment "The frequency of an observation." ;
 	rdfs:range gcis:TemporalResolution .
 
 gcis:wasProducedBy a owl:ObjectProperty ;
