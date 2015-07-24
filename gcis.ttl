@@ -179,7 +179,7 @@ gcis:hasFinding a owl:ObjectProperty ;
 
 gcis:hasFigure a owl:ObjectProperty ;
 	rdfs:label "Has Figure" ;
-	rdfs:comment "A publication may contain figures."; 
+	rdfs:comment "A graphical component within a work which most times but not necessarily contains a title and caption ."; 
 	rdfs:domain gcis:Publication ;
 	rdfs:range gcis:Figure ;
 	rdfs:subPropertyOf dcterms:hasPart .
@@ -200,7 +200,7 @@ gcis:worksAt a owl:ObjectProperty ;
 
 gcis:hasImage a owl:ObjectProperty ;
 	rdfs:label "Has Image" ;
-	rdfs:comment "A figure or image may consist of one or more images." ;
+	rdfs:comment "The graphical component of a Figure." ;
 	rdfs:domain gcis:Figure, gcis:Image ;
 	rdfs:range gcis:Image ;
 	rdfs:subPropertyOf dcterms:hasPart .
@@ -721,28 +721,34 @@ gcis:findingStatement a owl:DatatypeProperty ;
 	rdfs:domain gcis:Finding ;
 	rdfs:range xsd:string .
 
+gcis:findingProcess a owl:DatatypeProperty ;
+	rdfs:label "Finding Process" ;
+	rdfs:comment "The description of the process used in order to reach the Finding." ;
+	rdfs:domain gcis:Finding ;
+	rdfs:range xsd:string .
+
 gcis:descriptionOfEvidenceBase a owl:DatatypeProperty ;
 	rdfs:label "Description of Evidence Base" ;
-	rdfs:comment "A finding has a description of evidence base." ;
+	rdfs:comment "Conveys additional information about the quality of the information used in reaching the Finding." ;
 	rdfs:domain gcis:Finding ;
 	rdfs:range xsd:string .
 	
 gcis:newInformationAndRemainingUncertainties a owl:DatatypeProperty ;
 	rdfs:label "New Information and Remaining Uncertainties" ;
-	rdfs:comment "A finding has a description of new information and remaining uncertainties." ;
+	rdfs:comment "A description of the new science developments over a specified timerange, which also includes information about remaining sources of Scientific uncertainty." ;
 	rdfs:domain gcis:Finding ;
 	rdfs:range xsd:string .
 
 gcis:assessmentOfConfidenceBasedOnEvidence a owl:DatatypeProperty ;
 	rdfs:label "Assessment of Confidence Based on Evidence" ;
-	rdfs:comment "A finding has an assessment of confidence based on evidence." ;
+	rdfs:comment "A description of the level of confidence which the authors have in the Finding."  ;
 	rdfs:domain gcis:Finding ;
 	rdfs:range xsd:string .	
 	
 gcis:hasURL a owl:DatatypeProperty ;
 	rdfs:label "Has URL" ;
-	rdfs:comment "A resource has a URL." ;
-	rdfs:range xsd:anyURI .		
+	rdfs:comment "The World Wide Web address for the resource." ;
+	rdfs:range xsd:anyURI .			
 	
 gcis:subOrganizationOf a owl:ObjectProperty ;
 	rdfs:label "Sub Organization Of" ;
