@@ -709,6 +709,12 @@ gcis:findingProcess a owl:DatatypeProperty ;
 	rdfs:comment "A finding has a description of the finding generation process." ;
 	rdfs:domain gcis:Finding ;
 	rdfs:range xsd:string .
+	
+gcis:findingStatement a owl:DatatypeProperty ;
+	rdfs:label "Key Finding" ;
+	rdfs:comment "The text of a Finding in a Highly Influential Scientific Document." ;
+	rdfs:domain gcis:Finding ;
+	rdfs:range xsd:string .
 
 gcis:descriptionOfEvidenceBase a owl:DatatypeProperty ;
 	rdfs:label "Description of Evidence Base" ;
