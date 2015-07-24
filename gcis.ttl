@@ -275,7 +275,7 @@ gcis:Measuring a owl:Class ;
 
 gcis:Table a owl:Class ;
 	rdfs:label "Table" ;
-	rdfs:comment "A list of facts or numbers arranged in a special order, usually in rows and columns." ;
+	rdfs:comment "Facts or or numbers arranged in a special order, usually in rows and columns."  ;
 	rdfs:subClassOf prov:Entity .
 
 gcis:Sensor a owl:Class ;
