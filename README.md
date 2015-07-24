@@ -23,7 +23,7 @@ Testing directory structure:
 
     scripts/get-gcis-sources : Get sources for external ontologies
     t/data/ext : Turtle for the above
-    t/data/gcis : Data from the live instance of GCIS
+    t/data/gcis : Sample instance data from the live GCIS
     t/sparql : SPARQL queries to run in the test suite
     t/results: Expected results corresponding to the SPARQL queries
 
