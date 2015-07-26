@@ -258,7 +258,6 @@ gcis:hasMember a owl:ObjectProperty ;
 gcis:hasGoverningOrganization a owl:ObjectProperty ;
 	rdfs:label "Has Governing Organization" ;
 	rdfs:comment "An organization is responsible for a project." ;
-	rdfs:domain gcis:Project, gcis:Instrument ;
 	rdfs:range gcis:Organization .
 
 gcis:producedDataset a owl:ObjectProperty ;
