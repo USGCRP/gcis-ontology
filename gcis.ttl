@@ -830,18 +830,6 @@ gcis:contactPoint a owl:ObjectProperty ;
 	rdfs:domain gcis:Dataset ;
 	rdfs:range gcis:Agent .
 
-gcis:accessURL a owl:DatatypeProperty ;
-	rdfs:label "Access URL" ;
-	rdfs:comment "Could be any kind of URL that gives access to a distribution of the dataset. E.g. landing page, download, feed URL, SPARQL endpoint. Use when your catalog does not have information on which it is or when it is definitely not a download." ;
-	rdfs:domain gcis:Dataset ;
-	rdfs:range xsd:anyURI .
-
-gcis:downloadURL a owl:DatatypeProperty ;
-	rdfs:label "Download URL" ;
-	rdfs:comment "This is a direct link to a downloadable file in a given format. E.g. CSV file or RDF file. The format is described by the distribution's dc:format and/or dcat:mediaType." ;
-	rdfs:domain gcis:Dataset ;
-	rdfs:range xsd:anyURI .
-
 gcis:extentTypeCode a owl:DatatypeProperty ;
 	rdfs:label "Extent Type Code" ;
 	rdfs:comment "The extent type code of a spatial extent." ;
