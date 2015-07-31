@@ -1,0 +1,78 @@
+@prefix res:  <http://sweet.jpl.nasa.gov/2.3/humanResearch.owl> .
+@prefix meth:  <http://sweet.jpl.nasa.gov/2.3/reprSciMethodology.owl#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<http://sweet.jpl.nasa.gov/2.3/reprSciMethodology.owl>
+        rdf:type         owl:Ontology ;
+        owl:versionInfo  "2.3" ;
+        rdfs:label       "SWEET Ontology" ;
+        owl:imports      res: .
+
+meth:ResearchExploration
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  <http://sweet.jpl.nasa.gov/2.3/humanResearch.owl#Research> .
+
+meth:Altimetry  rdf:type  owl:Class ;
+        rdfs:subClassOf  meth:Methodology .
+
+meth:CarbonDating  rdf:type  owl:Class ;
+        rdfs:subClassOf  meth:Methodology .
+
+meth:Interferometry  rdf:type  owl:Class ;
+        rdfs:subClassOf  meth:Methodology .
+
+meth:IsotopeAnalysis  rdf:type  owl:Class ;
+        rdfs:subClassOf  meth:Methodology .
+
+meth:Methodology  rdf:type  owl:Class ;
+        rdfs:subClassOf  <http://sweet.jpl.nasa.gov/2.3/humanResearch.owl#ExperimentActivity> .
+
+meth:Photometry  rdf:type  owl:Class ;
+        rdfs:subClassOf  meth:Methodology .
+
+meth:Polarimetry  rdf:type  owl:Class ;
+        rdfs:subClassOf  meth:Methodology .
+
+meth:RadioactiveDating
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  meth:Methodology .
+
+meth:Spectroscopy  rdf:type  owl:Class ;
+        rdfs:subClassOf  meth:Methodology .
+
+meth:RetrievalApproach
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  meth:ResearchExploration .
+
+meth:Imaging  rdf:type   owl:Class ;
+        rdfs:subClassOf  meth:ResearchExploration .
+
+meth:Photography  rdf:type  owl:Class ;
+        rdfs:subClassOf  meth:ResearchExploration .
+
+meth:AerialPhotography
+        rdf:type         owl:Class ;
+        rdfs:subClassOf  meth:Photography .
+
+meth:RemoteSensing  rdf:type  owl:Class ;
+        rdfs:subClassOf  meth:ResearchExploration .
+
+meth:Tomography  rdf:type  owl:Class ;
+        rdfs:subClassOf  meth:ResearchExploration .
+
+meth:XRayDiffraction  rdf:type  owl:Class ;
+        rdfs:subClassOf  meth:ResearchExploration .
+
+meth:Optics  rdf:type    owl:Class ;
+        rdfs:subClassOf  meth:ResearchExploration ;
+        rdfs:comment     "Optics is a branch of physics that describes the behavior and properties of light and the interaction of light with matter. Optics explains optical phenomena" .
+
+meth:Engineering  rdf:type  owl:Class ;
+        rdfs:subClassOf  meth:ResearchExploration .
+
+meth:Passive  rdf:type  meth:RetrievalApproach .
+
+meth:Active  rdf:type  meth:RetrievalApproach .
