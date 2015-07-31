@@ -696,17 +696,17 @@ gcis:chapterNumber a owl:DatatypeProperty ;
 	rdfs:domain gcis:Chapter ;
 	rdfs:range xsd:integer .	
 
-gcis:figureNumber a owl:DatatypeProperty ;
-	rdfs:label "Figure Number" ;
-	rdfs:comment "A figure may be numbered sequentially." ;
-	rdfs:domain gcis:Figure ;
-	rdfs:range xsd:string .	
+# gcis:figureNumber a owl:DatatypeProperty ;
+#	rdfs:label "Figure Number" ;
+#	rdfs:comment "A figure may be numbered sequentially." ;
+#	rdfs:domain gcis:Figure ;
+#	rdfs:range xsd:string .	
 	
-gcis:FindingNumber a owl:DatatypeProperty ;
-	rdfs:label "Finding Number" ;
-	rdfs:comment "A finding may be numbered sequentially." ;
-	rdfs:domain gcis:Finding ;
-	rdfs:range xsd:string .
+# gcis:FindingNumber a owl:DatatypeProperty ;
+#	rdfs:label "Finding Number" ;
+#	rdfs:comment "A finding may be numbered sequentially." ;
+#	rdfs:domain gcis:Finding ;
+#	rdfs:range xsd:string .
 
 gcis:findingProcess a owl:DatatypeProperty ;
 	rdfs:label "Finding Process" ;
@@ -720,17 +720,17 @@ gcis:findingStatement a owl:DatatypeProperty ;
 	rdfs:domain gcis:Finding ;
 	rdfs:range xsd:string .
 
-gcis:findingProcess a owl:DatatypeProperty ;
-	rdfs:label "Finding Process" ;
-	rdfs:comment "A finding contains a description of the process used in order to reach the Finding." ;
-	rdfs:domain gcis:Finding ;
-	rdfs:range xsd:string .
+# gcis:findingProcess a owl:DatatypeProperty ;
+#	rdfs:label "Finding Process" ;
+#	rdfs:comment "A finding contains a description of the process used in order to reach the Finding." ;
+#	rdfs:domain gcis:Finding ;
+#	rdfs:range xsd:string .
 
-gcis:descriptionOfEvidenceBase a owl:DatatypeProperty ;
-	rdfs:label "Description of Evidence Base" ;
-	rdfs:comment "A finding contains additional information about the quality of the information used in reaching the Finding." ;
-	rdfs:domain gcis:Finding ;
-	rdfs:range xsd:string .
+# gcis:descriptionOfEvidenceBase a owl:DatatypeProperty ;
+#	rdfs:label "Description of Evidence Base" ;
+#	rdfs:comment "A finding contains additional information about the quality of the information used in reaching the Finding." ;
+#	rdfs:domain gcis:Finding ;
+#	rdfs:range xsd:string .
 	
 # gcis:newInformationAndRemainingUncertainties a owl:DatatypeProperty ;
 #	rdfs:label "New Information and Remaining Uncertainties" ;
