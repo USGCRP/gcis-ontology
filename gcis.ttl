@@ -732,22 +732,22 @@ gcis:descriptionOfEvidenceBase a owl:DatatypeProperty ;
 	rdfs:domain gcis:Finding ;
 	rdfs:range xsd:string .
 	
-gcis:newInformationAndRemainingUncertainties a owl:DatatypeProperty ;
-	rdfs:label "New Information and Remaining Uncertainties" ;
-	rdfs:comment "A finding contains a description of the new science developments over a specified timerange, which also includes information about remaining sources of Scientific uncertainty." ;
-	rdfs:domain gcis:Finding ;
-	rdfs:range xsd:string .
+# gcis:newInformationAndRemainingUncertainties a owl:DatatypeProperty ;
+#	rdfs:label "New Information and Remaining Uncertainties" ;
+#	rdfs:comment "A finding contains a description of the new science developments over a specified timerange, which also includes information about remaining sources of Scientific uncertainty." ;
+#	rdfs:domain gcis:Finding ;
+#	rdfs:range xsd:string .
 
-gcis:assessmentOfConfidenceBasedOnEvidence a owl:DatatypeProperty ;
-	rdfs:label "Assessment of Confidence Based on Evidence" ;
-	rdfs:comment "A finding contains a description of the level of confidence which the authors have in it."  ;
-	rdfs:domain gcis:Finding ;
-	rdfs:range xsd:string .	
+# gcis:assessmentOfConfidenceBasedOnEvidence a owl:DatatypeProperty ;
+#	rdfs:label "Assessment of Confidence Based on Evidence" ;
+#	rdfs:comment "A finding contains a description of the level of confidence which the authors have in it."  ;
+#	rdfs:domain gcis:Finding ;
+#	rdfs:range xsd:string .	
 	
-gcis:hasURL a owl:DatatypeProperty ;
-	rdfs:label "Has URL" ;
-	rdfs:comment "A resource may have a digital home accessible at a given address on the World Wide Web." ;
-	rdfs:range xsd:anyURI .			
+# gcis:hasURL a owl:DatatypeProperty ;
+#	rdfs:label "Has URL" ;
+#	rdfs:comment "A resource may have a digital home, accessible at a given address on the World Wide Web." ;
+#	rdfs:range xsd:anyURI .			
 	
 gcis:subOrganizationOf a owl:ObjectProperty ;
 	rdfs:label "Sub Organization Of" ;
