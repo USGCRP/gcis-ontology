@@ -1,7 +1,7 @@
-language: python
+jdk:
+  - oraclejdk8
 before_install:
   - wget http://apache.cs.utah.edu/jena/binaries/apache-jena-3.0.0.tar.gz -O /tmp/apache-jena.tar.gz
   - tar xf /tmp/apache-jena.tar.gz
-  - jdk_switcher use oraclejdk8
   - export PATH=$PATH:$PWD/apache-jena-3.0.0/bin
 script: ./run-tests.sh
