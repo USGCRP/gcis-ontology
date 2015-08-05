@@ -1,10 +1,6 @@
-sudo: false
 language: python
 before_install:
   - wget http://apache.cs.utah.edu/jena/binaries/apache-jena-3.0.0.tar.gz -O /tmp/apache-jena.tar.gz
   - tar -xvf /tmp/apache-jena.tar.gz
   - export PATH=$PATH:$PWD/apache-jena-3.0.0/bin
 script: ./run-tests.sh
-cache:
-    directories:
-        - /home/travis/apache-jena-3.0.0
