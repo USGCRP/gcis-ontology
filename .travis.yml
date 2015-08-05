@@ -1,6 +1,6 @@
 language: python
 before_install:
-  - wget https://github.com/apache/jena/archive/jena-2.13.0.tar.gz -O /tmp/apache-jena.tar.gz
+  - wget https://dl.dropboxusercontent.com/u/60227293/apache-jena-2.13.0.tar.gz -O /tmp/apache-jena.tar.gz
   - tar -xvf /tmp/apache-jena.tar.gz
-  - export PATH=$PATH:$PWD/jena-jena-2.13.0/apache-jena/bin/
+  - export PATH=$PATH:$PWD/apache-jena-2.13.0/bin
 script: ./run-tests.sh
