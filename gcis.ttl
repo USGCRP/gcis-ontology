@@ -704,58 +704,58 @@ gcis:chapterNumber a owl:DatatypeProperty ;
 	rdfs:domain gcis:Chapter ;
 	rdfs:range xsd:integer .	
 
-gcis:figureNumber a owl:DatatypeProperty ;
-	rdfs:label "Figure Number" ;
-	rdfs:comment "A figure may have a sequential number." ;
-	rdfs:domain gcis:Figure ;
-	rdfs:range xsd:string .	
+# gcis:figureNumber a owl:DatatypeProperty ;
+#	rdfs:label "Figure Number" ;
+#	rdfs:comment "A figure may be numbered sequentially." ;
+#	rdfs:domain gcis:Figure ;
+#	rdfs:range xsd:string .	
 	
-gcis:FindingNumber a owl:DatatypeProperty ;
-	rdfs:label "Finding Number" ;
-	rdfs:comment "A finding may have a sequential number." ;
-	rdfs:domain gcis:Finding ;
-	rdfs:range xsd:string .
+# gcis:FindingNumber a owl:DatatypeProperty ;
+#	rdfs:label "Finding Number" ;
+#	rdfs:comment "A finding may be numbered sequentially." ;
+#	rdfs:domain gcis:Finding ;
+#	rdfs:range xsd:string .
 
 gcis:findingProcess a owl:DatatypeProperty ;
 	rdfs:label "Finding Process" ;
-	rdfs:comment "A finding has a description of the finding generation process." ;
+	rdfs:comment "A finding has a description of the process through which it was derived." ;
 	rdfs:domain gcis:Finding ;
 	rdfs:range xsd:string .
 	
 gcis:findingStatement a owl:DatatypeProperty ;
 	rdfs:label "Key finding" ;
-	rdfs:comment "The text of a Finding in a Highly Influential Scientific Assessment." ;
+	rdfs:comment "The text of the Finding of a Highly Influential Scientific Assessment." ;
 	rdfs:domain gcis:Finding ;
 	rdfs:range xsd:string .
 
-gcis:findingProcess a owl:DatatypeProperty ;
-	rdfs:label "Finding Process" ;
-	rdfs:comment "The description of the process used in order to reach the Finding." ;
-	rdfs:domain gcis:Finding ;
-	rdfs:range xsd:string .
+# gcis:findingProcess a owl:DatatypeProperty ;
+#	rdfs:label "Finding Process" ;
+#	rdfs:comment "A finding contains a description of the process used in order to reach the Finding." ;
+#	rdfs:domain gcis:Finding ;
+#	rdfs:range xsd:string .
 
-gcis:descriptionOfEvidenceBase a owl:DatatypeProperty ;
-	rdfs:label "Description of Evidence Base" ;
-	rdfs:comment "Conveys additional information about the quality of the information used in reaching the Finding." ;
-	rdfs:domain gcis:Finding ;
-	rdfs:range xsd:string .
+# gcis:descriptionOfEvidenceBase a owl:DatatypeProperty ;
+#	rdfs:label "Description of Evidence Base" ;
+#	rdfs:comment "A finding contains additional information about the quality of the information used in reaching the Finding." ;
+#	rdfs:domain gcis:Finding ;
+#	rdfs:range xsd:string .
 	
-gcis:newInformationAndRemainingUncertainties a owl:DatatypeProperty ;
-	rdfs:label "New Information and Remaining Uncertainties" ;
-	rdfs:comment "A description of the new science developments over a specified timerange, which also includes information about remaining sources of Scientific uncertainty." ;
-	rdfs:domain gcis:Finding ;
-	rdfs:range xsd:string .
+# gcis:newInformationAndRemainingUncertainties a owl:DatatypeProperty ;
+#	rdfs:label "New Information and Remaining Uncertainties" ;
+#	rdfs:comment "A finding contains a description of the new science developments over a specified timerange, which also includes information about remaining sources of Scientific uncertainty." ;
+#	rdfs:domain gcis:Finding ;
+#	rdfs:range xsd:string .
 
-gcis:assessmentOfConfidenceBasedOnEvidence a owl:DatatypeProperty ;
-	rdfs:label "Assessment of Confidence Based on Evidence" ;
-	rdfs:comment "A description of the level of confidence which the authors have in the Finding."  ;
-	rdfs:domain gcis:Finding ;
-	rdfs:range xsd:string .	
+# gcis:assessmentOfConfidenceBasedOnEvidence a owl:DatatypeProperty ;
+#	rdfs:label "Assessment of Confidence Based on Evidence" ;
+#	rdfs:comment "A finding contains a description of the level of confidence which the authors have in it."  ;
+#	rdfs:domain gcis:Finding ;
+#	rdfs:range xsd:string .	
 	
-gcis:hasURL a owl:DatatypeProperty ;
-	rdfs:label "Has URL" ;
-	rdfs:comment "The World Wide Web address for the resource." ;
-	rdfs:range xsd:anyURI .			
+# gcis:hasURL a owl:DatatypeProperty ;
+#	rdfs:label "Has URL" ;
+#	rdfs:comment "A resource may have a digital home, accessible at a given address on the World Wide Web." ;
+#	rdfs:range xsd:anyURI .			
 	
 gcis:subOrganizationOf a owl:ObjectProperty ;
 	rdfs:label "Sub Organization Of" ;
