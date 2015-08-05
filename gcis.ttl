@@ -107,10 +107,21 @@ gcis:Figure a owl:Class ;
 	rdfs:comment "A graphical/visual item in a publication that normally is referred to by a number and that has a caption." ;
 	rdfs:subClassOf prov:Entity .
 
-gcis:Instrument a owl:Class ;
-	rdfs:label "Instrument" ;
-	rdfs:comment "A tool or device used for a particular task, especially for scientific work." ;
+gcis:InstrumentType a owl:Class ;
+	rdfs:label "InstrumentType" ;
+	rdfs:comment "A type of tool or device used for a particular task, especially for scientific work." ;
 	rdfs:subClassOf prov:Entity .
+
+gcis:Instrument a owl:Class ;
+    rdfs:label "Instrument" ;
+    rdfs:comment "A physical instantiation of a tool or device used for a particular task, especially for scientific work." ;
+    rdfs:subClassOf prov:Entity .
+
+gcis:instrumentType a owl:ObjectProperty ;
+	rdfs:label "instrument type" ;
+	rdfs:comment "A specific type of instrument" ;
+	rdfs:domain gcis:Instrument ;
+	rdfs:range gcis:InstrumentType .
 
 gcis:Model a owl:Class ;
 	rdfs:label "Model" ;
@@ -213,11 +224,10 @@ gcis:hasArray a owl:ObjectProperty ;
 	rdfs:subPropertyOf dcterms:hasPart .	
 
 gcis:sourceInstrument a owl:ObjectProperty ;
-	rdfs:label "Source Instrument" ;
+	rdfs:label "source instrument" ;
 	rdfs:comment "A dataset was collected by using one or more instruments." ;
 	rdfs:domain gcis:Dataset ;
-	rdfs:range gcis:Instrument ;
-	rdfs:subPropertyOf dcterms:hasPart .
+	rdfs:range gcis:Instrument .
 
 gcis:sourceModel a owl:ObjectProperty ;
 	rdfs:label "Source Model" ;
@@ -225,18 +235,16 @@ gcis:sourceModel a owl:ObjectProperty ;
 	rdfs:range gcis:Model .
 
 gcis:inPlatform a owl:ObjectProperty ;
-	rdfs:label "In Platform" ;
+	rdfs:label "in Platform" ;
 	rdfs:comment "An instrument is deployed on a platform." ;
 	rdfs:domain gcis:Instrument ;
-	rdfs:range gcis:Platform ;
-	rdfs:subPropertyOf dcterms:isPartOf .
+	rdfs:range gcis:Platform .
 
 gcis:hasInstrument a owl:ObjectProperty ;
-	rdfs:label "Has Instrument" ;
+	rdfs:label "has Instrument" ;
 	rdfs:comment "A platform has one or more instruments." ;
 	rdfs:domain gcis:Platform ;
-	rdfs:range gcis:Instrument ;
-	rdfs:subPropertyOf dcterms:hasPart .	
+	rdfs:range gcis:Instrument .	
 	
 gcis:implementedIn a owl:ObjectProperty ;
 	rdfs:label "Implemented In" ;
