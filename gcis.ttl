@@ -190,7 +190,7 @@ gcis:hasFinding a owl:ObjectProperty ;
 
 gcis:hasFigure a owl:ObjectProperty ;
 	rdfs:label "Has Figure" ;
-	rdfs:comment "A graphical component within a work which most times but not necessarily contains a title and caption ."; 
+	rdfs:comment "A publication contains one or more graphical components which most times but not necessarily contain a title and caption ."; 
 	rdfs:domain gcis:Publication ;
 	rdfs:range gcis:Figure ;
 	rdfs:subPropertyOf dcterms:hasPart .
