@@ -163,6 +163,11 @@ gcis:Platform a owl:Class ;
 	rdfs:comment "A scientific data collection entity to which other entities - particuarly instruments, sensors and other platforms - can be attached." ;
 	rdfs:subClassOf prov:Entity .
 
+gcis:ObservationSystem a owl:Class ;
+	rdfs:label "Observation System" ;
+	rdfs:comment "One or more sensing elements that directly or indirectly collect observations of the Earth, measure environmental parameters, or survey biological or other Earth resources (land surface, biosphere, solid Earth, atmosphere, and oceans). Sensing elements may be deployed as individual sensors or in constellations or networks and may include instrumentation or human elements." ;
+	rdfs:subClassOf prov:Entity .	
+	
 gcis:hasChapter a owl:ObjectProperty ;
 	rdfs:label "Has Chapter" ;
 	rdfs:comment "A publication may have a number of chapters." ;
