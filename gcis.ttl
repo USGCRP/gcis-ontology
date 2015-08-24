@@ -731,12 +731,6 @@ gcis:FindingNumber a owl:DatatypeProperty ;
 	rdfs:comment "A finding may be numbered sequentially." ;
 	rdfs:domain gcis:Finding ;
 	rdfs:range xsd:string .
-
-gcis:findingProcess a owl:DatatypeProperty ;
-	rdfs:label "finding process" ;
-	rdfs:comment "A finding has a description of the process through which it was derived." ;
-	rdfs:domain gcis:Finding ;
-	rdfs:range xsd:string .
 	
 gcis:findingStatement a owl:DatatypeProperty ;
 	rdfs:label "key finding" ;
@@ -746,7 +740,7 @@ gcis:findingStatement a owl:DatatypeProperty ;
 
 gcis:findingProcess a owl:DatatypeProperty ;
 	rdfs:label "finding process" ;
-	rdfs:comment "A finding contains a description of the process used in order to reach the Finding." ;
+	rdfs:comment "A finding contains a description of the process used in order to reach it." ;
 	rdfs:domain gcis:Finding ;
 	rdfs:range xsd:string .
 
