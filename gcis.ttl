@@ -133,9 +133,9 @@ gcis:Region a owl:Class ;
 	rdfs:comment "A spatial area defined by a common characteristic (e.g. coastal, southwest, rural communities, etc.)." ;
 	rdfs:subClassOf prov:Entity .	
 
-gcis:SpatialExtents a owl:Class ;
-	rdfs:label "Spatial Extents" ;
-	rdfs:comment "A bounding box describing the northern, southern, western, and eastern limits of the data or results." ;
+gcis:SpatialExtent a owl:Class ;
+	rdfs:label "Spatial Extent" ;
+	rdfs:comment "A spatial region defined by a bounding box." ;
 	rdfs:subClassOf prov:Entity .	
 
 gcis:SpatialResolution a owl:Class ;
@@ -143,9 +143,9 @@ gcis:SpatialResolution a owl:Class ;
 	rdfs:comment "The detail with which a map or image depicts the location and shape of geographic features. The finer the map scale, the higher the possible resolution. As scale decreases from fine to coarse, resolution diminishes and feature boundaries must be smoothed, simplified, or not shown at all; for example, small areas may have to be represented as points." ;
 	rdfs:subClassOf prov:Entity .	
 	
-gcis:TemporalExtents a owl:Class ;
+gcis:TemporalExtent a owl:Class ;
 	rdfs:label "Temporal Extents" ;
-	rdfs:comment "The time information, including that of the earliest and last observations, of a dataset." ;
+	rdfs:comment "An interval of time defined by its start and end dates or datetimes." ;
 	rdfs:subClassOf prov:Entity .	
 
 gcis:TemporalResolution a owl:Class ;
