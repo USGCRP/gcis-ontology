@@ -144,7 +144,7 @@ gcis:SpatialResolution a owl:Class ;
 	rdfs:subClassOf prov:Entity .	
 	
 gcis:TemporalExtent a owl:Class ;
-	rdfs:label "Temporal Extents" ;
+	rdfs:label "Temporal Extent" ;
 	rdfs:comment "An interval of time defined by its start and end dates or datetimes." ;
 	rdfs:subClassOf prov:Entity .	
 
