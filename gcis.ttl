@@ -512,13 +512,6 @@ gcis:Calibration a owl:Class ;
 	rdfs:comment "A comparison between measurements: comparing a measurement to an observed measurement or to a measurement that is deemed accurate." ;
 	rdfs:subClassOf prov:Entity .
 
-gcis:isBasedOn a owl:ObjectProperty ;
-	rdfs:label "is based on" ;
-	rdfs:comment "A key finding is based on one or more chapters." ;
-	rdfs:domain gcis:Finding ;
-	rdfs:range gcis:Finding ;
-	rdfs:subPropertyOf prov:wasDerivedFrom .
-
 gcis:hasTable a owl:ObjectProperty ;
 	rdfs:label "has table" ;
 	rdfs:comment "A publication may contain tables." ;
