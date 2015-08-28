@@ -694,12 +694,6 @@ gcis:ImageCreation a owl:Class ;
 	rdfs:comment "An activity that creates images." ;
 	rdfs:subClassOf prov:Activity .
 
-gcis:cites a owl:ObjectProperty ;
-	rdfs:label "cites" ;
-	rdfs:comment "A person or a publication mentions another publication or person as a reason or an example, or in order to support the statement of itself." ;
-	rdfs:subPropertyOf bibo:cites ; 
-	rdfs:subPropertyOf dcterms:references .
-
 gcis:atLocation a owl:ObjectProperty ;
 	skos:editorialNote "The domain of gcis:atLocation covers various classes, so it is left as undefined." ;
 	rdfs:label "at location" ;
