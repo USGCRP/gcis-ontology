@@ -1075,6 +1075,7 @@ gcis:Webpage a owl:Class ;
 	rdfs:comment "A web page is an online document available (at least initially) on the World Wide Web. A web page is written first and foremost to appear on the web, as distinct from other online resources such as books, manuscripts or audio documents which use the web primarily as a distribution mechanism alongside other more traditional methods such as print." .
 
 gcis:CryptographicHash a owl:Class;
+        rdfs:subClassOf prov:Entity ;
 	rdfs:label "Cryptographic Hash" ;
 	rdfs:comment "A cryptographic hash value computed for the purpose of authentication or verification of a digital entity" .
 
