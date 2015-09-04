@@ -1001,7 +1001,7 @@ gcis:isTableOf a owl:ObjectProperty ;
 
 gcis:isFindingOf a owl:ObjectProperty ;
 	rdfs:label "is finding of" ;
-	rdfs:comment "A finding is described by a publication." ;
+	rdfs:comment "A finding is described and emphasized in a publication." ;
 	owl:inverseOf gcis:hasFinding ;
 	rdfs:domain gcis:Finding ;
 	rdfs:subPropertyOf dcterms:isPartOf .
