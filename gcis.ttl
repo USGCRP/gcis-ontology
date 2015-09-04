@@ -201,7 +201,7 @@ gcis:hasFinding a owl:ObjectProperty ;
 
 gcis:hasFigure a owl:ObjectProperty ;
 	rdfs:label "has figure" ;
-	rdfs:comment "A publication contains one or more graphical components which most times but not necessarily contain a title and caption ."; 
+	rdfs:comment "A publication contains one or more graphical components which most times but not necessarily are numbered and contain titles and captions ."; 
 	rdfs:domain gcis:Publication ;
 	rdfs:range gcis:Figure ;
 	rdfs:subPropertyOf dcterms:hasPart .
@@ -222,14 +222,14 @@ gcis:worksAt a owl:ObjectProperty ;
 
 gcis:hasImage a owl:ObjectProperty ;
 	rdfs:label "has image" ;
-	rdfs:comment "The graphical component of a Figure." ;
+	rdfs:comment "A figure contains a graphical component." ;
 	rdfs:domain gcis:Figure, gcis:Image ;
 	rdfs:range gcis:Image ;
 	rdfs:subPropertyOf dcterms:hasPart .
 
 gcis:hasArray a owl:ObjectProperty ;
 	rdfs:label "has array" ;
-	rdfs:comment "A table may consist of one or more arrays." ;
+	rdfs:comment "A table contains one more arrays." ;
 	rdfs:domain gcis:Table ;
 	rdfs:range gcis:Array ;
 	rdfs:subPropertyOf dcterms:hasPart .	
@@ -971,7 +971,7 @@ gcis:isChapterOf a owl:ObjectProperty ;
 
 gcis:isImageOf a owl:ObjectProperty ; 
 	rdfs:label "is image of" ;
-	rdfs:comment "An image is in one or more figures." ;
+	rdfs:comment "An image appears in one or more figures." ;
 	owl:inverseOf gcis:hasImage ;
 	rdfs:domain gcis:Image ;
 	rdfs:subPropertyOf dcterms:isPartOf .
