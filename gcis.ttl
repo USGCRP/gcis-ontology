@@ -1047,7 +1047,7 @@ gcis:hasSubOrganization a owl:ObjectProperty ;
 
 gcis:isSupportedBy a owl:ObjectProperty ;
 	rdfs:label "Is Supported By" ;
-	rdfs:comment "A finding is supported by data, models, model runs, software, etc.";
+	rdfs:comment "A finding is supported by or depicted in data, figures, models, model runs, software, etc.";
 	rdfs:domain gcis:Finding .	
 
 gcis:computingEnvironmentsUsed a owl:DatatypeProperty ;
