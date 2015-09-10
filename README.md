@@ -19,6 +19,10 @@ results file, the test will fail.  The format of the output of run-tests.sh
  follows the Test Anything Protocol (<http://testanything.org>).  A non-zero
 exit code from run-tests.sh means that there was at least one test failure.
 
+Files in t/sparql should end in the .sparql suffix.
+
+Files in t/results may end in either .txt or .csv.
+
 Testing directory structure:
 
     scripts/get-gcis-sources : Get sources for external ontologies
