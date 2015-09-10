@@ -208,8 +208,8 @@ gcis:hasFigure a owl:ObjectProperty ;
 
 gcis:relatedProject a owl:ObjectProperty ;
 	rdfs:label "related project" ;
-	rdfs:comment "A publication or dataset may be the result of one or more projects." ;
-	rdfs:domain gcis:Publication, gcis:Dataset ;
+	rdfs:comment "An entity ascribed to a project through an unspecified activity" ;
+	rdfs:domain prov:Entity ;
 	rdfs:range gcis:Project ;
 	rdfs:subPropertyOf prov:wasAttributedTo .
 
