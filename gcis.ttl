@@ -194,7 +194,7 @@ gcis:hasAuthor a owl:ObjectProperty ;
 	rdfs:subPropertyOf prov:wasAttributedTo .
 
 gcis:hasFinding a owl:ObjectProperty ;
-	rdfs:label "Has Finding" ;
+	rdfs:label "has finding" ;
 	rdfs:comment "A publication may contain findings." ;
 	rdfs:range gcis:Finding ;
 	rdfs:subPropertyOf dcterms:hasPart.
