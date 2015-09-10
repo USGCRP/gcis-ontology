@@ -1,0 +1,8 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dwc: <http://rs.tdwg.org/dwc/terms/>
+
+SELECT ?s ?y
+ {
+     ?s dcterms:identifier "nca3" .
+     ?s dwc:year ?y
+ }
