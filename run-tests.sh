@@ -23,12 +23,22 @@ not_ok() {
 }
 
 diagcat() {
+    echo "# $1:"
     cat $1 | sed 's/^/# /'
 }
 
 bail_out() {
     echo "# $1: bailing out"
     exit 1;
+}
+
+cmp_file() {
+   if diff -Z $1 $2 > /tmp/errs;
+        then ok $3
+   else
+         not_ok $3;
+         diagcat /tmp/errs;
+   fi
 }
 
 # Validate.
@@ -47,17 +57,18 @@ find t/data -name '*.ttl' | xargs cat ./gcis.ttl > /tmp/triples.ttl
 cd t
 for i in ./sparql/*.sparql; do
     base=`basename $i .sparql`
-    tdbquery --mem=/tmp/triples.ttl --file=$i > /tmp/$base.txt
-    if [ ! -e ./results/$base.txt ]; then
-        diagcat /tmp/$base.txt
-        not_ok "missing results/$base.txt"
+    if [ -e ./results/$base.txt ]; then
+        tdbquery --mem=/tmp/triples.ttl --file=$i > /tmp/$base.txt
+        cmp_file /tmp/$base.txt ./results/$base.txt $base.sparql
+    elif [ -e ./results/$base.csv ]; then
+        tdbquery --mem=/tmp/triples.ttl --file=$i --results csv > /tmp/$base.csv
+        cmp_file /tmp/$base.csv ./results/$base.csv $base.sparql
     else
-        if diff /tmp/$base.txt ./results/$base.txt > /tmp/errs;
-        then ok $base.sparql
-        else
-             not_ok $base;
-             diagcat /tmp/errs;
-        fi
+        not_ok "missing results/$base.txt or $base.csv"
+        tdbquery --mem=/tmp/triples.ttl --file=$i > /tmp/$base.txt
+        diagcat /tmp/$base.txt
+        tdbquery --mem=/tmp/triples.ttl --file=$i --results csv > /tmp/$base.csv
+        diagcat /tmp/$base.csv
     fi
 done
 
