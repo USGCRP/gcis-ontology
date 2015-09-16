@@ -1084,3 +1084,9 @@ gcis:hashFunction a owl:ObjectProperty ;
 	rdfs:label "hash function" ;
 	rdfs:comment "The function used to compute a hash value." ;
 	rdfs:domain gcis:CryptographicHash .
+
+gcis:recommendedCitation a owl:DatatypeProperty ;
+	rdfs:label "recommended citation" ;
+	rdfs:comment "when citing this resource please use this recommended citation" ;
+	rdfs:domain prov:Entity ;
+	rdfs:range xsd:string .
