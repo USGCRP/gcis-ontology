@@ -1,7 +1,7 @@
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 
-select distinct ?dataset count(?platform_title) AS ?instruments_on_platform_attributed_to 
+select distinct ?dataset (count(?platform_title) AS ?instruments_on_platform_attributed_to) 
 FROM <http://data.globalchange.gov> where {
     ?dataset a gcis:Dataset .
     ?dataset prov:wasAttributedTo ?instrument_instance .
