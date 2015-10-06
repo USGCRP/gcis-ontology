@@ -9,5 +9,6 @@ FROM <http://data.globalchange.gov> where {
     ?instrument_instance a gcis:Instrument .
     ?instrument_instance gcis:inPlatform ?platform .
     ?platform dcterms:title ?platform_title 
-} 
+}
+group by ?dataset ?instruments_on_platform_attributed_to 
 order by desc(?instruments_on_platform_attributed_to)
