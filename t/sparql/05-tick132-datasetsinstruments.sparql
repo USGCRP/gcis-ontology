@@ -1,5 +1,6 @@
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX gcis: <http://data.globalchange.gov/gcis.owl#>
 
 select distinct ?dataset (count(?platform_title) AS ?instruments_on_platform_attributed_to) 
 FROM <http://data.globalchange.gov> where {
