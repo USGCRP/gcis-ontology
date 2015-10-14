@@ -959,23 +959,23 @@ gcis:recommendedCitation a owl:DatatypeProperty ;
 	rdfs:range xsd:string .
 
 gcis:derivedFromScenario a owl:ObjectProperty ;
-    rdfs:label "derived from scenario" ;
+        rdfs:label "derived from scenario" ;
 	rdfs:comment "A model run output was derived from one or more scenarios that was used in the model run." ;
-    rdfs:domain gcis:ModelRunOutput ;
-    rdfs:range gcis:Scenario ;
-    rdfs:subPropertyOf prov:wasDerivedFrom .
+        rdfs:domain gcis:ModelRunOutput ;
+        rdfs:range gcis:Scenario ;
+        rdfs:subPropertyOf prov:wasDerivedFrom .
 	
 gcis:derivedModelRunOutputs a owl:ObjectProperty ;
-    rdfs:label "derived model run outputs" ;
+        rdfs:label "derived model run outputs" ;
 	rdfs:comment "A scenario was used in a model run and derived one or more model run outputs." ;
-    rdfs:domain gcis:Scenario ;
-    rdfs:range gcis:ModelRunOutput ;
-    owl:inverseOf gcis:derivedFromScenario ;
-    rdfs:subPropertyOf prov:hadDerivation .
+        rdfs:domain gcis:Scenario ;
+        rdfs:range gcis:ModelRunOutput ;
+        owl:inverseOf gcis:derivedFromScenario ;
+        rdfs:subPropertyOf prov:hadDerivation .
 
 gcis:contributedModel a owl:ObjectProperty ;
-    rdfs:label "contributed model" ;
+        rdfs:label "contributed model" ;
 	rdfs:comment "A project contributed to the creation of one or more models." ;
-    rdfs:domain gcis:Project ;
-    rdfs:range gcis:Model ;
-    rdfs:subPropertyOf prov:contributed .	
+        rdfs:domain gcis:Project ;
+        rdfs:range gcis:Model ;
+        rdfs:subPropertyOf prov:contributed .	
