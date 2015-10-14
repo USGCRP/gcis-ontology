@@ -925,7 +925,12 @@ gcis:Article a owl:Class ;
 	rdfs:subClassOf gcis:Publication , bibo:Article , prov:Entity ;
 	rdfs:label "Article" ;
 	rdfs:comment "A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, as a newspaper or magazine." .	
-	
+
+gcis:Indicator a owl:Class ;
+        rdfs:subClassOf gcis:Report ;
+        rdfs:label "Indicator" ;
+        rdfs:comment "Indicators are observations or calculations that can be used to track conditions and trends" .
+  
 gcis:Webpage a owl:Class ;
 	rdfs:subClassOf gcis:Publication , bibo:Webpage , prov:Entity ;
 	rdfs:label "Webpage" ;
