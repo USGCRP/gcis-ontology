@@ -279,12 +279,6 @@ gcis:hasGoverningOrganization a owl:ObjectProperty ;
 	rdfs:comment "An organization is responsible for a project." ;
 	rdfs:range gcis:Organization .
 
-gcis:producedDataset a owl:ObjectProperty ;
-	rdfs:label "produced dataset" ;
-	rdfs:comment "An activity generates datasets." ;
-	rdfs:range gcis:Dataset	;
-	rdfs:subPropertyOf prov:generated.
-
 gcis:dataCenter a owl:ObjectProperty ;
 	rdfs:label "data center" ;
 	rdfs:comment "A dataset is curated at a data center." ;
@@ -642,13 +636,6 @@ gcis:used a owl:ObjectProperty ;
 	rdfs:label "used" ;
 	rdfs:comment "An activity uses entities when the activity is being undertaken." ;
 	rdfs:subPropertyOf prov:used .
-
-gcis:wasCreatedBy a owl:ObjectProperty ;
-	rdfs:label "was created by" ;
-	rdfs:comment "An image was created by an activity of image creation." ;
-	rdfs:domain gcis:Image ;
-	rdfs:range gcis:ImageCreation ;
-	rdfs:subPropertyOf prov:wasGeneratedBy .
 
 gcis:hasCaption a owl:DatatypeProperty ;
 	rdfs:label "has caption" ;
