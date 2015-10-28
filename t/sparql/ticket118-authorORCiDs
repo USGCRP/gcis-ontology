@@ -1,0 +1,25 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX gcis: <http://data.globalchange.gov/gcis.owl#>
+PREFIX cito: <http://purl.org/spar/cito/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dbpprop: <http://dbpedia.org/property/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX vivo: <http://vivoweb.org/ontology/core#>
+
+SELECT
+?author as ?ContributorID 
+    str(?gn) as ?GivenName 
+    str(?ln) as ?LastName
+    ?orcid
+COUNT (DISTINCT ?article) as ?Frequency
+FROM <http://data.globalchange.gov>
+WHERE {
+  { <http://data.globalchange.gov/report/nca3> cito:cites ?article . } UNION {<http://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter . ?chapter cito:cites ?article . }
+  ?article prov:qualifiedAttribution [ prov:agent ?author ] .
+  ?author vivo:orcidId ?orcid .
+  OPTIONAL { ?author foaf:givenName ?gn . }
+  OPTIONAL { ?author foaf:lastName ?ln . }
+}
