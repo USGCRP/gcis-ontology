@@ -1,0 +1,191 @@
+Row	ContributorID	GivenName	LastName	orcid	Frequency
+1	http://data.globalchange.gov/person/845	Linda	Joyce	0000-0002-3384-3341	4
+2	http://data.globalchange.gov/person/3239	Patrick L.	Kinney	0000-0003-2801-1003	1
+3	http://data.globalchange.gov/person/7255	Stephen	Dye	0000-0002-4182-8475	1
+4	http://data.globalchange.gov/person/2589	Christopher A.	Barnes	0000-0002-4608-4364	1
+5	http://data.globalchange.gov/person/829	James	Galloway	0000-0001-7676-8698	1
+6	http://data.globalchange.gov/person/854	Beverly	Law	0000-0002-1605-1203	2
+7	http://data.globalchange.gov/person/899	Allison	Thomson	0000-0001-5326-1755	5
+8	http://data.globalchange.gov/person/1025	Kenneth	Kunkel	0000-0001-6667-7047	9
+9	http://data.globalchange.gov/person/955	Jerry	Hatfield	0000-0002-2981-8856	4
+10	http://data.globalchange.gov/person/1042	David I	Gustafson	0000-0001-6359-7017	1
+11	http://data.globalchange.gov/person/839	Daniel G.	Brown	0000-0001-6023-5950	2
+12	http://data.globalchange.gov/person/868	Leonard	Berry	0000-0002-9683-5023	1
+13	http://data.globalchange.gov/person/833	Richard	Moss	0000-0001-5005-0063	3
+14	http://data.globalchange.gov/person/956	Scott	Doney	0000-0002-3683-2437	2
+15	http://data.globalchange.gov/person/848	Radley	Horton	0000-0002-5574-9962	2
+16	http://data.globalchange.gov/person/954	Gene	Takle	0000-0003-2833-876X	1
+17	http://data.globalchange.gov/person/885	F. Stuart	Chapin III	0000-0002-2558-9910	4
+18	http://data.globalchange.gov/person/842	Gregg	Garfin	0000-0002-2760-132X	2
+19	http://data.globalchange.gov/person/844	Kim	Knowlton	0000-0002-8075-7817	1
+20	http://data.globalchange.gov/person/896	Susanne	Moser	0000-0001-6375-895X	3
+21	http://data.globalchange.gov/person/1053	Anthony C.	Janetos	0000-0003-0832-2664	1
+22	http://data.globalchange.gov/person/1075	Anne M.	Waple	0000-0002-4392-3388	2
+23	http://data.globalchange.gov/person/972	Joshua	Lawler	0000-0002-8306-3175	1
+24	http://data.globalchange.gov/person/1098	Katharine	Jacobs	0000-0002-4427-9045	3
+25	http://data.globalchange.gov/person/1055	James	Buizer	0000-0003-0265-8626	1
+26	http://data.globalchange.gov/person/1035	Kirstin	Dow	0000-0002-4547-5566	2
+27	http://data.globalchange.gov/person/1024	Katharine	Hayhoe	0000-0003-3625-1402	3
+28	http://data.globalchange.gov/person/831	Kathy	Hibbard	0000-0003-2278-4064	1
+29	http://data.globalchange.gov/person/1101	Laura	Stevens	0000-0002-8842-702X	7
+30	http://data.globalchange.gov/person/1009	John	Walsh	0000-0003-2424-5208	1
+31	http://data.globalchange.gov/person/1016	Michael	Dettinger	0000-0002-7509-7332	6
+32	http://data.globalchange.gov/person/1073	John A.	Hall	0000-0001-8845-4311	1
+33	http://data.globalchange.gov/person/1007	Paul	Fleming	0000-0002-1908-7180	1
+34	http://data.globalchange.gov/person/967	Henry	Huntington	0000-0003-2308-8677	2
+35	http://data.globalchange.gov/person/963	Doug	Kluck	0000-0002-9698-7991	1
+36	http://data.globalchange.gov/person/1006	Aris	Georgakakos	0000-0001-6606-5999	1
+37	http://data.globalchange.gov/person/957	A. David	McGuire	0000-0003-4646-0750	4
+38	http://data.globalchange.gov/person/849	Steven	Running	0000-0001-6906-3841	1
+39	http://data.globalchange.gov/person/1014	Kathleen	White	0000-0001-9668-0562	2
+40	http://data.globalchange.gov/person/863	Jayantha	Obeysekera	0000-0002-9261-1268	1
+41	http://data.globalchange.gov/person/1044	Julie	Maldonado	0000-0001-8165-4396	1
+42	http://data.globalchange.gov/person/1026	Michael	Wehner	0000-0001-5991-0082	1
+43	http://data.globalchange.gov/person/866	Kristen	Averyt	0000-0002-3602-9118	2
+44	http://data.globalchange.gov/person/951	Virginia H.	Dale	0000-0002-4123-7202	2
+45	http://data.globalchange.gov/person/1269	D. Phil	Turnipseed	0000-0002-9737-3203	1
+46	http://data.globalchange.gov/person/1395	Margaret	Palmer	0000-0003-1468-7993	1
+47	http://data.globalchange.gov/person/1423	Ashok K.	Mishra	0000-0002-0988-1428	1
+48	http://data.globalchange.gov/person/823	G. Philip	Robertson	0000-0001-9771-9895	1
+49	http://data.globalchange.gov/person/825	Louis	Iverson	0000-0001-9501-471X	2
+50	http://data.globalchange.gov/person/927	Matthias	Ruth	0000-0003-1266-582X	3
+51	http://data.globalchange.gov/person/949	Thomas R.	Loveland	0000-0003-3114-6646	2
+52	http://data.globalchange.gov/person/1526	Dennis P.	Lettenmaier	0000-0003-3317-1327	2
+53	http://data.globalchange.gov/person/1519	Eric A.	Davidson	0000-0002-8525-8697	1
+54	http://data.globalchange.gov/person/888	John J.	Marra	0000-0001-7527-133X	1
+55	http://data.globalchange.gov/person/1849	Kenneth G.	Hubbard	0000-0002-6766-0922	2
+56	http://data.globalchange.gov/person/1905	Tapan B.	Pathak	0000-0003-3217-0832	1
+57	http://data.globalchange.gov/person/2057	Helen Louise	Berry	0000-0003-0826-0272	1
+58	http://data.globalchange.gov/person/2061	Stéphane	Hallegatte	0000-0002-1781-4268	1
+59	http://data.globalchange.gov/person/2178	C. Mark	Eakin	0000-0002-5987-0858	2
+60	http://data.globalchange.gov/person/2274	William J.	Gutowski Jr.	0000-0002-9141-297X	1
+61	http://data.globalchange.gov/person/2282	Philip	Fay	0000-0002-8291-6316	2
+62	http://data.globalchange.gov/person/2314	Bethany	Bradley	0000-0003-4912-4971	1
+63	http://data.globalchange.gov/person/2297	David	Inouye	0000-0003-2076-7834	1
+64	http://data.globalchange.gov/person/2288	Michael G.	Ryan	0000-0002-2500-6738	1
+65	http://data.globalchange.gov/person/2320	Jeffrey	Dukes	0000-0001-9482-7743	1
+66	http://data.globalchange.gov/person/2370	Gregory	Okin	0000-0002-0484-3537	1
+67	http://data.globalchange.gov/person/2430	Derek S.	Arndt	0000-0001-7698-6740	1
+68	http://data.globalchange.gov/person/2433	Molly O.	Baringer	0000-0002-8503-5194	2
+69	http://data.globalchange.gov/person/2440	Feike A.	Dijkstra	0000-0002-6191-6018	2
+70	http://data.globalchange.gov/person/2475	Dean B.	Gesch	0000-0002-8992-4933	1
+71	http://data.globalchange.gov/person/2528	Henry LeRoy	Miller Jr.	0000-0002-7155-8314	1
+72	http://data.globalchange.gov/person/2557	Rob	Swart	0000-0002-1563-1150	1
+73	http://data.globalchange.gov/person/2865	Suraje	Dessai	0000-0002-7879-9364	1
+74	http://data.globalchange.gov/person/2722	James	Kirchner	0000-0001-6577-3619	1
+75	http://data.globalchange.gov/person/2764	Judith	Perlwitz	0000-0003-4061-2442	1
+76	http://data.globalchange.gov/person/2837	William Neil	Adger	0000-0003-4244-2854	2
+77	http://data.globalchange.gov/person/2858	James	Ford	0000-0002-2066-3456	3
+78	http://data.globalchange.gov/person/2940	Jeffrey	Bielicki	0000-0001-8449-9328	1
+79	http://data.globalchange.gov/person/2969	Roberta	Gentile	0000-0002-2400-0676	1
+80	http://data.globalchange.gov/person/3171	Jacques	Finlay	0000-0002-7968-7030	1
+81	http://data.globalchange.gov/person/3217	Walter	Oechel	0000-0002-3504-026X	1
+82	http://data.globalchange.gov/person/3172	Emily	Bernhardt	0000-0003-3031-621X	1
+83	http://data.globalchange.gov/person/3005	Martin	Vermeer	0000-0003-3107-6342	1
+84	http://data.globalchange.gov/person/3218	Kevin	Winker	0000-0002-8985-8104	1
+85	http://data.globalchange.gov/person/3243	Edwin	Maurer	0000-0001-7134-487X	1
+86	http://data.globalchange.gov/person/3253	Dennis	Baldocchi	0000-0003-3496-4919	1
+87	http://data.globalchange.gov/person/3284	Mike	Hulme	0000-0002-1273-7662	1
+88	http://data.globalchange.gov/person/3452	Malte	Meinshausen	0000-0003-4048-3521	1
+89	http://data.globalchange.gov/person/3485	Hugo	Hidalgo	0000-0003-4638-0742	1
+90	http://data.globalchange.gov/person/3488	Kaveh	Madani	0000-0003-0378-3170	1
+91	http://data.globalchange.gov/person/3313	Detlef	van Vuuren	0000-0003-0398-2831	1
+92	http://data.globalchange.gov/person/3634	Carlos	Iglesias	0000-0002-4125-3704	1
+93	http://data.globalchange.gov/person/3636	Luc	De Meester	0000-0001-5433-6843	1
+94	http://data.globalchange.gov/person/3792	Paulo	Artaxo	0000-0001-7754-3036	1
+95	http://data.globalchange.gov/person/3635	José M.	Conde-Porcuna	0000-0002-5074-2796	1
+96	http://data.globalchange.gov/person/3791	Georgina	Mace	0000-0001-8965-5211	2
+97	http://data.globalchange.gov/person/4080	Stephen	Cornford	0000-0003-1844-274X	1
+98	http://data.globalchange.gov/person/4060	Adrian	Barnett	0000-0001-6339-0374	1
+99	http://data.globalchange.gov/person/4081	Rupert	Gladstone	0000-0002-1582-3857	1
+100	http://data.globalchange.gov/person/4082	Hartmut	Hellmer	0000-0002-9357-9853	1
+101	http://data.globalchange.gov/person/4217	Wouter	Botzen	0000-0002-8563-4963	1
+102	http://data.globalchange.gov/person/4413	Jacqueline	Grebmeier	0000-0001-7624-3568	1
+103	http://data.globalchange.gov/person/4479	Eike	Luedeling	0000-0002-7316-3631	2
+104	http://data.globalchange.gov/person/4549	Alistair	Jump	0000-0002-2167-6451	1
+105	http://data.globalchange.gov/person/4554	Terry	Hughes	0000-0002-5257-5063	1
+106	http://data.globalchange.gov/person/4804	Ilya	Gelfand	0000-0002-8576-0978	1
+107	http://data.globalchange.gov/person/4846	Jon	Barnett	0000-0002-0862-0808	1
+108	http://data.globalchange.gov/person/4953	Alan	Robock	0000-0002-6319-5656	1
+109	http://data.globalchange.gov/person/5019	Scott	Spak	0000-0002-8545-1411	2
+110	http://data.globalchange.gov/person/4797	W. Michael	Griffin	0000-0002-1709-4280	1
+111	http://data.globalchange.gov/person/4875	Nancy	French	0000-0002-2389-3003	1
+112	http://data.globalchange.gov/person/5118	Philip	Higuera	0000-0001-5396-9956	1
+113	http://data.globalchange.gov/person/5265	Quentin	Grafton	0000-0002-0048-9083	1
+114	http://data.globalchange.gov/person/5362	Scott	Goetz	0000-0002-6326-4308	1
+115	http://data.globalchange.gov/person/5527	Galina	Churkina	0000-0002-5895-7425	1
+116	http://data.globalchange.gov/person/5254	Michael	Wulder	0000-0002-6942-1896	1
+117	http://data.globalchange.gov/person/5264	Michael	Stewardson	0000-0003-1356-0472	1
+118	http://data.globalchange.gov/person/5622	Claire	Carouge	0000-0002-0313-8385	1
+119	http://data.globalchange.gov/person/5623	Fabrice	Papa	0000-0001-6305-6253	1
+120	http://data.globalchange.gov/person/5603	Chris	Huntingford	0000-0002-5941-7770	1
+121	http://data.globalchange.gov/person/5738	Nick	Dunstone	0000-0001-6859-6814	1
+122	http://data.globalchange.gov/person/5759	Neo	Martinez	0000-0002-1130-5550	1
+123	http://data.globalchange.gov/person/5760	Pablo	Marquet	0000-0001-6369-9339	1
+124	http://data.globalchange.gov/person/5818	Reto	Knutti	0000-0001-8303-6700	1
+125	http://data.globalchange.gov/person/5873	Xiaoming	Wang	0000-0002-1088-8862	1
+126	http://data.globalchange.gov/person/5925	Lars-Anders	Hansson	0000-0002-3035-1317	1
+127	http://data.globalchange.gov/person/5933	Thomas W.	Swetnam	0000-0001-7268-2184	1
+128	http://data.globalchange.gov/person/6099	Andrew	Grieshop	0000-0002-6470-9946	1
+129	http://data.globalchange.gov/person/6127	Etienne	Berthier	0000-0001-5978-9155	1
+130	http://data.globalchange.gov/person/5916	Antonius	Golly	0000-0001-6213-0183	1
+131	http://data.globalchange.gov/person/6189	Ove	Hoegh-Guldberg	0000-0001-7510-6713	2
+132	http://data.globalchange.gov/person/5979	Ilsa	Kuffner	0000-0001-8804-7847	1
+133	http://data.globalchange.gov/person/6015	Dorothee	Bakker	0000-0001-9234-5337	1
+134	http://data.globalchange.gov/person/6383	Wolfgang	Lucht	0000-0002-3398-8575	1
+135	http://data.globalchange.gov/person/6783	Sarah	Cooley	0000-0002-1034-0653	1
+136	http://data.globalchange.gov/person/6981	Lorenzo	Alvarez-Filip	0000-0002-5726-7238	2
+137	http://data.globalchange.gov/person/7286	Daniel	Gruner	0000-0002-3153-4297	1
+138	http://data.globalchange.gov/person/7535	Stephen	Long	0000-0002-8501-7164	1
+139	http://data.globalchange.gov/person/7223	Michael	Dietze	0000-0002-2324-2518	1
+140	http://data.globalchange.gov/person/7285	W Stanley	Harpole	0000-0002-3404-9174	1
+141	http://data.globalchange.gov/person/7236	Ankur	Desai	0000-0002-5226-6041	1
+142	http://data.globalchange.gov/person/7287	Eric	Seabloom	0000-0001-6780-9259	1
+143	http://data.globalchange.gov/person/7284	Matthew	Bracken	0000-0002-0068-7485	1
+144	http://data.globalchange.gov/person/7354	Mark	Boyce	0000-0001-5811-325X	1
+145	http://data.globalchange.gov/person/7582	Alfonse	Dubi	0000-0002-7003-3591	1
+146	http://data.globalchange.gov/person/7676	Andrew	Scott	0000-0002-1998-3508	1
+147	http://data.globalchange.gov/person/7596	Jose Martin	Hernandez-Ayon	0000-0001-6869-6225	1
+148	http://data.globalchange.gov/person/7634	David	Obura	0000-0003-2256-6649	1
+149	http://data.globalchange.gov/person/7677	Sandy	Harrison	0000-0001-5687-1903	1
+150	http://data.globalchange.gov/person/7830	David	Streets	0000-0002-0223-1350	1
+151	http://data.globalchange.gov/person/8045	Scott	Ollinger	0000-0001-6226-1431	1
+152	http://data.globalchange.gov/person/8192	Bomin	Sun	0000-0002-4872-9349	1
+153	http://data.globalchange.gov/person/8133	Keryn	Gedan	0000-0003-4020-5441	1
+154	http://data.globalchange.gov/person/8449	Bas	Amelung	0000-0001-8501-9787	1
+155	http://data.globalchange.gov/person/8468	Guy	Barnett	0000-0002-4991-9427	1
+156	http://data.globalchange.gov/person/8674	Peter	Adams	0000-0003-0041-058X	1
+157	http://data.globalchange.gov/person/8862	Gang	Liu	0000-0001-8369-6805	1
+158	http://data.globalchange.gov/person/8863	William	Skirving	0000-0003-0167-6427	1
+159	http://data.globalchange.gov/person/8961	Julian	Olden	0000-0003-2143-1187	1
+160	http://data.globalchange.gov/person/1822	Janet L.	Gamble	0000-0003-3179-730X	1
+161	http://data.globalchange.gov/person/9126	Shuhua	Yi	0000-0003-4932-8237	1
+162	http://data.globalchange.gov/person/9117	Michael	Christie	0000-0002-8346-9140	1
+163	http://data.globalchange.gov/person/9118	Mark	Reed	0000-0002-8958-8474	1
+164	http://data.globalchange.gov/person/9119	Joern	Fischer	0000-0003-3187-8978	1
+165	http://data.globalchange.gov/person/923	Lewis	Ziska	0000-0003-2980-3985	2
+166	http://data.globalchange.gov/person/974	Kathy	Lynn	0000-0002-7933-7444	2
+167	http://data.globalchange.gov/person/3438	Kristie L.	Ebi	0000-0003-4746-8236	4
+168	http://data.globalchange.gov/person/3849	Rebecca	Eisen	0000-0001-5942-528X	1
+169	http://data.globalchange.gov/person/917	Jeremy	Hess	0000-0002-0440-2459	1
+170	http://data.globalchange.gov/person/1214	Margaret	Redsteer	0000-0003-2851-2502	4
+171	http://data.globalchange.gov/person/1572	Rachel	Morello-Frosch	0000-0003-1153-7287	1
+172	http://data.globalchange.gov/person/9975	Derek T.	Robinson	0000-0002-4293-1095	1
+173	http://data.globalchange.gov/person/8417	Jon K.	Eischeid	0000-0003-2983-7130	1
+174	http://data.globalchange.gov/person/8040	Peter M.	Groffman	0000-0001-8371-6255	2
+175	http://data.globalchange.gov/person/3450	Steven J.	Smith	0000-0003-3248-5607	1
+176	http://data.globalchange.gov/person/2711	Kevin E.	Trenberth	0000-0002-1445-1000	1
+177	http://data.globalchange.gov/person/2739	Prasanna H.	Gowda	0000-0001-8782-6953	1
+178	http://data.globalchange.gov/person/3003	Stefan	Rahmstorf	0000-0001-6786-7723	2
+179	http://data.globalchange.gov/person/3835	Kimberly Nicholas	Cahill	0000-0002-4756-7851	1
+180	http://data.globalchange.gov/person/7709	Timothy W.	Cronin	0000-0002-7807-2878	1
+181	http://data.globalchange.gov/person/8281	John W.	Nielsen-Gammon	0000-0001-5336-2409	2
+182	http://data.globalchange.gov/person/4006	Sergey	Paltsev	0000-0003-3287-0732	1
+183	http://data.globalchange.gov/person/3615	John A.	Church	0000-0002-7037-8194	1
+184	http://data.globalchange.gov/person/5225	Gavin A.	Schmidt	0000-0002-2258-0486	1
+185	http://data.globalchange.gov/person/3162	Neil D.	Bettez	0000-0002-6859-8083	1
+186	http://data.globalchange.gov/person/3700	Kenneth	Strzepek	0000-0002-2677-2581	1
+187	http://data.globalchange.gov/person/5764	Andrew	Gonzalez	0000-0001-6075-8081	1
+188	http://data.globalchange.gov/person/8995	Paul J.	Hanson	0000-0001-7293-3561	2
+189	http://data.globalchange.gov/person/7452	Kenneth M.	Johnson	0000-0001-5621-0312	1
+190	http://data.globalchange.gov/person/3897	Anatoly	Shvidenko	0000-0001-7640-2151	1
