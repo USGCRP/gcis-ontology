@@ -8,8 +8,13 @@ PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 
-SELECT DISTINCT
-  ?ContributorID ?Name ?Role ?ChapterName ?ChapterNumber
+SELECT DISTINCT 
+  ?author as ?ContributorID 
+	CONCAT(str(?ln), ", ", str(?gn)) as ?Name 
+	str(?rlabel) as ?Role
+  str(?cht) as ?ChapterName
+	?cn as ?ChapterNumber
+FROM <http://data.globalchange.gov>
 WHERE {
   <http://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter .
   ?chapter dcterms:title ?cht .
@@ -17,10 +22,6 @@ WHERE {
   ?chapter prov:qualifiedAttribution [ prov:hadRole ?role ; prov:agent ?author ] .
   ?role rdfs:label ?rlabel .
   ?author foaf:givenName ?gn .
-  ?author foaf:lastName ?ln .
-  BIND(?author AS ?ContributorID)
-  BIND(CONCAT(str(?ln), ", ", str(?gn)) AS ?Name)
-  BIND(str(?rlabel) AS ?Role)
-  BIND(str(?cht) AS ?ChapterName)
-  BIND(str(?cn) AS ?ChapterNumber)
-} order by ?ContributorID
+  ?author foaf:lastName ?ln
+} group by ?author
+  order by ?ChapterNumber
