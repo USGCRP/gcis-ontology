@@ -1,6 +1,320 @@
-ContributorID,Name,Role,ChapterName,ChapterNumber
-http://data.globalchange.gov/person/1010,"Franco, Guido",Lead Author,Energy Supply and Use,4
-http://data.globalchange.gov/person/4015,"Weyant, John P.",Lead Author,Energy Supply and Use,4
-http://data.globalchange.gov/person/950,"Wilbanks, Thomas J.",Lead Author,Energy Supply and Use,4
-http://data.globalchange.gov/person/986,"Richels, Rich",Lead Author,Energy Supply and Use,4
-http://data.globalchange.gov/person/987,"Newell, Richard G.",Lead Author,Energy Supply and Use,4
+Row,ContributorID,Name,Role,ChapterName,ChapterNumber
+1,http://data.globalchange.gov/person/1000,"Alexander, Michael",Lead Author,Oceans and Marine Resources,24
+2,http://data.globalchange.gov/person/1019,"Anderson, David",Contributing Author,Appendix 3: Climate Science Supplement,33
+3,http://data.globalchange.gov/person/1019,"Anderson, David",Contributing Author,Appendix 4: Frequently Asked Questions,34
+4,http://data.globalchange.gov/person/1019,"Anderson, David",Contributing Author,Our Changing Climate,2
+5,http://data.globalchange.gov/person/970,"Antle, John M.",Lead Author,Great Plains,19
+6,http://data.globalchange.gov/person/866,"Averyt, Kristen",Lead Author,"Energy, Water, and Land Use",10
+7,http://data.globalchange.gov/person/924,"Backer, Lorraine",Contributing Author,Human Health,9
+8,http://data.globalchange.gov/person/920,"Balbus, John",Lead Author,Human Health,9
+9,http://data.globalchange.gov/person/903,"Beard, Charles",Contributing Author,Human Health,9
+10,http://data.globalchange.gov/person/897,"Bennett, T.M. Bull",Convening Lead Author,"Indigenous Peoples, Lands, and Resources",12
+11,http://data.globalchange.gov/person/868,"Berry, Leonard",Lead Author,Southeast and the Caribbean,17
+12,http://data.globalchange.gov/person/872,"Bidwell, Marcie D.",Lead Author,Rural Communities,14
+13,http://data.globalchange.gov/person/1063,"Bierbaum, Rosina",Convening Lead Author,Adaptation,28
+14,http://data.globalchange.gov/person/1054,"Birdsey, Richard",Lead Author,Mitigation,27
+15,http://data.globalchange.gov/person/1066,"Blair, Maria",Convening Lead Author,Sustained Assessment: A New Vision for Future U.S. Assessments,30
+16,http://data.globalchange.gov/person/1066,"Blair, Maria",Lead Author,Adaptation,28
+17,http://data.globalchange.gov/person/915,"Blanco, Hilda",Lead Author,Southwest,20
+18,http://data.globalchange.gov/person/935,"Bolstad, Paul",Lead Author,Land Use and Land Cover Change,13
+19,http://data.globalchange.gov/person/861,"Boyd, James W.",Contributing Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
+20,http://data.globalchange.gov/person/931,"Bragado, Nancy",Lead Author,"Urban Systems, Infrastructure, and Vulnerability",11
+21,http://data.globalchange.gov/person/908,"Breshears, David",Lead Author,Forests,7
+22,http://data.globalchange.gov/person/944,"Brody, Samuel",Lead Author,Land Use and Land Cover Change,13
+23,http://data.globalchange.gov/person/839,"Brown, Daniel G.",Convening Lead Author,Land Use and Land Cover Change,13
+24,http://data.globalchange.gov/person/1055,"Buizer, James",Lead Author,Sustained Assessment: A New Vision for Future U.S. Assessments,30
+25,http://data.globalchange.gov/person/1055,"Buizer, James",Lead Author,Mitigation,27
+26,http://data.globalchange.gov/person/907,"Burbank, Cynthia J.",Lead Author,Transportation,5
+27,http://data.globalchange.gov/person/978,"Burkett, Maxine",Contributing Author,Hawai'i and U.S. Affiliated Pacific Islands,23
+28,http://data.globalchange.gov/person/883,"Burkett, Virginia",Lead Author,Southeast and the Caribbean,17
+29,http://data.globalchange.gov/person/1043,"Calvin, Katherine",Lead Author,Mitigation,27
+30,http://data.globalchange.gov/person/1048,"Campbell, John",Contributing Author,Hawai'i and U.S. Affiliated Pacific Islands,23
+31,http://data.globalchange.gov/person/947,"Capalbo, Susan",Lead Author,Northwest,21
+32,http://data.globalchange.gov/person/919,"Carmin, JoAnn",Lead Author,"Urban Systems, Infrastructure, and Vulnerability",11
+33,http://data.globalchange.gov/person/832,"Carter, Lynne M.",Convening Lead Author,Southeast and the Caribbean,17
+34,http://data.globalchange.gov/person/832,"Carter, Lynne M.",Lead Author,Adaptation,28
+35,http://data.globalchange.gov/person/9269,"Carter, Shawn L.",Lead Author,"Ecosystems, Biodiversity, and Ecosystem Services",8
+36,http://data.globalchange.gov/person/885,"Chapin III, F. Stuart",Lead Author,Adaptation,28
+37,http://data.globalchange.gov/person/885,"Chapin III, F. Stuart",Convening Lead Author,Alaska,22
+38,http://data.globalchange.gov/person/997,"Chavez, Francisco",Lead Author,Oceans and Marine Resources,24
+39,http://data.globalchange.gov/person/855,"Clark, Christopher M.",Lead Author,Biogeochemical Cycles,15
+40,http://data.globalchange.gov/person/1036,"Cloyd, Emily Therese",Contributing Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
+41,http://data.globalchange.gov/person/1018,"Cochran, Patricia",Lead Author,"Indigenous Peoples, Lands, and Resources",12
+42,http://data.globalchange.gov/person/1018,"Cochran, Patricia",Lead Author,Alaska,22
+43,http://data.globalchange.gov/person/900,"Comrie, Andrew",Lead Author,Southwest,20
+44,http://data.globalchange.gov/person/1041,"Corell, Robert W.",Convening Lead Author,Research Needs for Climate and Global Change Assessments,29
+45,http://data.globalchange.gov/person/1045,"Cozzetto, Karen",Contributing Author,"Indigenous Peoples, Lands, and Resources",12
+46,http://data.globalchange.gov/person/850,"Cutter, Susan L.",Convening Lead Author,"Urban Systems, Infrastructure, and Vulnerability",11
+47,http://data.globalchange.gov/person/951,"Dale, Virginia H.",Lead Author,Forests,7
+48,http://data.globalchange.gov/person/889,"Davidson, Margaret A.",Convening Lead Author,Coastal Zone Development and Ecosystems,25
+49,http://data.globalchange.gov/person/886,"Dell, Jan",Convening Lead Author,Energy Supply and Use,4
+50,http://data.globalchange.gov/person/1059,"Detchon, Reid",Contributing Author,Mitigation,27
+51,http://data.globalchange.gov/person/1016,"Dettinger, Michael",Lead Author,Water Resources,3
+52,http://data.globalchange.gov/person/956,"Doney, Scott",Contributing Author,Our Changing Climate,2
+53,http://data.globalchange.gov/person/956,"Doney, Scott",Convening Lead Author,Oceans and Marine Resources,24
+54,http://data.globalchange.gov/person/1035,"Dow, Kirstin",Lead Author,Research Needs for Climate and Global Change Assessments,29
+55,http://data.globalchange.gov/person/822,"Downer, Charles",Lead Author,Midwest,18
+56,http://data.globalchange.gov/person/952,"Easterling, William",Lead Author,Northeast,16
+57,http://data.globalchange.gov/person/3438,"Ebi, Kristie L.",Contributing Author,Human Health,9
+58,http://data.globalchange.gov/person/3438,"Ebi, Kristie L.",Lead Author,Research Needs for Climate and Global Change Assessments,29
+59,http://data.globalchange.gov/person/1060,"Edmonds, Jae",Contributing Author,Mitigation,27
+60,http://data.globalchange.gov/person/945,"Eigenbrode, Sanford D.",Lead Author,Northwest,21
+61,http://data.globalchange.gov/person/1038,"Feely, Richard",Contributing Author,Our Changing Climate,2
+62,http://data.globalchange.gov/person/979,"Finucane, Melissa L.",Lead Author,Hawai'i and U.S. Affiliated Pacific Islands,23
+63,http://data.globalchange.gov/person/1007,"Fleming, Paul",Convening Lead Author,Water Resources,3
+64,http://data.globalchange.gov/person/1007,"Fleming, Paul",Lead Author,Adaptation,28
+65,http://data.globalchange.gov/person/930,"Fragkias, Michail",Lead Author,"Urban Systems, Infrastructure, and Vulnerability",11
+66,http://data.globalchange.gov/person/1010,"Franco, Guido",Lead Author,Energy Supply and Use,4
+67,http://data.globalchange.gov/person/1010,"Franco, Guido",Convening Lead Author,Southwest,20
+68,http://data.globalchange.gov/person/916,"Frumkin, Howard",Lead Author,Human Health,9
+69,http://data.globalchange.gov/person/826,"Gaden, Marc",Lead Author,Midwest,18
+70,http://data.globalchange.gov/person/829,"Galloway, James",Convening Lead Author,Biogeochemical Cycles,15
+71,http://data.globalchange.gov/person/842,"Garfin, Gregg",Convening Lead Author,Southwest,20
+72,http://data.globalchange.gov/person/1006,"Georgakakos, Aris",Convening Lead Author,Water Resources,3
+73,http://data.globalchange.gov/person/992,"Giambelluca, Thomas",Lead Author,Hawai'i and U.S. Affiliated Pacific Islands,23
+74,http://data.globalchange.gov/person/933,"Glick, Patricia",Lead Author,Northwest,21
+75,http://data.globalchange.gov/person/934,"Gonzalez, Patrick",Lead Author,Southwest,20
+76,http://data.globalchange.gov/person/958,"Gough, Bob",Lead Author,"Indigenous Peoples, Lands, and Resources",12
+77,http://data.globalchange.gov/person/874,"Grimm, Nancy B.",Lead Author,Biogeochemical Cycles,15
+78,http://data.globalchange.gov/person/874,"Grimm, Nancy B.",Lead Author,"Ecosystems, Biodiversity, and Ecosystem Services",8
+79,http://data.globalchange.gov/person/8040,"Groffman, Peter M.",Convening Lead Author,"Ecosystems, Biodiversity, and Ecosystem Services",8
+80,http://data.globalchange.gov/person/1004,"Grotjahn, Richard",Lead Author,Agriculture,6
+81,http://data.globalchange.gov/person/1042,"Gustafson, David I",Lead Author,Sustained Assessment: A New Vision for Future U.S. Assessments,30
+82,http://data.globalchange.gov/person/828,"Hales, David",Convening Lead Author,Rural Communities,14
+83,http://data.globalchange.gov/person/1073,"Hall, John A.",Convening Lead Author,Sustained Assessment: A New Vision for Future U.S. Assessments,30
+84,http://data.globalchange.gov/person/877,"Harriss, Robert",Lead Author,"Energy, Water, and Land Use",10
+85,http://data.globalchange.gov/person/994,"Harvell, C. Drew",Lead Author,Oceans and Marine Resources,24
+86,http://data.globalchange.gov/person/955,"Hatfield, Jerry",Convening Lead Author,Agriculture,6
+87,http://data.globalchange.gov/person/925,"Hayden, Mary",Lead Author,Human Health,9
+88,http://data.globalchange.gov/person/1024,"Hayhoe, Katharine",Lead Author,Our Changing Climate,2
+89,http://data.globalchange.gov/person/1024,"Hayhoe, Katharine",Lead Author,Appendix 4: Frequently Asked Questions,34
+90,http://data.globalchange.gov/person/1024,"Hayhoe, Katharine",Lead Author,Appendix 3: Climate Science Supplement,33
+91,http://data.globalchange.gov/person/1906,"Hennon, Paula",Contributing Author,Our Changing Climate,2
+92,http://data.globalchange.gov/person/917,"Hess, Jeremy",Lead Author,Human Health,9
+93,http://data.globalchange.gov/person/831,"Hibbard, Kathy",Convening Lead Author,"Energy, Water, and Land Use",10
+94,http://data.globalchange.gov/person/998,"Hofmann, Gretchen",Lead Author,Oceans and Marine Resources,24
+95,http://data.globalchange.gov/person/835,"Hohenstein, William",Convening Lead Author,Rural Communities,14
+96,http://data.globalchange.gov/person/1002,"Holden, Patrick",Lead Author,Agriculture,6
+97,http://data.globalchange.gov/person/1074,"Holland, Brian",Lead Author,Sustained Assessment: A New Vision for Future U.S. Assessments,30
+98,http://data.globalchange.gov/person/848,"Horton, Radley",Convening Lead Author,Northeast,16
+99,http://data.globalchange.gov/person/909,"Hulse, David",Lead Author,Land Use and Land Cover Change,13
+100,http://data.globalchange.gov/person/967,"Huntington, Henry",Lead Author,Alaska,22
+101,http://data.globalchange.gov/person/825,"Iverson, Louis",Lead Author,Midwest,18
+102,http://data.globalchange.gov/person/1003,"Izaurralde, R. Cesar",Lead Author,Agriculture,6
+103,http://data.globalchange.gov/person/878,"Jackson, Robert B.",Lead Author,Biogeochemical Cycles,15
+104,http://data.globalchange.gov/person/1052,"Jacoby, Henry D.",Convening Lead Author,Mitigation,27
+105,http://data.globalchange.gov/person/864,"Jadin, Jenna",Contributing Author,Rural Communities,14
+106,http://data.globalchange.gov/person/1053,"Janetos, Anthony C.",Convening Lead Author,Mitigation,27
+107,http://data.globalchange.gov/person/830,"Jones, James W.",Convening Lead Author,Southeast and the Caribbean,17
+108,http://data.globalchange.gov/person/845,"Joyce, Linda",Convening Lead Author,Forests,7
+109,http://data.globalchange.gov/person/867,"Kaatz, Laurna",Contributing Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
+110,http://data.globalchange.gov/person/892,"Kareiva, Peter",Convening Lead Author,"Ecosystems, Biodiversity, and Ecosystem Services",8
+111,http://data.globalchange.gov/person/941,"Kates, Robert",Lead Author,Northeast,16
+112,http://data.globalchange.gov/person/1022,"Kennedy, John",Contributing Author,Appendix 3: Climate Science Supplement,33
+113,http://data.globalchange.gov/person/1022,"Kennedy, John",Contributing Author,Appendix 4: Frequently Asked Questions,34
+114,http://data.globalchange.gov/person/1022,"Kennedy, John",Contributing Author,Our Changing Climate,2
+115,http://data.globalchange.gov/person/873,"Kenney, Melissa A.",Lead Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
+116,http://data.globalchange.gov/person/1032,"Kharin, Viatcheslav",Contributing Author,Appendix 3: Climate Science Supplement,33
+117,http://data.globalchange.gov/person/1032,"Kharin, Viatcheslav",Contributing Author,Appendix 4: Frequently Asked Questions,34
+118,http://data.globalchange.gov/person/1032,"Kharin, Viatcheslav",Contributing Author,Our Changing Climate,2
+119,http://data.globalchange.gov/person/982,"Kirshen, Paul",Lead Author,Coastal Zone Development and Ecosystems,25
+120,http://data.globalchange.gov/person/963,"Kluck, Doug",Lead Author,Great Plains,19
+121,http://data.globalchange.gov/person/844,"Knowlton, Kim",Convening Lead Author,Human Health,9
+122,http://data.globalchange.gov/person/1030,"Knutson, Thomas",Contributing Author,Appendix 3: Climate Science Supplement,33
+123,http://data.globalchange.gov/person/1030,"Knutson, Thomas",Contributing Author,Appendix 4: Frequently Asked Questions,34
+124,http://data.globalchange.gov/person/1030,"Knutson, Thomas",Contributing Author,Our Changing Climate,2
+125,http://data.globalchange.gov/person/1021,"Kossin, James",Lead Author,Appendix 3: Climate Science Supplement,33
+126,http://data.globalchange.gov/person/1021,"Kossin, James",Lead Author,Appendix 4: Frequently Asked Questions,34
+127,http://data.globalchange.gov/person/1021,"Kossin, James",Lead Author,Our Changing Climate,2
+128,http://data.globalchange.gov/person/943,"Kroh, Roger",Lead Author,Land Use and Land Cover Change,13
+129,http://data.globalchange.gov/person/928,"Kuby, Michael",Lead Author,Transportation,5
+130,http://data.globalchange.gov/person/1025,"Kunkel, Kenneth",Lead Author,Appendix 3: Climate Science Supplement,33
+131,http://data.globalchange.gov/person/1025,"Kunkel, Kenneth",Lead Author,Research Needs for Climate and Global Change Assessments,29
+132,http://data.globalchange.gov/person/1025,"Kunkel, Kenneth",Lead Author,Our Changing Climate,2
+133,http://data.globalchange.gov/person/1025,"Kunkel, Kenneth",Lead Author,Appendix 4: Frequently Asked Questions,34
+134,http://data.globalchange.gov/person/860,"Kunreuther, Howard",Lead Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
+135,http://data.globalchange.gov/person/1040,"Landerer, Felix",Contributing Author,Our Changing Climate,2
+136,http://data.globalchange.gov/person/1040,"Landerer, Felix",Contributing Author,Appendix 3: Climate Science Supplement,33
+137,http://data.globalchange.gov/person/1040,"Landerer, Felix",Contributing Author,Appendix 4: Frequently Asked Questions,34
+138,http://data.globalchange.gov/person/856,"Landry, Craig",Lead Author,Rural Communities,14
+139,http://data.globalchange.gov/person/854,"Law, Beverly",Lead Author,Biogeochemical Cycles,15
+140,http://data.globalchange.gov/person/972,"Lawler, Joshua",Lead Author,"Ecosystems, Biodiversity, and Ecosystem Services",8
+141,http://data.globalchange.gov/person/1064,"Lee, Arthur",Convening Lead Author,Adaptation,28
+142,http://data.globalchange.gov/person/983,"Lefale, Penehuro",Contributing Author,Hawai'i and U.S. Affiliated Pacific Islands,23
+143,http://data.globalchange.gov/person/2840,"Lempert, Robert J.",Lead Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
+144,http://data.globalchange.gov/person/1031,"Lenton, Tim",Contributing Author,Appendix 4: Frequently Asked Questions,34
+145,http://data.globalchange.gov/person/1031,"Lenton, Tim",Contributing Author,Appendix 3: Climate Science Supplement,33
+146,http://data.globalchange.gov/person/1031,"Lenton, Tim",Contributing Author,Our Changing Climate,2
+147,http://data.globalchange.gov/person/887,"Leong, Jo-Ann",Convening Lead Author,Hawai'i and U.S. Affiliated Pacific Islands,23
+148,http://data.globalchange.gov/person/1047,"Lipschultz, Fredric",Contributing Author,Hawai'i and U.S. Affiliated Pacific Islands,23
+149,http://data.globalchange.gov/person/1047,"Lipschultz, Fredric",Contributing Author,Northeast,16
+150,http://data.globalchange.gov/person/918,"Littell, Jeremy",Lead Author,Northwest,21
+151,http://data.globalchange.gov/person/995,"Liverman, Diana",Convening Lead Author,Research Needs for Climate and Global Change Assessments,29
+152,http://data.globalchange.gov/person/995,"Liverman, Diana",Contributing Author,Agriculture,6
+153,http://data.globalchange.gov/person/1049,"Loope, Lloyd",Contributing Author,Hawai'i and U.S. Affiliated Pacific Islands,23
+154,http://data.globalchange.gov/person/949,"Loveland, Thomas R.",Lead Author,Land Use and Land Cover Change,13
+155,http://data.globalchange.gov/person/8541,"Luber, George C.",Convening Lead Author,Human Health,9
+156,http://data.globalchange.gov/person/974,"Lynn, Kathy",Lead Author,"Indigenous Peoples, Lands, and Resources",12
+157,http://data.globalchange.gov/person/980,"Mack, Michelle",Lead Author,"Ecosystems, Biodiversity, and Ecosystem Services",8
+158,http://data.globalchange.gov/person/1005,"Mader, Terry",Lead Author,Agriculture,6
+159,http://data.globalchange.gov/person/913,"Maibach, Edward",Contributing Author,Human Health,9
+160,http://data.globalchange.gov/person/1044,"Maldonado, Julie",Lead Author,"Indigenous Peoples, Lands, and Resources",12
+161,http://data.globalchange.gov/person/942,"Malmsheimer, Robert",Lead Author,Forests,7
+162,http://data.globalchange.gov/person/862,"Manning, Jay",Lead Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
+163,http://data.globalchange.gov/person/960,"Markon, Carl",Lead Author,Alaska,22
+164,http://data.globalchange.gov/person/888,"Marra, John J.",Convening Lead Author,Hawai'i and U.S. Affiliated Pacific Islands,23
+165,http://data.globalchange.gov/person/996,"Marshall, Elizabeth",Lead Author,Agriculture,6
+166,http://data.globalchange.gov/person/1046,"Martin, Rebecca",Contributing Author,Biogeochemical Cycles,15
+167,http://data.globalchange.gov/person/993,"Matzek, Virginia",Lead Author,"Ecosystems, Biodiversity, and Ecosystem Services",8
+168,http://data.globalchange.gov/person/891,"Maynard, Nancy G.",Convening Lead Author,"Indigenous Peoples, Lands, and Resources",12
+169,http://data.globalchange.gov/person/981,"McCammon, Molly",Lead Author,Alaska,22
+170,http://data.globalchange.gov/person/929,"McGeehin, Michael",Lead Author,Human Health,9
+171,http://data.globalchange.gov/person/857,"McGranahan, David",Lead Author,Rural Communities,14
+172,http://data.globalchange.gov/person/957,"McGuire, A. David",Lead Author,Alaska,22
+173,http://data.globalchange.gov/person/1068,"McNeeley, Shannon",Contributing Author,Adaptation,28
+174,http://data.globalchange.gov/person/985,"McPherson, Renee A.",Lead Author,Great Plains,19
+175,http://data.globalchange.gov/person/1072,"Mearns, Linda O.",Lead Author,Research Needs for Climate and Global Change Assessments,29
+176,http://data.globalchange.gov/person/1039,"Melillo, Jerry",Editor,Appendix 5: Scenarios and Models,35
+177,http://data.globalchange.gov/person/1039,"Melillo, Jerry",Lead Author,Research Needs for Climate and Global Change Assessments,29
+178,http://data.globalchange.gov/person/1039,"Melillo, Jerry",Editor,Appendix 2: Information Quality Assurance Process,32
+179,http://data.globalchange.gov/person/1039,"Melillo, Jerry",Editor,Appendix 1: Report Development Process,31
+180,http://data.globalchange.gov/person/1039,"Melillo, Jerry",Editor,Appendix 6: Topics for Consideration in Future Assessments,36
+181,http://data.globalchange.gov/person/1039,"Melillo, Jerry",Editor,Overview and Report Findings,1
+182,http://data.globalchange.gov/person/976,"Merrifield, Mark",Lead Author,Hawai'i and U.S. Affiliated Pacific Islands,23
+183,http://data.globalchange.gov/person/846,"Meyer, Michael",Convening Lead Author,Transportation,5
+184,http://data.globalchange.gov/person/990,"Miller, Stephen E.",Lead Author,Hawai'i and U.S. Affiliated Pacific Islands,23
+185,http://data.globalchange.gov/person/865,"Molnar, Joseph",Lead Author,Rural Communities,14
+186,http://data.globalchange.gov/person/870,"Morton, Lois Wright",Lead Author,Rural Communities,14
+187,http://data.globalchange.gov/person/896,"Moser, Susanne",Convening Lead Author,Coastal Zone Development and Ecosystems,25
+188,http://data.globalchange.gov/person/896,"Moser, Susanne",Lead Author,Sustained Assessment: A New Vision for Future U.S. Assessments,30
+189,http://data.globalchange.gov/person/833,"Moss, Richard",Convening Lead Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
+190,http://data.globalchange.gov/person/847,"Mote, Philip W.",Convening Lead Author,Northwest,21
+191,http://data.globalchange.gov/person/984,"Mulvaney, Peter",Lead Author,Coastal Zone Development and Ecosystems,25
+192,http://data.globalchange.gov/person/1011,"Murley, James F.",Lead Author,Southeast and the Caribbean,17
+193,http://data.globalchange.gov/person/1011,"Murley, James F.",Lead Author,Coastal Zone Development and Ecosystems,25
+194,http://data.globalchange.gov/person/968,"Neumann, James E.",Lead Author,Coastal Zone Development and Ecosystems,25
+195,http://data.globalchange.gov/person/987,"Newell, Richard G.",Lead Author,Energy Supply and Use,4
+196,http://data.globalchange.gov/person/880,"Newmark, Robin",Lead Author,"Energy, Water, and Land Use",10
+197,http://data.globalchange.gov/person/827,"Nordstrom, Rolf",Lead Author,Midwest,18
+198,http://data.globalchange.gov/person/863,"Obeysekera, Jayantha",Lead Author,Southeast and the Caribbean,17
+199,http://data.globalchange.gov/person/884,"Ojima, Dennis",Convening Lead Author,Great Plains,19
+200,http://data.globalchange.gov/person/1001,"Orbach, Michael",Lead Author,Oceans and Marine Resources,24
+201,http://data.globalchange.gov/person/906,"Oster, Clinton",Lead Author,Transportation,5
+202,http://data.globalchange.gov/person/940,"Ostfeld, Richard",Contributing Author,Human Health,9
+203,http://data.globalchange.gov/person/869,"Patton, Lindene",Contributing Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
+204,http://data.globalchange.gov/person/824,"Patz, Jonathan",Lead Author,Midwest,18
+205,http://data.globalchange.gov/person/1012,"Peters-Lidard, Christa",Lead Author,Water Resources,3
+206,http://data.globalchange.gov/person/988,"Petersen, Alexander Sascha",Lead Author,Great Plains,19
+207,http://data.globalchange.gov/person/975,"Petes, Laura",Lead Author,Coastal Zone Development and Ecosystems,25
+208,http://data.globalchange.gov/person/948,"Piechota, Thomas",Lead Author,Southwest,20
+209,http://data.globalchange.gov/person/969,"Polovina, Jeffrey",Lead Author,Hawai'i and U.S. Affiliated Pacific Islands,23
+210,http://data.globalchange.gov/person/838,"Polsky, Colin",Convening Lead Author,Land Use and Land Cover Change,13
+211,http://data.globalchange.gov/person/921,"Posey, John",Lead Author,Transportation,5
+212,http://data.globalchange.gov/person/821,"Pryor, Sara C.",Convening Lead Author,Midwest,18
+213,http://data.globalchange.gov/person/939,"Raymondi, Richard",Lead Author,Northwest,21
+214,http://data.globalchange.gov/person/1015,"Reckhow, Ken",Lead Author,Water Resources,3
+215,http://data.globalchange.gov/person/962,"Reed, Denise",Lead Author,Coastal Zone Development and Ecosystems,25
+216,http://data.globalchange.gov/person/946,"Reeder, Spencer",Lead Author,Northwest,21
+217,http://data.globalchange.gov/person/986,"Richels, Rich",Lead Author,Energy Supply and Use,4
+218,http://data.globalchange.gov/person/1017,"Richmond, Terese (T.C.)",Lead Author,Water Resources,3
+219,http://data.globalchange.gov/person/1017,"Richmond, Terese (T.C.)",Editor,Appendix 6: Topics for Consideration in Future Assessments,36
+220,http://data.globalchange.gov/person/1017,"Richmond, Terese (T.C.)",Editor,Appendix 1: Report Development Process,31
+221,http://data.globalchange.gov/person/1017,"Richmond, Terese (T.C.)",Editor,Appendix 2: Information Quality Assurance Process,32
+222,http://data.globalchange.gov/person/1017,"Richmond, Terese (T.C.)",Editor,Appendix 5: Scenarios and Models,35
+223,http://data.globalchange.gov/person/1017,"Richmond, Terese (T.C.)",Editor,Overview and Report Findings,1
+224,http://data.globalchange.gov/person/823,"Robertson, G. Philip",Lead Author,Midwest,18
+225,http://data.globalchange.gov/person/881,"Rose, Steven",Lead Author,"Energy, Water, and Land Use",10
+226,http://data.globalchange.gov/person/953,"Rosenberg, Andrew A.",Convening Lead Author,Oceans and Marine Resources,24
+227,http://data.globalchange.gov/person/999,"Ruckelshaus, Mary",Lead Author,Oceans and Marine Resources,24
+228,http://data.globalchange.gov/person/1067,"Ruffo, Susan",Lead Author,Adaptation,28
+229,http://data.globalchange.gov/person/849,"Running, Steven",Convening Lead Author,Forests,7
+230,http://data.globalchange.gov/person/1061,"Russell, Lynn",Contributing Author,Mitigation,27
+231,http://data.globalchange.gov/person/911,"Russo, Edmond J.",Lead Author,Transportation,5
+232,http://data.globalchange.gov/person/927,"Ruth, Matthias",Lead Author,Northeast,16
+233,http://data.globalchange.gov/person/927,"Ruth, Matthias",Lead Author,"Urban Systems, Infrastructure, and Vulnerability",11
+234,http://data.globalchange.gov/person/901,"Rypinski, Arthur",Lead Author,Transportation,5
+235,http://data.globalchange.gov/person/936,"Sampson, R. Neil",Lead Author,Forests,7
+236,http://data.globalchange.gov/person/2867,"Scanlon, Bridget",Lead Author,Great Plains,19
+237,http://data.globalchange.gov/person/1051,"Scarlett, P. Lynn",Convening Lead Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
+238,http://data.globalchange.gov/person/820,"Scavia, Donald",Convening Lead Author,Midwest,18
+239,http://data.globalchange.gov/person/1057,"Schimel, David",Lead Author,Mitigation,27
+240,http://data.globalchange.gov/person/836,"Schlesinger, William H.",Convening Lead Author,Biogeochemical Cycles,15
+241,http://data.globalchange.gov/person/875,"Schramm, Paul",Lead Author,Southeast and the Caribbean,17
+242,http://data.globalchange.gov/person/843,"Schwartz, Henry",Convening Lead Author,Transportation,5
+243,http://data.globalchange.gov/person/977,"Serreze, Mark",Lead Author,Alaska,22
+244,http://data.globalchange.gov/person/1071,"Seyller, Emily",Contributing Author,Adaptation,28
+245,http://data.globalchange.gov/person/890,"Shafer, Mark",Convening Lead Author,Great Plains,19
+246,http://data.globalchange.gov/person/964,"Shea, Eileen",Lead Author,Hawai'i and U.S. Affiliated Pacific Islands,23
+247,http://data.globalchange.gov/person/932,"Sheats, Nicky",Lead Author,Human Health,9
+248,http://data.globalchange.gov/person/973,"Sherman, Kathleen",Lead Author,Great Plains,19
+249,http://data.globalchange.gov/person/859,"Shevliakova, Elena",Lead Author,"Energy, Water, and Land Use",10
+250,http://data.globalchange.gov/person/1065,"Smith, Joel",Convening Lead Author,Adaptation,28
+251,http://data.globalchange.gov/person/938,"Smyth, Rebecca",Lead Author,Southwest,20
+252,http://data.globalchange.gov/person/837,"Snover, Amy K.",Convening Lead Author,Northwest,21
+253,http://data.globalchange.gov/person/902,"Sohngen, Brent",Lead Author,Forests,7
+254,http://data.globalchange.gov/person/851,"Solecki, William",Convening Lead Author,"Urban Systems, Infrastructure, and Vulnerability",11
+255,http://data.globalchange.gov/person/1028,"Somerville, Richard",Contributing Author,Our Changing Climate,2
+256,http://data.globalchange.gov/person/1028,"Somerville, Richard",Contributing Author,Appendix 3: Climate Science Supplement,33
+257,http://data.globalchange.gov/person/1028,"Somerville, Richard",Contributing Author,Appendix 4: Frequently Asked Questions,34
+258,http://data.globalchange.gov/person/961,"Spooner, Deanna",Contributing Author,Hawai'i and U.S. Affiliated Pacific Islands,23
+259,http://data.globalchange.gov/person/1020,"Stephens, Graeme",Lead Author,Our Changing Climate,2
+260,http://data.globalchange.gov/person/1020,"Stephens, Graeme",Lead Author,Appendix 3: Climate Science Supplement,33
+261,http://data.globalchange.gov/person/1020,"Stephens, Graeme",Lead Author,Appendix 4: Frequently Asked Questions,34
+262,http://data.globalchange.gov/person/1069,"Stults, Missy",Contributing Author,Adaptation,28
+263,http://data.globalchange.gov/person/912,"Sussman, Edna",Lead Author,Northeast,16
+264,http://data.globalchange.gov/person/954,"Takle, Gene",Convening Lead Author,Agriculture,6
+265,http://data.globalchange.gov/person/966,"Tallis, Heather",Lead Author,"Ecosystems, Biodiversity, and Ecosystem Services",8
+266,http://data.globalchange.gov/person/899,"Thomson, Allison",Lead Author,Land Use and Land Cover Change,13
+267,http://data.globalchange.gov/person/1027,"Thorne, Peter",Lead Author,Appendix 3: Climate Science Supplement,33
+268,http://data.globalchange.gov/person/1027,"Thorne, Peter",Lead Author,Our Changing Climate,2
+269,http://data.globalchange.gov/person/1027,"Thorne, Peter",Lead Author,Appendix 4: Frequently Asked Questions,34
+270,http://data.globalchange.gov/person/876,"Thornton, Peter E.",Lead Author,Biogeochemical Cycles,15
+271,http://data.globalchange.gov/person/882,"Tidwell, Vincent",Lead Author,"Energy, Water, and Land Use",10
+272,http://data.globalchange.gov/person/895,"Tierney, Susan",Convening Lead Author,Energy Supply and Use,4
+273,http://data.globalchange.gov/person/852,"Townsend, Alan",Lead Author,Biogeochemical Cycles,15
+274,http://data.globalchange.gov/person/894,"Trainor, Sarah F.",Convening Lead Author,Alaska,22
+275,http://data.globalchange.gov/person/871,"Vasquez, Marcela",Lead Author,Rural Communities,14
+276,http://data.globalchange.gov/person/1070,"Verduzco, Laura",Contributing Author,Adaptation,28
+277,http://data.globalchange.gov/person/965,"Voggesser, Garrit",Lead Author,"Indigenous Peoples, Lands, and Resources",12
+278,http://data.globalchange.gov/person/2802,"Vose, Russell S.",Lead Author,Our Changing Climate,2
+279,http://data.globalchange.gov/person/2802,"Vose, Russell S.",Lead Author,Appendix 3: Climate Science Supplement,33
+280,http://data.globalchange.gov/person/2802,"Vose, Russell S.",Lead Author,Appendix 4: Frequently Asked Questions,34
+281,http://data.globalchange.gov/person/1009,"Walsh, John",Convening Lead Author,Our Changing Climate,2
+282,http://data.globalchange.gov/person/1009,"Walsh, John",Convening Lead Author,Appendix 4: Frequently Asked Questions,34
+283,http://data.globalchange.gov/person/1009,"Walsh, John",Convening Lead Author,Appendix 3: Climate Science Supplement,33
+284,http://data.globalchange.gov/person/1050,"Wang, Bin",Contributing Author,Hawai'i and U.S. Affiliated Pacific Islands,23
+285,http://data.globalchange.gov/person/1075,"Waple, Anne M.",Lead Author,Sustained Assessment: A New Vision for Future U.S. Assessments,30
+286,http://data.globalchange.gov/person/937,"Waskom, Reagan",Lead Author,Southwest,20
+287,http://data.globalchange.gov/person/858,"Wear, David",Lead Author,Southeast and the Caribbean,17
+288,http://data.globalchange.gov/person/1026,"Wehner, Michael",Lead Author,Appendix 3: Climate Science Supplement,33
+289,http://data.globalchange.gov/person/1026,"Wehner, Michael",Lead Author,Our Changing Climate,2
+290,http://data.globalchange.gov/person/1026,"Wehner, Michael",Lead Author,Appendix 4: Frequently Asked Questions,34
+291,http://data.globalchange.gov/person/1062,"West, Jason",Contributing Author,Mitigation,27
+292,http://data.globalchange.gov/person/4015,"Weyant, John P.",Lead Author,Energy Supply and Use,4
+293,http://data.globalchange.gov/person/898,"Whelchel, Adam",Lead Author,Northeast,16
+294,http://data.globalchange.gov/person/1014,"White, Kathleen",Lead Author,Water Resources,3
+295,http://data.globalchange.gov/person/904,"Wiedinmyer, Christine",Contributing Author,Human Health,9
+296,http://data.globalchange.gov/person/950,"Wilbanks, Thomas J.",Lead Author,"Urban Systems, Infrastructure, and Vulnerability",11
+297,http://data.globalchange.gov/person/950,"Wilbanks, Thomas J.",Lead Author,Energy Supply and Use,4
+298,http://data.globalchange.gov/person/853,"Williams, B. Ken",Lead Author,"Decision Support: Connecting Science, Risk Perception, and Decisions",26
+299,http://data.globalchange.gov/person/1023,"Willis, Josh",Lead Author,Appendix 4: Frequently Asked Questions,34
+300,http://data.globalchange.gov/person/1023,"Willis, Josh",Lead Author,Our Changing Climate,2
+301,http://data.globalchange.gov/person/1023,"Willis, Josh",Lead Author,Appendix 3: Climate Science Supplement,33
+302,http://data.globalchange.gov/person/834,"Wilson, Tom",Convening Lead Author,"Energy, Water, and Land Use",10
+303,http://data.globalchange.gov/person/1058,"Wing, Ian Sue",Lead Author,Mitigation,27
+304,http://data.globalchange.gov/person/3042,"Wolfe, David W.",Lead Author,Northeast,16
+305,http://data.globalchange.gov/person/905,"Woodall, Christopher",Lead Author,Forests,7
+306,http://data.globalchange.gov/person/991,"Wotkyns, Susan",Lead Author,"Indigenous Peoples, Lands, and Resources",12
+307,http://data.globalchange.gov/person/1008,"Wuebbles, Donald",Convening Lead Author,Our Changing Climate,2
+308,http://data.globalchange.gov/person/1008,"Wuebbles, Donald",Convening Lead Author,Appendix 4: Frequently Asked Questions,34
+309,http://data.globalchange.gov/person/1008,"Wuebbles, Donald",Convening Lead Author,Appendix 3: Climate Science Supplement,33
+310,http://data.globalchange.gov/person/1013,"Yates, David",Lead Author,Water Resources,3
+311,http://data.globalchange.gov/person/840,"Yohe, Gary",Editor,Appendix 2: Information Quality Assurance Process,32
+312,http://data.globalchange.gov/person/840,"Yohe, Gary",Editor,Overview and Report Findings,1
+313,http://data.globalchange.gov/person/840,"Yohe, Gary",Convening Lead Author,Northeast,16
+314,http://data.globalchange.gov/person/840,"Yohe, Gary",Editor,Appendix 1: Report Development Process,31
+315,http://data.globalchange.gov/person/840,"Yohe, Gary",Editor,Appendix 6: Topics for Consideration in Future Assessments,36
+316,http://data.globalchange.gov/person/840,"Yohe, Gary",Editor,Appendix 5: Scenarios and Models,35
+317,http://data.globalchange.gov/person/914,"Zielinski-Gutiérrez, Emily",Contributing Author,Human Health,9
+318,http://data.globalchange.gov/person/923,"Ziska, Lewis",Contributing Author,Human Health,9
+319,http://data.globalchange.gov/person/1056,"de la Chesnaye, Francisco",Lead Author,Mitigation,27
