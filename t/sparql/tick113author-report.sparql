@@ -13,7 +13,7 @@ SELECT DISTINCT
 	CONCAT(str(?ln), ", ", str(?gn)) as ?Name 
 	str(?rlabel) as ?Role
   str(?cht) as ?ChapterName
-	str(?cn) as ?ChapterNumber
+	?cn as ?ChapterNumber
 FROM <http://data.globalchange.gov>
 WHERE {
   <http://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter .
@@ -23,4 +23,5 @@ WHERE {
   ?role rdfs:label ?rlabel .
   ?author foaf:givenName ?gn .
   ?author foaf:lastName ?ln
-} group by ?author order by ?Name
+} group by ?author
+  order by ?ChapterNumber
