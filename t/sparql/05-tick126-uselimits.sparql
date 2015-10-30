@@ -1,0 +1,11 @@
+PREFIX gcis: <http://data.globalchange.gov/gcis.owl#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+select ?figure from <http://data.globalchange.gov> where {
+   ?s a gcis:Report .
+   ?s dcterms:title "Climate Change Impacts in the United States: The Third National Climate Assessment"^^xsd:string .
+   ?s gcis:hasFigure ?figure .
+   ?figure dcterms:rights [ rdf:value "Free to use with credit to the original figure source."^^xsd:string; ]
+}
