@@ -1,0 +1,36 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix gcis: <http://data.globalchange.gov/gcis.owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<https://data-stage.globalchange.gov/person/4313>
+   dcterms:identifier "4313";
+   vivo:orcidId "0000-0003-3541-2470";
+   foaf:givenName "Diana"^^xsd:string;
+   foaf:lastName "Allen"^^xsd:string;
+   foaf:page "http://www.sfu.ca/personal/dallen/"^^xsd:anyURI;
+   
+   a gcis:Person .
+
+## Publications in GCIS are related to this person as follows 
+<https://data-stage.globalchange.gov/article/10.1016/j.jhydrol.2006.08.005>
+   a gcis:Article;
+   prov:qualifiedAttribution [
+      a prov:Attribution;
+      prov:agent <https://data-stage.globalchange.gov/person/4313>;
+      prov:actedOnBehalfOf <https://data-stage.globalchange.gov/organization/simon-fraser-university-department-earth-sciences>;
+      prov:hadRole <https://data-stage.globalchange.gov/role_type/author>;
+   ] 
+.
+
+<https://data-stage.globalchange.gov/article/10.1038/nclimate1744>
+   a gcis:Article;
+   prov:qualifiedAttribution [
+      a prov:Attribution;
+      prov:agent <https://data-stage.globalchange.gov/person/4313>;
+      prov:actedOnBehalfOf <https://data-stage.globalchange.gov/organization/simon-fraser-university-department-earth-sciences>;
+      prov:hadRole <https://data-stage.globalchange.gov/role_type/author>;
+   ] 
+.
