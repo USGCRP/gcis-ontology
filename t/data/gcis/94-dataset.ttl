@@ -30,8 +30,8 @@ dcterms:spatial [
   ] ;
 dcterms:temporal [
     a dcterms:PeriodOfTime, gcis:TemporalExtent;
-    gcis:startDate "1987-07-09T00:00:00"^^xsd:date;
-    gcis:endDate "2014-12-31T00:00:00"^^xsd:date;
+    gcis:startDate "1987-07-09T00:00:00"^^xsd:dateTime;
+    gcis:endDate "2014-12-31T00:00:00"^^xsd:dateTime;
   ] ;
 
 ## Attributes and keywords
