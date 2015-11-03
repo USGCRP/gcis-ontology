@@ -33,7 +33,7 @@ bail_out() {
 }
 
 cmp_file() {
-   if diff -Z $1 $2 > /tmp/errs;
+   if diff -w $1 $2 > /tmp/errs;
         then ok $3
    else
          not_ok $3;
