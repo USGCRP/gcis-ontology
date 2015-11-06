@@ -1,0 +1,29 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix gcis: <http://data.globalchange.gov/gcis.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix biro: <http://purl.org/spar/biro/> .
+
+<https://data-stage.globalchange.gov/article/10.1002/grl.50108>   
+   dcterms:identifier "10.1002/grl.50108";
+   dcterms:title "Irrigation in California's Central Valley strengthens the southwestern U.S. water cycle"^^xsd:string;
+   dcterms:isPartOf <https://data-stage.globalchange.gov/journal/geophysical-research-letters>;
+   bibo:volume "40";
+   bibo:pages "301-306";
+   dbpprop:pubYear "2013"^^xsd:gYear;
+   bibo:doi "10.1002/grl.50108";
+
+   a gcis:AcademicArticle, fabio:Article .
+
+## This article is cited by the following entities in GCIS:
+
+<https://data-stage.globalchange.gov/article/10.1002/grl.50108>
+   cito:isCitedBy <https://data-stage.globalchange.gov/report/nca3/chapter/our-changing-climate>;
+   biro:isReferencedBy <https://data-stage.globalchange.gov/reference/df10b654-c26a-48fb-96b8-cd2a1e0a85da>.
+
+<https://data-stage.globalchange.gov/article/10.1002/grl.50108>
+   cito:isCitedBy <https://data-stage.globalchange.gov/report/nca3>;
+   biro:isReferencedBy <https://data-stage.globalchange.gov/reference/df10b654-c26a-48fb-96b8-cd2a1e0a85da>.

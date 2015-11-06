@@ -1,0 +1,49 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix gcis: <http://data.globalchange.gov/gcis.owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://data-stage.globalchange.gov/instrument/advanced-microwave-sounding-unit-a>
+   dcterms:identifier "advanced-microwave-sounding-unit-a";
+   dcterms:title "Advanced Microwave Sounding Unit-A"^^xsd:string;
+   gcis:inPlatform <https://data-stage.globalchange.gov/platform/meteorological-operational-polar-satellite-a>;
+   gcis:inPlatform <https://data-stage.globalchange.gov/platform/meteorological-operational-polar-satellite-b>;
+   gcis:inPlatform <https://data-stage.globalchange.gov/platform/national-oceanic-and-atmospheric-administration-17>;
+   gcis:inPlatform <https://data-stage.globalchange.gov/platform/national-oceanic-and-atmospheric-administration-15>;
+   gcis:inPlatform <https://data-stage.globalchange.gov/platform/national-oceanic-and-atmospheric-administration-16>;
+   gcis:inPlatform <https://data-stage.globalchange.gov/platform/national-oceanic-and-atmospheric-administration-18>;
+   dcterms:description "Absorption-band MW radiometer/spectrometer"^^xsd:string;
+   a gcis:InstrumentType .
+
+## This entity was produced by an organization:     
+<https://data-stage.globalchange.gov/instrument/advanced-microwave-sounding-unit-a>    
+   prov:qualifiedAttribution [
+      a prov:Attribution;
+      prov:agent <https://data-stage.globalchange.gov/organization/national-oceanic-atmospheric-administration>;
+      prov:hadRole <https://data-stage.globalchange.gov/role_type/contributor>;
+      ] .
+
+## This entity was produced by an organization:     
+<https://data-stage.globalchange.gov/instrument/advanced-microwave-sounding-unit-a>    
+   prov:qualifiedAttribution [
+      a prov:Attribution;
+      prov:agent <https://data-stage.globalchange.gov/organization/uk-space-agency>;
+      prov:hadRole <https://data-stage.globalchange.gov/role_type/contributor>;
+      ] .
+
+
+## Also known as:
+<https://data-stage.globalchange.gov/instrument/advanced-microwave-sounding-unit-a>
+   skos:prefLabel "312";
+   gcis:hasURL "http://database.eohandbook.com/database/instrumentsummary.aspx?instrumentID=312";
+   skos:exactMatch <https://data-stage.globalchange.gov/lexicon/ceos/instrumentID/312> .
+<https://data-stage.globalchange.gov/instrument/advanced-microwave-sounding-unit-a>
+   skos:prefLabel "AMSU-A";
+   gcis:hasURL "http://database.eohandbook.com/database/instrumentindex.aspx#A";
+   skos:exactMatch <https://data-stage.globalchange.gov/lexicon/ceos/Instrument/AMSU-A> .
+<https://data-stage.globalchange.gov/instrument/advanced-microwave-sounding-unit-a>
+   skos:prefLabel "Advanced_Microwave_Sounding_Unit";
+   gcis:hasURL "http://wikipedia.org/wiki/Advanced_Microwave_Sounding_Unit";
+   owl:sameAs <http://dbpedia.org/resource/Advanced_Microwave_Sounding_Unit>;
+   skos:exactMatch <https://data-stage.globalchange.gov/lexicon/dbpedia/resource/Advanced_Microwave_Sounding_Unit> .

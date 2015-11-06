@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gcis: <http://data.globalchange.gov/gcis.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix biro: <http://purl.org/spar/biro/> .
+
+<https://data-stage.globalchange.gov/book/0468171f-af68-46e7-a072-2c1a1a8d4a78>
+   dcterms:identifier "0468171f-af68-46e7-a072-2c1a1a8d4a78";
+   dcterms:title "Vulnerability of Tropical Pacific Fisheries and Aquaculture to Climate Change"^^xsd:string;
+   dbpprop:pubYear "2011"^^xsd:gYear;
+   bibo:isbn "9789820004719";
+   bibo:numPages "925"^^xsd:integer;
+   gcis:hasPublisher "Secretariat of the Pacific Community"^^xsd:string;
+
+   a gcis:Book, fabio:Book .
+
+<https://data-stage.globalchange.gov/book/0468171f-af68-46e7-a072-2c1a1a8d4a78>
+   cito:isCitedBy <https://data-stage.globalchange.gov/report/nca3/chapter/hawaii>;
+   biro:isReferencedBy <https://data-stage.globalchange.gov/reference/1f38f63f-a854-44c5-8ebe-b8ec718bdf70>.
+
+<https://data-stage.globalchange.gov/book/0468171f-af68-46e7-a072-2c1a1a8d4a78>
+   cito:isCitedBy <https://data-stage.globalchange.gov/report/nca3/chapter/hawaii>;
+   biro:isReferencedBy <https://data-stage.globalchange.gov/reference/05b4968a-410a-43f0-b668-b96c5af0373c>.
+
+<https://data-stage.globalchange.gov/book/0468171f-af68-46e7-a072-2c1a1a8d4a78>
+   cito:isCitedBy <https://data-stage.globalchange.gov/report/nca3/chapter/hawaii>;
+   biro:isReferencedBy <https://data-stage.globalchange.gov/reference/b15aa22b-b2d8-4d25-be84-627aa08ea6d3>.
+
+<https://data-stage.globalchange.gov/book/0468171f-af68-46e7-a072-2c1a1a8d4a78>
+   cito:isCitedBy <https://data-stage.globalchange.gov/report/nca3/chapter/hawaii>;
+   biro:isReferencedBy <https://data-stage.globalchange.gov/reference/5ce6ec0e-66c4-46dc-b878-f35f65be19f2>.
+
+<https://data-stage.globalchange.gov/book/0468171f-af68-46e7-a072-2c1a1a8d4a78>
+   cito:isCitedBy <https://data-stage.globalchange.gov/report/nca3/chapter/hawaii/finding/ocean-warming-acidity-affect-fish>;
+   biro:isReferencedBy <https://data-stage.globalchange.gov/reference/1f38f63f-a854-44c5-8ebe-b8ec718bdf70>.
+
+<https://data-stage.globalchange.gov/book/0468171f-af68-46e7-a072-2c1a1a8d4a78>
+   cito:isCitedBy <https://data-stage.globalchange.gov/report/nca3/chapter/hawaii/finding/ocean-warming-acidity-affect-fish>;
+   biro:isReferencedBy <https://data-stage.globalchange.gov/reference/05b4968a-410a-43f0-b668-b96c5af0373c>.
+
+<https://data-stage.globalchange.gov/book/0468171f-af68-46e7-a072-2c1a1a8d4a78>
+   cito:isCitedBy <https://data-stage.globalchange.gov/report/nca3>;
+   biro:isReferencedBy <https://data-stage.globalchange.gov/reference/5ce6ec0e-66c4-46dc-b878-f35f65be19f2>.
+
+<https://data-stage.globalchange.gov/book/0468171f-af68-46e7-a072-2c1a1a8d4a78>
+   cito:isCitedBy <https://data-stage.globalchange.gov/report/nca3>;
+   biro:isReferencedBy <https://data-stage.globalchange.gov/reference/b15aa22b-b2d8-4d25-be84-627aa08ea6d3>.
+
+<https://data-stage.globalchange.gov/book/0468171f-af68-46e7-a072-2c1a1a8d4a78>
+   cito:isCitedBy <https://data-stage.globalchange.gov/report/nca3>;
+   biro:isReferencedBy <https://data-stage.globalchange.gov/reference/05b4968a-410a-43f0-b668-b96c5af0373c>.
+
+<https://data-stage.globalchange.gov/book/0468171f-af68-46e7-a072-2c1a1a8d4a78>
+   cito:isCitedBy <https://data-stage.globalchange.gov/report/nca3>;
+   biro:isReferencedBy <https://data-stage.globalchange.gov/reference/1f38f63f-a854-44c5-8ebe-b8ec718bdf70>.

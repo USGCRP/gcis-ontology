@@ -1,0 +1,36 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix gcis: <http://data.globalchange.gov/gcis.owl#> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix place: <http://purl.org/ontology/places#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<https://data-stage.globalchange.gov/organization/american-university-department-anthropology>
+   dcterms:identifier "american-university-department-anthropology";
+   skos:prefLabel "American University Department of Anthropoiogy"^^xsd:string;
+   gcis:hasURL "http://www.american.edu/cas/anthropology/"^^xsd:anyURI;
+   dbpprop:organizationType "academic";
+
+   a gcis:Organization .
+
+
+## This organization is related to one or more others as follows:
+<https://data-stage.globalchange.gov/organization/american-university-department-anthropology>
+   org:linkedto <https://data-stage.globalchange.gov/organization/american-university>.
+
+ 
+
+## People and Publications:
+       
+
+<https://data-stage.globalchange.gov/article/10.1007/s10584-013-0746-z>
+   a gcis:Article;
+   prov:qualifiedAttribution [
+      a prov:Attribution;
+      prov:agent <https://data-stage.globalchange.gov/person/1044>;
+      prov:actedOnBehalfOf <https://data-stage.globalchange.gov/organization/american-university-department-anthropology>;
+      prov:hadRole <https://data-stage.globalchange.gov/role_type/author>;
+   ] ;
+.

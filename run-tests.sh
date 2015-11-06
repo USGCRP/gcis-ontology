@@ -1,5 +1,5 @@
 #!/bin/bash -e
-
+echo "here";
 status=0
 
 n=1

@@ -1,0 +1,79 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix gcis: <http://data.globalchange.gov/gcis.owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://data-stage.globalchange.gov/platform/terra>
+   dcterms:identifier "terra";
+   dcterms:title "Terra (formerly EOS AM-1)"^^xsd:string;
+   dcterms:description "Terra (formerly known as EOS/AM-1) is a joint Earth observing mission within NASA's ESE (Earth Science Enterprise) program between the United States, Japan, and Canada. The US provided the spacecraft, the launch, and three instruments developed by NASA (CERES, MISR, MODIS). Japan provided ASTER and Canada MOPITT. The Terra spacecraft is considered the flagship of NASA's EOS (Earth Observing Satellite) program. In February 1999, the EOS/AM-1 satellite was renamed by NASA to “Terra”. "^^xsd:string;
+   dcterms:source "https://directory.eoportal.org/web/eoportal/satellite-missions/t/terra";
+   dcterms:type "spacecraft";
+   dbpprop:launchDate "1999-12-18T00:00:00"^^xsd:dateTime;
+   dbpprop:deactivated "2015-10-01T00:00:00"^^xsd:dateTime;
+   gcis:hasInstrument <https://data-stage.globalchange.gov/instrument/cloud-and-the-earths-radiant-energy-system>;
+   gcis:hasInstrument <https://data-stage.globalchange.gov/instrument/advanced-spaceborne-thermal-emission-and-reflection-radiometer>;
+   gcis:hasInstrument <https://data-stage.globalchange.gov/instrument/multi-angle-imaging-spectroradiometer>;
+   gcis:hasInstrument <https://data-stage.globalchange.gov/instrument/moderate-resolution-imaging-spectroradiometer>;
+   gcis:hasInstrument <https://data-stage.globalchange.gov/instrument/measurements-of-pollution-in-the-troposphere>;
+
+   a gcis:Platform .
+
+## This entity was produced by an organization:     
+<https://data-stage.globalchange.gov/platform/terra>    
+   prov:qualifiedAttribution [
+      a prov:Attribution;
+      prov:agent <https://data-stage.globalchange.gov/organization/national-aeronautics-space-administration>;
+      prov:hadRole <https://data-stage.globalchange.gov/role_type/contributor>;
+      ] .
+
+## This entity was produced by an organization:     
+<https://data-stage.globalchange.gov/platform/terra>    
+   prov:qualifiedAttribution [
+      a prov:Attribution;
+      prov:agent <https://data-stage.globalchange.gov/organization/ministry-economy-trade-industry>;
+      prov:hadRole <https://data-stage.globalchange.gov/role_type/contributor>;
+      ] .
+
+## This entity was produced by an organization:     
+<https://data-stage.globalchange.gov/platform/terra>    
+   prov:qualifiedAttribution [
+      a prov:Attribution;
+      prov:agent <https://data-stage.globalchange.gov/organization/canadian-space-agency>;
+      prov:hadRole <https://data-stage.globalchange.gov/role_type/contributor>;
+      ] .
+
+
+## Also known as:
+<https://data-stage.globalchange.gov/platform/terra>
+   skos:prefLabel "204";
+   gcis:hasURL "http://database.eohandbook.com/database/missionsummary.aspx?missionID=204";
+   skos:exactMatch <https://data-stage.globalchange.gov/lexicon/ceos/missionID/204> .
+<https://data-stage.globalchange.gov/platform/terra>
+   skos:prefLabel "Terra";
+   gcis:hasURL "http://database.eohandbook.com/database/missionindex.aspx#T";
+   skos:exactMatch <https://data-stage.globalchange.gov/lexicon/ceos/Mission/Terra> .
+<https://data-stage.globalchange.gov/platform/terra>
+   skos:prefLabel "Terra_%28satellite%29";
+   gcis:hasURL "http://wikipedia.org/wiki/Terra_%28satellite%29";
+   owl:sameAs <http://dbpedia.org/resource/Terra_%28satellite%29>;
+   skos:exactMatch <https://data-stage.globalchange.gov/lexicon/dbpedia/resource/Terra_(satellite)> .
+<https://data-stage.globalchange.gov/platform/terra>
+   skos:prefLabel "TERRA";
+   skos:exactMatch <https://data-stage.globalchange.gov/lexicon/nsidc/Source/TERRA> .
+<https://data-stage.globalchange.gov/platform/terra>
+   skos:prefLabel "ÂTERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)";
+   skos:exactMatch <https://data-stage.globalchange.gov/lexicon/ornl/Source/%C2%95TERRA%20(MORNING%20EQUATORIAL%20CROSSING%20TIME%20SATELLITE)> .
+<https://data-stage.globalchange.gov/platform/terra>
+   skos:prefLabel "TERRA";
+   skos:exactMatch <https://data-stage.globalchange.gov/lexicon/ornl/Source/TERRA> .
+<https://data-stage.globalchange.gov/platform/terra>
+   skos:prefLabel "TERRA (MORNING EQUATORIAL CROSSING TIME SATELLITE)";
+   skos:exactMatch <https://data-stage.globalchange.gov/lexicon/ornl/Source/TERRA%20(MORNING%20EQUATORIAL%20CROSSING%20TIME%20SATELLITE)> .
+<https://data-stage.globalchange.gov/platform/terra>
+   skos:prefLabel "TERRA";
+   gcis:hasURL "http://podaac.jpl.nasa.gov/datasetlist?ids=Platform&values=TERRA";
+   skos:exactMatch <https://data-stage.globalchange.gov/lexicon/podaac/Platform/TERRA> .
