@@ -56,6 +56,9 @@ for i in ./sparql/*.sparql; do
     base=`basename $i .sparql`
 
     # Concatenate.
+    echo "debugging"
+    cat ./data/$base.ttl
+    
     if [ -e ./data/$base.ttl ]; then
         cp ../gcis.ttl /tmp/triples.ttl
         cat ./data/$base.ttl >> /tmp/triples.ttl
