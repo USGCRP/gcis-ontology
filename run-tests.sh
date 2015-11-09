@@ -56,7 +56,7 @@ for i in ./sparql/*.sparql; do
     base=`basename $i .sparql`
 
     # Concatenate.
-    if [ -e ./data/$base.ttl' ]; then
+    if [ -e ./data/$base.ttl ]; then
         find t/data -name './data/$base.ttl' | xargs cat ./data/gcis.ttl > /tmp/triples.ttl
     else
         not_ok "missing data/$base.txt"
