@@ -7,7 +7,7 @@
 @prefix biro: <http://purl.org/spar/biro/> .
 @prefix cito: <http://purl.org/spar/cito/> .
 
-<http://data.globalchange.gov/report/nca3>
+<http://data.globalchange.gov/report/soccer>
    dcterms:identifier "soccer";
    dcterms:title "scouting report"^^xsd:string;
    dwc:year "2015"^^xsd:gYear;
