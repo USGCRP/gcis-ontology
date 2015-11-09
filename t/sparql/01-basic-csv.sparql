@@ -3,6 +3,6 @@ PREFIX dwc: <http://rs.tdwg.org/dwc/terms/>
 
 SELECT ?s ?y
  {
-     ?s dcterms:identifier "nca3" .
+     ?s dcterms:identifier "soccer" .
      ?s dwc:year ?y
  }
