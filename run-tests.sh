@@ -50,13 +50,19 @@ else
     ok "valid gcis.ttl"
 fi
 
-# Concatenate.
-find t/data -name '*.ttl' | xargs cat ./gcis.ttl > /tmp/triples.ttl
-
 # Test.
 cd t
 for i in ./sparql/*.sparql; do
     base=`basename $i .sparql`
+
+    # Concatenate.
+    if [ -e ./data/$base.ttl' ]; then
+        find t/data -name './data/$base.ttl' | xargs cat ./data/gcis.ttl > /tmp/triples.ttl
+    else
+        not_ok "missing data/$base.txt"
+        continue
+    fi
+
     if [ -e ./results/$base.txt ]; then
         tdbquery --mem=/tmp/triples.ttl --file=$i > /tmp/$base.txt
         cmp_file /tmp/$base.txt ./results/$base.txt $base.sparql
