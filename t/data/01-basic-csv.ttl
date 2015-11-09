@@ -8,6 +8,6 @@
 @prefix cito: <http://purl.org/spar/cito/> .
 
 <http://data.globalchange.gov/report/nca3>
-   dcterms:identifier "nca3";
+   dcterms:identifier "soccer";
    dcterms:title "scouting report"^^xsd:string;
    dwc:year "2015"^^xsd:gYear;
