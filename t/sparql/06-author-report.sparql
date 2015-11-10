@@ -10,7 +10,7 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 
 SELECT DISTINCT 
   (?author as ?ContributorID)
-#   (CONCAT(str(?ln), ", ", str(?gn)) as ?Name)
+  (CONCAT(str(?ln), ", ", str(?gn)) as ?Name)
   (str(?rlabel) as ?Role)
   (str(?cht) as ?ChapterName)
   (?cn as ?ChapterNumber)
@@ -24,5 +24,5 @@ SELECT DISTINCT
   ?role rdfs:label ?rlabel .
   ?author foaf:givenName ?gn .
   ?author foaf:lastName ?ln
-} group by ?author ?rlabel ?cht ?cn
+} group by ?author ?ln ?gn ?rlabel ?cht ?cn
   order by ?cn
