@@ -3,6 +3,6 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 
 SELECT ?s
  {
-     ?s gcis:report .
+     ?s a gcis:report .
      ?s dcterms:identifier "soccer" .
  }
