@@ -5,8 +5,10 @@
    dcterms:identifier "soccer";
    dcterms:title "scouting report"^^xsd:string;
    dwc:year "2015"^^xsd:gYear;
+   a gcis:Report .
 
 <http://data.globalchange.gov/report/soccer-highlights>
    dcterms:identifier "soccer-highlights";
    dcterms:title "scouting report highlights"^^xsd:string;
    dwc:year "2015"^^xsd:gYear;
+   a gcis:Report .
