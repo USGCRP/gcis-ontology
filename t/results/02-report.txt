@@ -2,5 +2,5 @@
 | s                                                       |
 ===========================================================
 | <http://data.globalchange.gov/report/soccer>            |
-| <http://data.globalchange.gov/report/soccer-highlights> |
+| <http://data.globalchange.gov/report/soccer-highlights-1> |
 -----------------------------------------------------------
