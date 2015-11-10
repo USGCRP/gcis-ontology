@@ -1,3 +1,4 @@
+@prefix gcis: <http://data.globalchange.gov/gcis.owl#>
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 
@@ -5,3 +6,5 @@
    dcterms:identifier "soccer";
    dcterms:title "scouting report"^^xsd:string;
    dwc:year "2015"^^xsd:gYear;
+
+   a gcis:Report .
