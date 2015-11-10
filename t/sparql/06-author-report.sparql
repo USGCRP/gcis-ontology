@@ -13,7 +13,7 @@ SELECT DISTINCT
 # 	CONCAT(str(?ln), ", ", str(?gn)) as ?Name 
 # 	str(?rlabel) as ?Role
 #  str(?cht) as ?ChapterName
-  	?cn as ?ChapterNumber
+#  ?cn as ?ChapterNumber
 {
   ?report a gcis:Report .
   ?report dcterms:identifier "soccer" .
