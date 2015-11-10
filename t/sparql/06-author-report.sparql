@@ -10,10 +10,10 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 
 SELECT DISTINCT 
    (?author as ?ContributorID)
-# 	CONCAT(str(?ln), ", ", str(?gn)) as ?Name 
-# 	str(?rlabel) as ?Role
-#  str(?cht) as ?ChapterName
-#  ?cn as ?ChapterNumber
+   (CONCAT(str(?ln), ", ", str(?gn)) as ?Name)
+   (str(?rlabel) as ?Role)
+   (str(?cht) as ?ChapterName)
+   (?cn as ?ChapterNumber)
 {
   ?report a gcis:Report .
   ?report dcterms:identifier "soccer" .
