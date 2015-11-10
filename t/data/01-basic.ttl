@@ -1,6 +1,8 @@
-@prefix gcis: <http://data.globalchange.gov/gcis.owl#>
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix gcis: <http://data.globalchange.gov/gcis.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
 
 <http://data.globalchange.gov/report/soccer>
    dcterms:identifier "soccer";
