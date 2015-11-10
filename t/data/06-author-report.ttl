@@ -18,13 +18,15 @@
    dcterms:title "English Generic Names"^^xsd:string;
    gcis:hasURL "http://www.test/soccer-c2.html"^^xsd:anyURI;
    gcis:isChapterOf <http://data.globalchange.gov/report/soccer>;
-   
+   a gcis:Chapter, fabio:Chapter .
+
 <http://data.globalchange.gov/report/soccer/chapter/roadrunner-bird-characteristics>
    dcterms:identifier "roadrunner-bird-characteristics";
    gcis:chapterNumber "4"^^xsd:integer;
    dcterms:title "Roadrunner Bird Characteristics"^^xsd:string;
    gcis:hasURL "http://www.test/soccer-c4.html"^^xsd:anyURI;
    gcis:isChapterOf <http://data.globalchange.gov/report/soccer>;
+   a gcis:Chapter, fabio:Chapter .
 
 <http://data.globalchange.gov/report/soccer/chapter/english-generic-names>
    prov:qualifiedAttribution [
@@ -54,7 +56,7 @@
    foaf:page "http://www.test/uno_people/smith"^^xsd:anyURI;
    a gcis:Person .
 
-<http://data.globalchange.gov/person/0>
+<http://data.globalchange.gov/person/3>
    dcterms:identifier "3";
    foaf:givenName "Wile E."^^xsd:string;
    foaf:lastName "Coyote"^^xsd:string;
