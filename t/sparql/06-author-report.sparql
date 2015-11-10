@@ -11,7 +11,7 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 SELECT DISTINCT
   ?ContributorID ?Name ?Role ?ChapterName ?ChapterNumber
 WHERE {
-  <http://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter .
+  <http://data.globalchange.gov/report/main-one> gcis:hasChapter ?chapter .
   ?chapter dcterms:title ?cht .
   ?chapter gcis:chapterNumber ?cn .
   ?chapter prov:qualifiedAttribution [ prov:hadRole ?role ; prov:agent ?author ] .
