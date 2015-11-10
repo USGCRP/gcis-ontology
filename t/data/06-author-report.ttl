@@ -10,6 +10,8 @@
    dbpprop:pubYear "2015"^^xsd:gYear;
    gcis:hasURL "http://www.test/soccer.html"^^xsd:anyURI;
    dcterms:type "report";
+   gcis:hasChapter <http://data.globalchange.gov/report/soccer/chapter/english-generic-names>;	
+   gcis:hasChapter <http://data.globalchange.gov/report/soccer/chapter/road-runner-bird-characteristics>;	
    a gcis:Report, fabio:Report .
    
 <http://data.globalchange.gov/report/soccer/chapter/english-generic-names>
