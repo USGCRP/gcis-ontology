@@ -16,7 +16,7 @@ SELECT DISTINCT
 	?cn as ?ChapterNumber
 FROM <http://data.globalchange.gov>
 WHERE {
-  <http://data.globalchange.gov/report/nca3> gcis:hasChapter ?chapter .
+  <http://data.globalchange.gov/report/soccer> gcis:hasChapter ?chapter .
   ?chapter dcterms:title ?cht .
   ?chapter gcis:chapterNumber ?cn .
   ?chapter prov:qualifiedAttribution [ prov:hadRole ?role ; prov:agent ?author ] .
