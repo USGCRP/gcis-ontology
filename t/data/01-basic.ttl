@@ -5,6 +5,7 @@
 <http://data.globalchange.gov/report/soccer>
    dcterms:identifier "soccer";
    dcterms:title "scouting report"^^xsd:string;
-   dwc:year "2015"^^xsd:gYear;
-
-   a gcis:Report .
+   dbpprop:pubYear "2015"^^xsd:gYear;
+   gcis:hasURL "http://www.test/soccer.html"^^xsd:anyURI;
+   dcterms:type "report";
+   a gcis:Report, fabio:Report .
