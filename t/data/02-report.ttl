@@ -1,0 +1,21 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix gcis: <http://data.globalchange.gov/gcis.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+
+<http://data.globalchange.gov/report/soccer>
+   dcterms:identifier "soccer";
+   dcterms:title "scouting report"^^xsd:string;
+   dbpprop:pubYear "2015"^^xsd:gYear;
+   gcis:hasURL "http://www.test/soccer.html"^^xsd:anyURI;
+   dcterms:type "report";
+   a gcis:Report, fabio:Report .
+
+<http://data.globalchange.gov/report/soccer-highlights>
+   dcterms:identifier "soccer";
+   dcterms:title "scouting report highlights"^^xsd:string;
+   dbpprop:pubYear "2015"^^xsd:gYear;
+   gcis:hasURL "http://www.test/soccer-highlights.html"^^xsd:anyURI;
+   dcterms:type "report";
+   a gcis:Report, fabio:Report .

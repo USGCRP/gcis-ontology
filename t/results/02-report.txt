@@ -1,7 +1,6 @@
----------------------------------------------------------
-| s                                                     |
-=========================================================
-| <http://data.globalchange.gov/report/nca3>            |
-| <http://data.globalchange.gov/report/nca3-highlights> |
-| <http://data.globalchange.gov/report/nca3-overview>   |
----------------------------------------------------------
+-----------------------------------------------------------
+| s                                                       |
+===========================================================
+| <http://data.globalchange.gov/report/soccer>            |
+| <http://data.globalchange.gov/report/soccer-highlights> |
+-----------------------------------------------------------
