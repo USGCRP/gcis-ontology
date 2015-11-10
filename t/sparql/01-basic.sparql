@@ -1,6 +1,8 @@
+PREFIX gcis: <http://data.globalchange.gov/gcis.owl#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 
 SELECT ?s
  {
-     ?s dcterms:identifier "nca3" .
+     ?s gcis:report .
+     ?s dcterms:identifier "soccer" .
  }
