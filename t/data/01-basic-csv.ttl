@@ -1,0 +1,13 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix gcis: <http://data.globalchange.gov/gcis.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix biro: <http://purl.org/spar/biro/> .
+@prefix cito: <http://purl.org/spar/cito/> .
+
+<http://data.globalchange.gov/report/soccer>
+   dcterms:identifier "soccer";
+   dcterms:title "scouting report"^^xsd:string;
+   dwc:year "2015"^^xsd:gYear;
