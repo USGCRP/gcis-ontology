@@ -45,6 +45,26 @@
       prov:actedOnBehalfOf <http://data.globalchange.gov/organization/acme-corp>;
       ] .
 
+<http://data.globalchange.gov/report/soccer>
+   cito:cites <http://data.globalchange.gov/article/10.1234/abcd-ulrl>;
+   biro:references <http://data.globalchange.gov/reference/efgh1234-ulrl> .
+
+<http://data.globalchange.gov/article/10.1234/abcd-ulrl>   
+   dcterms:identifier "10.1007/10.1234/abcd-ulrl";
+   dcterms:title "Unusually Large Rodent List"^^xsd:string;
+   dcterms:isPartOf <http://data.globalchange.gov/journal/commic-birds>;
+   bibo:volume "12";
+   bibo:pages "100-105";
+   dbpprop:pubYear "2012"^^xsd:gYear;
+   bibo:doi "10.1007/10.1234/abcd-ulrl";
+   a gcis:AcademicArticle, fabio:Article .
+
+<http://data.globalchange.gov/reference/efgh1234-ulrl>
+   dcterms:identifier "efgh1234-ulrl";
+   biro:references <http://data.globalchange.gov/article/10.1234/abcd-ulrl>;
+   biro:isReferencedBy <http://data.globalchange.gov/soccer>;
+   a biro:BibliographicRecord .
+
 <http://data.globalchange.gov/report/soccer/chapter/road-runner-bird-characteristics>
    cito:cites <http://data.globalchange.gov/article/10.1234/abcd-erri>;
    biro:references <http://data.globalchange.gov/reference/efgh1234-erri> .
@@ -62,6 +82,26 @@
 <http://data.globalchange.gov/reference/efgh1234-erri>
    dcterms:identifier "efgh1234-erri";
    biro:references <http://data.globalchange.gov/article/10.1234/abcd-erri>;
+   biro:isReferencedBy <http://data.globalchange.gov/soccer/chapter/road-runner-bird-characteristics>;
+   a biro:BibliographicRecord .
+
+<http://data.globalchange.gov/report/soccer/chapter/road-runner-bird-characteristics>
+   cito:cites <http://data.globalchange.gov/article/10.1234/abcd-erri>;
+   biro:references <http://data.globalchange.gov/reference/efgh1234-erri> .
+
+<http://data.globalchange.gov/article/10.1234/abcd-gplo>   
+   dcterms:identifier "10.1007/10.1234/abcd-gplo";
+   dcterms:title "Gravitational Potential of Large Objects"^^xsd:string;
+   dcterms:isPartOf <http://data.globalchange.gov/journal/commic-birds>;
+   bibo:volume "14";
+   bibo:pages "400-405";
+   dbpprop:pubYear "2014"^^xsd:gYear;
+   bibo:doi "10.1007/10.1234/abcd-gplo";
+   a gcis:AcademicArticle, fabio:Article .
+
+<http://data.globalchange.gov/reference/efgh1234-gplo>
+   dcterms:identifier "efgh1234-gplo";
+   biro:references <http://data.globalchange.gov/article/10.1234/abcd-gplo>;
    biro:isReferencedBy <http://data.globalchange.gov/soccer/chapter/road-runner-bird-characteristics>;
    a biro:BibliographicRecord .
 
@@ -91,6 +131,34 @@
       a prov:Attribution;
       prov:agent <http://data.globalchange.gov/person/3>;
       prov:actedOnBehalfOf <http://data.globalchange.gov/organization/acme-corp>;
+      prov:hadRole <http://data.globalchange.gov/role_type/author>;
+   ] 
+.
+
+<http://data.globalchange.gov/article/10.1234/abcd-ulrl>
+   a gcis:Article;
+   prov:qualifiedAttribution [
+      a prov:Attribution;
+      prov:agent <http://data.globalchange.gov/person/3>;
+      prov:actedOnBehalfOf <http://data.globalchange.gov/organization/new-acme-corp>;
+      prov:hadRole <http://data.globalchange.gov/role_type/author>;
+   ] 
+.
+
+<http://data.globalchange.gov/person/9>
+   dcterms:identifier "9";
+   vivo:orcidId "0000-0002-2345-6789";
+   foaf:givenName "Buggs B."^^xsd:string;
+   foaf:lastName "Bunny"^^xsd:string;
+   foaf:page "http://www.test/rabbit_people/dr_rabbit"^^xsd:anyURI;
+   a gcis:Person .
+
+<http://data.globalchange.gov/article/10.1234/abcd-gplo>
+   a gcis:Article;
+   prov:qualifiedAttribution [
+      a prov:Attribution;
+      prov:agent <http://data.globalchange.gov/person/9>;
+      prov:actedOnBehalfOf <http://data.globalchange.gov/organization/bunny-farm>;
       prov:hadRole <http://data.globalchange.gov/role_type/author>;
    ] 
 .
