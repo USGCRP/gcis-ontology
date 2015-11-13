@@ -47,7 +47,11 @@
 
 <http://data.globalchange.gov/report/soccer>
    cito:cites <http://data.globalchange.gov/article/10.1234/abcd-ulrl>;
-   biro:references <http://data.globalchange.gov/reference/efgh1234-ulrl> .
+   biro:references <http://data.globalchange.gov/reference/efgh1234-ulrl-a> .
+
+<http://data.globalchange.gov/report/soccer/chapter/road-runner-bird-characteristics>
+   cito:cites <http://data.globalchange.gov/article/10.1234/abcd-ulrl>;
+   biro:references <http://data.globalchange.gov/reference/efgh1234-ulrl-b> .
 
 <http://data.globalchange.gov/article/10.1234/abcd-ulrl>   
    dcterms:identifier "10.1007/10.1234/abcd-ulrl";
@@ -59,10 +63,16 @@
    bibo:doi "10.1007/10.1234/abcd-ulrl";
    a gcis:AcademicArticle, fabio:Article .
 
-<http://data.globalchange.gov/reference/efgh1234-ulrl>
-   dcterms:identifier "efgh1234-ulrl";
-   biro:references <http://data.globalchange.gov/article/10.1234/abcd-ulrl>;
+<http://data.globalchange.gov/reference/efgh1234-ulrl-a>
+   dcterms:identifier "efgh1234-ulrl-a";
+   biro:references <http://data.globalchange.gov/article/10.1234/abcd-ulrl-a>;
    biro:isReferencedBy <http://data.globalchange.gov/soccer>;
+   a biro:BibliographicRecord .
+
+<http://data.globalchange.gov/reference/efgh1234-ulrl-b>
+   dcterms:identifier "efgh1234-ulrl-b";
+   biro:references <http://data.globalchange.gov/article/10.1234/abcd-ulrl-b>;
+   biro:isReferencedBy <http://data.globalchange.gov/soccer/chapter/road-runner-bird-characteristics>;
    a biro:BibliographicRecord .
 
 <http://data.globalchange.gov/report/soccer/chapter/road-runner-bird-characteristics>
