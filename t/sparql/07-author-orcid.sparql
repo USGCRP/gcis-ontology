@@ -19,7 +19,7 @@ WHERE {
     { 
          ?r1 a gcis:Report .
          ?r1 dcterms:identifier "soccer" .
-         ?r1 cites ?article 
+         ?r1 cito:cites ?article 
     } UNION {
          ?r2 a gcis:Report .
          ?r2 dcterms:identifier "soccer" .
