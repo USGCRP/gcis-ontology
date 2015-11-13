@@ -65,13 +65,13 @@
 
 <http://data.globalchange.gov/reference/efgh1234-ulrl-a>
    dcterms:identifier "efgh1234-ulrl-a";
-   biro:references <http://data.globalchange.gov/article/10.1234/abcd-ulrl-a>;
+   biro:references <http://data.globalchange.gov/article/10.1234/abcd-ulrl>;
    biro:isReferencedBy <http://data.globalchange.gov/soccer>;
    a biro:BibliographicRecord .
 
 <http://data.globalchange.gov/reference/efgh1234-ulrl-b>
    dcterms:identifier "efgh1234-ulrl-b";
-   biro:references <http://data.globalchange.gov/article/10.1234/abcd-ulrl-b>;
+   biro:references <http://data.globalchange.gov/article/10.1234/abcd-ulrl>;
    biro:isReferencedBy <http://data.globalchange.gov/soccer/chapter/road-runner-bird-characteristics>;
    a biro:BibliographicRecord .
 
