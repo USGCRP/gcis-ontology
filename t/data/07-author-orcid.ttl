@@ -46,6 +46,26 @@
       prov:actedOnBehalfOf <http://data.globalchange.gov/organization/acme-corp>;
       ] .
 
+<http://data.globalchange.gov/report/soccer/chapter/road-runner-bird-characteristics>
+   cito:cites <http://data.globalchange.gov/article/10.1234/abcd-erri>;
+   biro:references <http://data.globalchange.gov/reference/efgh1234-erri> .
+
+<http://data.globalchange.gov/article/10.1234/abcd-erri>   
+   dcterms:identifier "10.1007/10.1234/abcd-erri";
+   dcterms:title "Evidence of Road Runner Injury"^^xsd:string;
+   dcterms:isPartOf <http://data.globalchange.gov/journal/commic-birds>;
+   bibo:volume "13";
+   bibo:pages "200-205";
+   dbpprop:pubYear "2013"^^xsd:gYear;
+   bibo:doi "10.1007/10.1234/abcd-erri";
+   a gcis:AcademicArticle, fabio:Article .
+
+<http://data.globalchange.gov/reference/efgh1234-erri>
+   dcterms:identifier "efgh1234-erri";
+   biro:references <http://data.globalchange.gov/article/10.1234/abcd-erri>;
+   biro:isReferencedBy <http://data.globalchange.gov/soccer/chapter/road-runner-bird-characteristics>;
+   a biro:BibliographicRecord .
+
 <http://data.globalchange.gov/role_type/author>
    dcterms:identifier "author";
    rdfs:label "Author";
@@ -60,6 +80,7 @@
 
 <http://data.globalchange.gov/person/3>
    dcterms:identifier "3";
+   vivo:orcidId "0000-0001-2345-6789";
    foaf:givenName "Wile E."^^xsd:string;
    foaf:lastName "Coyote"^^xsd:string;
    foaf:page "http://www.test/acme_people/coyote"^^xsd:anyURI;
