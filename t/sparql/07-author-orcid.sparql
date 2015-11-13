@@ -30,4 +30,4 @@ WHERE {
     ?author vivo:orcidId ?orcid .
     OPTIONAL { ?author foaf:givenName ?gn . }
     OPTIONAL { ?author foaf:lastName ?ln . }
-} group by (?author ?ln ?gn ?orcid ?article)
+} group by ?author ?ln ?gn ?orcid ?article
