@@ -105,6 +105,10 @@
    biro:isReferencedBy <http://data.globalchange.gov/soccer/chapter/road-runner-bird-characteristics>;
    a biro:BibliographicRecord .
 
+<http://data.globalchange.gov/report/soccer/chapter/road-runner-bird-characteristics>
+   cito:cites <http://data.globalchange.gov/article/10.1234/abcd-gplo>;
+   biro:references <http://data.globalchange.gov/reference/efgh1234-gplo> .
+
 <http://data.globalchange.gov/role_type/author>
    dcterms:identifier "author";
    rdfs:label "Author";
