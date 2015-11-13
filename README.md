@@ -12,11 +12,13 @@ To add more tests, do the following:
     2. Add a SPARQL query into t/sparql/
     3. Add the expected output into t/results/
 
-run-tests.sh will load all of the data in t/data, then iterate through
-the queries in t/sparql and compare the output to the output in t/results.
-If the output of the SPARQL query differs from what is in the corresponding
-results file, the test will fail.  The format of the output of run-tests.sh
- follows the Test Anything Protocol (<http://testanything.org>).  A non-zero
+run-tests.sh will load data in t/data/gcis.ttl, then iterate through 
+the test in t/sparql by first loading the data from t/data for each test, 
+running the query and then compare the output to the output in t/results.
+
+If the output of the SPARQL query differs from what is in the corresponding 
+results file, the test will fail.  The format of the output of run-tests.sh 
+follows the Test Anything Protocol (<http://testanything.org>).  A non-zero 
 exit code from run-tests.sh means that there was at least one test failure.
 
 Files in t/sparql should end in the .sparql suffix.
