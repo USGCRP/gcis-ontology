@@ -11,8 +11,8 @@ PREFIX vivo: <http://vivoweb.org/ontology/core#>
 
 SELECT
     (?author as ?ContributorID)
-    (str(?gn) as ?GivenName) 
     (str(?ln) as ?LastName)
+    (str(?gn) as ?GivenName) 
     (?orcid as ?ORCID)
     (COUNT(DISTINCT ?article) as ?Frequency)
 WHERE {
