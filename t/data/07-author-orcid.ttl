@@ -1,5 +1,6 @@
 @prefix fabio: <http://purl.org/spar/fabio/> .
-@prefix cito: <http://purl.org/spar/cito/>
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix biro: <http://purl.org/spar/biro/> .
 
 <http://data.globalchange.gov/report/soccer>
    dcterms:identifier "soccer";
