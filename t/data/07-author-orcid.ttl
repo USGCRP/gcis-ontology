@@ -1,3 +1,4 @@
+@prefix fabio: <http://purl.org/spar/fabio/> .
 @prefix cito: <http://purl.org/spar/cito/>
 
 <http://data.globalchange.gov/report/soccer>
