@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix gcis: <http://data.globalchange.gov/gcis.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbpprop: <http://dbpedia.org/property/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+
+<http://data.globalchange.gov/report/soccer>
+   dcterms:identifier "soccer";
+   dcterms:title "scouting report"^^xsd:string;
+   dbpprop:pubYear "2015"^^xsd:gYear;
+   gcis:hasURL "http://www.test/soccer.html"^^xsd:anyURI;
+   dcterms:type "report";
+   gcis:hasChapter <http://data.globalchange.gov/report/soccer/chapter/english-generic-names>;	
+   gcis:hasChapter <http://data.globalchange.gov/report/soccer/chapter/road-runner-bird-characteristics>;	
+   a gcis:Report, fabio:Report .
+   
+<http://data.globalchange.gov/report/soccer/chapter/english-generic-names>
+   dcterms:identifier "english-generic-names";
+   gcis:chapterNumber "2"^^xsd:integer;
+   dcterms:title "English Generic Names"^^xsd:string;
+   gcis:hasURL "http://www.test/soccer-c2.html"^^xsd:anyURI;
+   gcis:isChapterOf <http://data.globalchange.gov/report/soccer>;
+   a gcis:Chapter, fabio:Chapter .
+
+<http://data.globalchange.gov/report/soccer/chapter/road-runner-bird-characteristics>
+   dcterms:identifier "road-runner-bird-characteristics";
+   gcis:chapterNumber "4"^^xsd:integer;
+   dcterms:title "Road Runner Bird Characteristics"^^xsd:string;
+   gcis:hasURL "http://www.test/soccer-c4.html"^^xsd:anyURI;
+   gcis:isChapterOf <http://data.globalchange.gov/report/soccer>;
+   a gcis:Chapter, fabio:Chapter .
+
+<http://data.globalchange.gov/report/soccer/chapter/english-generic-names>
+   prov:qualifiedAttribution [
+      a prov:Attribution;
+      prov:agent <http://data.globalchange.gov/person/0>;
+      prov:hadRole <http://data.globalchange.gov/role_type/author>;
+      prov:actedOnBehalfOf <http://data.globalchange.gov/organization/uno-company>;
+      ] .
+
+<http://data.globalchange.gov/report/soccer/chapter/road-runner-bird-characteristics>
+   prov:qualifiedAttribution [
+      a prov:Attribution;
+      prov:agent <http://data.globalchange.gov/person/3>;
+      prov:hadRole <http://data.globalchange.gov/role_type/author>;
+      prov:actedOnBehalfOf <http://data.globalchange.gov/organization/acme-corp>;
+      ] .
+
+<http://data.globalchange.gov/role_type/author>
+   dcterms:identifier "author";
+   rdfs:label "Author";
+   a prov:Role .
+
+<http://data.globalchange.gov/person/0>
+   dcterms:identifier "0";
+   foaf:givenName "John"^^xsd:string;
+   foaf:lastName "Smith"^^xsd:string;
+   foaf:page "http://www.test/uno_people/smith"^^xsd:anyURI;
+   a gcis:Person .
+
+<http://data.globalchange.gov/person/3>
+   dcterms:identifier "3";
+   foaf:givenName "Wile E."^^xsd:string;
+   foaf:lastName "Coyote"^^xsd:string;
+   foaf:page "http://www.test/acme_people/coyote"^^xsd:anyURI;
+   a gcis:Person .
