@@ -84,3 +84,13 @@
    foaf:lastName "Coyote"^^xsd:string;
    foaf:page "http://www.test/acme_people/coyote"^^xsd:anyURI;
    a gcis:Person .
+
+<http://data.globalchange.gov/article/10.1234/abcd-erri>
+   a gcis:Article;
+   prov:qualifiedAttribution [
+      a prov:Attribution;
+      prov:agent <http://data.globalchange.gov/person/3>;
+      prov:actedOnBehalfOf <http://data.globalchange.gov/organization/acme-corp>;
+      prov:hadRole <http://data.globalchange.gov/role_type/author>;
+   ] 
+.
