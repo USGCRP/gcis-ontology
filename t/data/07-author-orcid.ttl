@@ -1,0 +1,178 @@
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix biro: <http://purl.org/spar/biro/> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+
+<http://data.globalchange.gov/report/soccer>
+   dcterms:identifier "soccer";
+   dcterms:title "scouting report"^^xsd:string;
+   dbpprop:pubYear "2015"^^xsd:gYear;
+   gcis:hasURL "http://www.test/soccer.html"^^xsd:anyURI;
+   dcterms:type "report";
+   gcis:hasChapter <http://data.globalchange.gov/report/soccer/chapter/english-generic-names>;	
+   gcis:hasChapter <http://data.globalchange.gov/report/soccer/chapter/road-runner-bird-characteristics>;	
+   a gcis:Report, fabio:Report .
+   
+<http://data.globalchange.gov/report/soccer/chapter/english-generic-names>
+   dcterms:identifier "english-generic-names";
+   gcis:chapterNumber "2"^^xsd:integer;
+   dcterms:title "English Generic Names"^^xsd:string;
+   gcis:hasURL "http://www.test/soccer-c2.html"^^xsd:anyURI;
+   gcis:isChapterOf <http://data.globalchange.gov/report/soccer>;
+   a gcis:Chapter, fabio:Chapter .
+
+<http://data.globalchange.gov/report/soccer/chapter/road-runner-bird-characteristics>
+   dcterms:identifier "road-runner-bird-characteristics";
+   gcis:chapterNumber "4"^^xsd:integer;
+   dcterms:title "Road Runner Bird Characteristics"^^xsd:string;
+   gcis:hasURL "http://www.test/soccer-c4.html"^^xsd:anyURI;
+   gcis:isChapterOf <http://data.globalchange.gov/report/soccer>;
+   a gcis:Chapter, fabio:Chapter .
+
+<http://data.globalchange.gov/report/soccer/chapter/english-generic-names>
+   prov:qualifiedAttribution [
+      a prov:Attribution;
+      prov:agent <http://data.globalchange.gov/person/0>;
+      prov:hadRole <http://data.globalchange.gov/role_type/author>;
+      prov:actedOnBehalfOf <http://data.globalchange.gov/organization/uno-company>;
+      ] .
+
+<http://data.globalchange.gov/report/soccer/chapter/road-runner-bird-characteristics>
+   prov:qualifiedAttribution [
+      a prov:Attribution;
+      prov:agent <http://data.globalchange.gov/person/3>;
+      prov:hadRole <http://data.globalchange.gov/role_type/author>;
+      prov:actedOnBehalfOf <http://data.globalchange.gov/organization/acme-corp>;
+      ] .
+
+<http://data.globalchange.gov/report/soccer/chapter/english-generic-names>
+   cito:cites <http://data.globalchange.gov/article/10.1234/abcd-ulrl>;
+   biro:references <http://data.globalchange.gov/reference/efgh1234-ulrl-a> .
+
+<http://data.globalchange.gov/report/soccer/chapter/road-runner-bird-characteristics>
+   cito:cites <http://data.globalchange.gov/article/10.1234/abcd-ulrl>;
+   biro:references <http://data.globalchange.gov/reference/efgh1234-ulrl-b> .
+
+<http://data.globalchange.gov/article/10.1234/abcd-ulrl>   
+   dcterms:identifier "10.1007/10.1234/abcd-ulrl";
+   dcterms:title "Unusually Large Rodent List"^^xsd:string;
+   dcterms:isPartOf <http://data.globalchange.gov/journal/commic-birds>;
+   bibo:volume "12";
+   bibo:pages "100-105";
+   dbpprop:pubYear "2012"^^xsd:gYear;
+   bibo:doi "10.1007/10.1234/abcd-ulrl";
+   a gcis:AcademicArticle, fabio:Article .
+
+<http://data.globalchange.gov/reference/efgh1234-ulrl-a>
+   dcterms:identifier "efgh1234-ulrl-a";
+   biro:references <http://data.globalchange.gov/article/10.1234/abcd-ulrl>;
+   biro:isReferencedBy <http://data.globalchange.gov/soccer/chapter/english-generic-names>;
+   a biro:BibliographicRecord .
+
+<http://data.globalchange.gov/reference/efgh1234-ulrl-b>
+   dcterms:identifier "efgh1234-ulrl-b";
+   biro:references <http://data.globalchange.gov/article/10.1234/abcd-ulrl>;
+   biro:isReferencedBy <http://data.globalchange.gov/soccer/chapter/road-runner-bird-characteristics>;
+   a biro:BibliographicRecord .
+
+<http://data.globalchange.gov/report/soccer/chapter/road-runner-bird-characteristics>
+   cito:cites <http://data.globalchange.gov/article/10.1234/abcd-erri>;
+   biro:references <http://data.globalchange.gov/reference/efgh1234-erri> .
+
+<http://data.globalchange.gov/article/10.1234/abcd-erri>   
+   dcterms:identifier "10.1007/10.1234/abcd-erri";
+   dcterms:title "Evidence of Road Runner Injury"^^xsd:string;
+   dcterms:isPartOf <http://data.globalchange.gov/journal/commic-birds>;
+   bibo:volume "13";
+   bibo:pages "200-205";
+   dbpprop:pubYear "2013"^^xsd:gYear;
+   bibo:doi "10.1007/10.1234/abcd-erri";
+   a gcis:AcademicArticle, fabio:Article .
+
+<http://data.globalchange.gov/reference/efgh1234-erri>
+   dcterms:identifier "efgh1234-erri";
+   biro:references <http://data.globalchange.gov/article/10.1234/abcd-erri>;
+   biro:isReferencedBy <http://data.globalchange.gov/soccer/chapter/road-runner-bird-characteristics>;
+   a biro:BibliographicRecord .
+
+<http://data.globalchange.gov/report/soccer/chapter/road-runner-bird-characteristics>
+   cito:cites <http://data.globalchange.gov/article/10.1234/abcd-erri>;
+   biro:references <http://data.globalchange.gov/reference/efgh1234-erri> .
+
+<http://data.globalchange.gov/article/10.1234/abcd-gplo>   
+   dcterms:identifier "10.1007/10.1234/abcd-gplo";
+   dcterms:title "Gravitational Potential of Large Objects"^^xsd:string;
+   dcterms:isPartOf <http://data.globalchange.gov/journal/commic-birds>;
+   bibo:volume "14";
+   bibo:pages "400-405";
+   dbpprop:pubYear "2014"^^xsd:gYear;
+   bibo:doi "10.1007/10.1234/abcd-gplo";
+   a gcis:AcademicArticle, fabio:Article .
+
+<http://data.globalchange.gov/reference/efgh1234-gplo>
+   dcterms:identifier "efgh1234-gplo";
+   biro:references <http://data.globalchange.gov/article/10.1234/abcd-gplo>;
+   biro:isReferencedBy <http://data.globalchange.gov/soccer/chapter/road-runner-bird-characteristics>;
+   a biro:BibliographicRecord .
+
+<http://data.globalchange.gov/report/soccer/chapter/road-runner-bird-characteristics>
+   cito:cites <http://data.globalchange.gov/article/10.1234/abcd-gplo>;
+   biro:references <http://data.globalchange.gov/reference/efgh1234-gplo> .
+
+<http://data.globalchange.gov/role_type/author>
+   dcterms:identifier "author";
+   rdfs:label "Author";
+   a prov:Role .
+
+<http://data.globalchange.gov/person/0>
+   dcterms:identifier "0";
+   foaf:givenName "John"^^xsd:string;
+   foaf:lastName "Smith"^^xsd:string;
+   foaf:page "http://www.test/uno_people/smith"^^xsd:anyURI;
+   a gcis:Person .
+
+<http://data.globalchange.gov/person/3>
+   dcterms:identifier "3";
+   vivo:orcidId "0000-0001-2345-6789";
+   foaf:givenName "Wile E."^^xsd:string;
+   foaf:lastName "Coyote"^^xsd:string;
+   foaf:page "http://www.test/acme_people/coyote"^^xsd:anyURI;
+   a gcis:Person .
+
+<http://data.globalchange.gov/article/10.1234/abcd-erri>
+   a gcis:Article;
+   prov:qualifiedAttribution [
+      a prov:Attribution;
+      prov:agent <http://data.globalchange.gov/person/3>;
+      prov:actedOnBehalfOf <http://data.globalchange.gov/organization/acme-corp>;
+      prov:hadRole <http://data.globalchange.gov/role_type/author>;
+   ] 
+.
+
+<http://data.globalchange.gov/article/10.1234/abcd-ulrl>
+   a gcis:Article;
+   prov:qualifiedAttribution [
+      a prov:Attribution;
+      prov:agent <http://data.globalchange.gov/person/3>;
+      prov:actedOnBehalfOf <http://data.globalchange.gov/organization/new-acme-corp>;
+      prov:hadRole <http://data.globalchange.gov/role_type/author>;
+   ] 
+.
+
+<http://data.globalchange.gov/person/9>
+   dcterms:identifier "9";
+   vivo:orcidId "0000-0002-2345-6789";
+   foaf:givenName "Buggs B."^^xsd:string;
+   foaf:lastName "Bunny"^^xsd:string;
+   foaf:page "http://www.test/rabbit_people/dr_rabbit"^^xsd:anyURI;
+   a gcis:Person .
+
+<http://data.globalchange.gov/article/10.1234/abcd-gplo>
+   a gcis:Article;
+   prov:qualifiedAttribution [
+      a prov:Attribution;
+      prov:agent <http://data.globalchange.gov/person/9>;
+      prov:actedOnBehalfOf <http://data.globalchange.gov/organization/bunny-farm>;
+      prov:hadRole <http://data.globalchange.gov/role_type/author>;
+   ] 
+.
