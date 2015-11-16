@@ -45,7 +45,7 @@
       prov:actedOnBehalfOf <http://data.globalchange.gov/organization/acme-corp>;
       ] .
 
-<http://data.globalchange.gov/report/soccer>
+<http://data.globalchange.gov/report/soccer/chapter/english-generic-names>
    cito:cites <http://data.globalchange.gov/article/10.1234/abcd-ulrl>;
    biro:references <http://data.globalchange.gov/reference/efgh1234-ulrl-a> .
 
@@ -66,7 +66,7 @@
 <http://data.globalchange.gov/reference/efgh1234-ulrl-a>
    dcterms:identifier "efgh1234-ulrl-a";
    biro:references <http://data.globalchange.gov/article/10.1234/abcd-ulrl>;
-   biro:isReferencedBy <http://data.globalchange.gov/soccer>;
+   biro:isReferencedBy <http://data.globalchange.gov/soccer/chapter/english-generic-names>;
    a biro:BibliographicRecord .
 
 <http://data.globalchange.gov/reference/efgh1234-ulrl-b>
