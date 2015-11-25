@@ -967,7 +967,7 @@ gcis:derivedFromScenario a owl:ObjectProperty ;
 	
 gcis:derivedModelRunOutputs a owl:ObjectProperty ;
         rdfs:label "derived model run outputs" ;
-	rdfs:comment "A scenario was used in a model run and derived one or more model run outputs." ;
+	rdfs:comment "Outputs of a model run based on this scenario." ;
         rdfs:domain gcis:Scenario ;
         rdfs:range gcis:ModelRunOutput ;
         owl:inverseOf gcis:derivedFromScenario ;
