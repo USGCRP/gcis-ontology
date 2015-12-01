@@ -20,8 +20,8 @@
 	owl:versionInfo "2.0" ;
 	owl:versionIRI <http://data.globalchange.gov/2.0/gcis> ;
  	rdfs:comment "An ontology designed for the Global Change Information System (GCIS) of the U.S. Global Change Research Program (http://www.globalchange.gov).  The ontology is available at: https://data.globalchange.gov/gcis.owl. The ontology uses the namespace prefix gcis." ;
- 	dcterms:creator gcis:xiaogang_ma, gcis:curt_tilmes, gcis:peter_fox ;
-	dcterms:contributor gcis:jin_guang_zheng, gcis:justin_goldstein, gcis:linyun_fu, gcis:brian_duggan, gcis:patrick_west, gcis:steve_aulenbach, gcis:chengcong_du, gcis:jun_xu, gcis:anusha_akkiraju ;
+ 	dcterms:creator gcis:xiaogang_ma, gcis:stephan_zednik, gcis:curt_tilmes, gcis:peter_fox; gcis:robert_e_wolfe;
+	dcterms:contributor gcis:jin_guang_zheng, gcis:justin_c_goldstein, gcis:linyun_fu, gcis:brian_duggan, gcis:patrick_west, gcis:steve_aulenbach, gcis:chengcong_du, gcis:jun_xu, gcis:anusha_akkiraju ;
 	skos:historyNote "The ontology is a part of the result of the GCIS-IMSAP project (2012-2013) at the Tetherless World Constellation of the Rensselaer Polytechnic Institute.  More details of that project are accessible at: http://tw.rpi.edu/web/project/gcis-imsap." . 
 
 gcis:xiaogang_ma a foaf:Person ;
@@ -39,13 +39,17 @@ gcis:curt_tilmes a foaf:Person ;
 gcis:peter_fox a foaf:Person ;
 	foaf:name "Peter Fox" ;
 	foaf:mbox <mailto:foxp@rpi.edu> .
+	
+gcis:robert_e_wolfe a foaf:Person ;
+	foaf:name "Robert E. Wolfe" ;
+	foaf:mbox <mailto:robert.e.wolfe@nasa.gov> .
 
 gcis:jin_guang_zheng a foaf:Person ;
 	foaf:name "Jin Guang Zheng" ;
 	foaf:mbox <mailto:zhengj3@rpi.edu> .
 
-gcis:justin_goldstein a foaf:Person ;
-	foaf:name "Justin Goldstein" ;
+gcis:justin_c_goldstein a foaf:Person ;
+	foaf:name "Justin C. Goldstein" ;
 	foaf:mbox <mailto:jgoldstein@usgcrp.gov> .
 
 gcis:linyun_fu a foaf:Person ;
@@ -75,7 +79,7 @@ gcis:jun_xu a foaf:Person ;
 gcis:anusha_akkiraju a foaf:Person ;
 	foaf:name "Anusha Akkiraju" ;
 	foaf:mbox <mailto:akkira@rpi.edu> .
-
+	
 gcis:Publication a owl:Class ;
 	rdfs:subClassOf bibo:Document ;
 	rdfs:label "Publication" ;
