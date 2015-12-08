@@ -485,7 +485,7 @@ gcis:wasWrittenBy a owl:ObjectProperty ;
 
 gcis:wasPreparedBy a owl:ObjectProperty ;
 	rdfs:label "was prepared by" ;
-	rdfs:comment "A publication was prepared by an activitiy of publication preparation." ;
+	rdfs:comment "A publication was prepared by an activity of publication preparation." ;
 	rdfs:domain gcis:Publication ;
 	rdfs:range gcis:PublicationPreparation ;
 	rdfs:subPropertyOf prov:wasGeneratedBy .
