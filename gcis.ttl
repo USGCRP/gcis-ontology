@@ -925,11 +925,11 @@ gcis:Journal a owl:Class ;
 	rdfs:label "Journal" ;
 	rdfs:comment "A periodical of scholarly journal Articles." .
 
-gcis:Article a owl:Class ;
-	rdfs:subClassOf gcis:Publication , bibo:Article , prov:Entity ;
-	rdfs:label "Article" ;
-	rdfs:comment "A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, as a newspaper or magazine." .	
-
+gcis:AcademicArticle a owl:Class ;
+	rdfs:subClassOf gcis:Publication , bibo:AcademicArticle , prov:Entity ;
+ 	rdfs:label "Academic Article" ;
+ 	rdfs:comment "A scholarly article, typically published in a journal." .	
+ 
 gcis:Indicator a owl:Class ;
         rdfs:subClassOf gcis:Report ;
         rdfs:label "Indicator" ;
