@@ -5,6 +5,29 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.globalchange.gov/vocab/human-health/concept/Health> a skos:Concept ;
+    dcterms:source <http://www.who.int/about/definition/en/print.html> ;
+    skos:definition "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity." ;
+    skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
+    skos:narrower <http://data.globalchange.gov/vocab/human-health/concept/Vector+Borne+Disease> ;
+    skos:prefLabel "Health" .
+
+<http://data.globalchange.gov/vocab/human-health/concept/Mosquito> a skos:Concept ;
+    dcterms:source <http://www.merriam-webster.com/dictionary/mosquito> ;
+    skos:definition "Any of a family (Culicidae) of dipteran flies with females that have a set of slender organs in the proboscis adapted to puncture the skin of animals and to suck their blood and that are in some cases vectors of serious diseases." ;
+    skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
+    skos:prefLabel "Mosquito" .
+
+<http://data.globalchange.gov/vocab/human-health/concept/Septicaemic+Plague> a skos:Concept ;
+    dcterms:source <http://www.who.int/mediacentre/factsheets/fs267/en/> ;
+    skos:definition "Septicaemic plague occurs when infection spreads directly through the bloodstream without forming a “bubo\". Septicaemic plague may result from flea bites and from direct contact with infective materials through cracks in the skin. Advanced stages of the bubonic form of plague will also lead to direct spread of Y. pestis in the blood." ;
+    skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
+    skos:prefLabel "Septicaemic Plague" .
+
+<http://data.globalchange.gov/vocab/human-health/concept/Unban+growth> a skos:Concept ;
+    skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
+    skos:prefLabel "Unban growth" .
+
 <http://data.globalchange.gov/vocab/human-health/concept/Airports> a skos:Concept ;
     dcterms:source <http://www.merriam-webster.com/dictionary/airport> ;
     skos:definition "A place from which aircraft operate that usually has paved runways and maintenance facilities and often serves as a terminal" ;
@@ -26,6 +49,16 @@
 <http://data.globalchange.gov/vocab/human-health/concept/Biological+Variables> a skos:Concept ;
     skos:definition "Factors that describe an organism such as: species type and reproduction rate." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
+    skos:narrower <http://data.globalchange.gov/vocab/human-health/concept/Habitat+Range>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Habitat+availability>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Host+Abundance>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Host+Reproduction+Rates>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Migration+patterns>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Pathogen+Reproduction+rate>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Population+density>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Population+size>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Survival+rates>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Zoonotic+carriers> ;
     skos:prefLabel "Biological Variables" .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Birds> a skos:Concept ;
@@ -54,6 +87,9 @@
     dcterms:source <http://www.globalchange.gov/explore/indicators> ;
     skos:definition "Observations or calculations that can be used to track conditions and trends that communicates key aspects of the changing environment, point out vulnerabilities, and inform decisions about policy, planning, and resource management. Terms encompass factors that describe the land surface, atmosphere, and oceans." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
+    skos:narrower <http://data.globalchange.gov/vocab/human-health/concept/Humidity>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Precipitation>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Temperature> ;
     skos:prefLabel "Climate Indicators" .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Contaminants> a skos:Concept ;
@@ -61,6 +97,7 @@
     skos:definition """Biological, chemical, physical, or radiological substance
 (normally absent in the environment) which, in sufficient concentration, can adversely affect living organisms through air, water, soil, and/or food.""" ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
+    skos:narrower <http://data.globalchange.gov/vocab/human-health/concept/Pathogens> ;
     skos:prefLabel "Contaminants" .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Control+Methods+%28pesticides%29> a skos:Concept ;
@@ -107,7 +144,12 @@
     dcterms:source <http://www.merriam-webster.com/dictionary/exposure> ;
     skos:definition "The fact or condition of being affected by something or experiencing something : the condition of being exposed to something." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
-    skos:prefLabel "Exposure" .
+    skos:prefLabel "Exposure" ;
+    skos:related <http://data.globalchange.gov/vocab/human-health/concept/Contaminants>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Location>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Pathway>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Source>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Time> .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Fleas> a skos:Concept ;
     dcterms:source <http://www.merriam-webster.com/dictionary/flea> ;
@@ -145,17 +187,13 @@
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
     skos:prefLabel "Habitat availability" .
 
-<http://data.globalchange.gov/vocab/human-health/concept/Health> a skos:Concept ;
-    dcterms:source <http://www.who.int/about/definition/en/print.html> ;
-    skos:definition "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity." ;
-    skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
-    skos:prefLabel "Health" .
-
 <http://data.globalchange.gov/vocab/human-health/concept/Health+Risks> a skos:Concept ;
     dcterms:source <http://www.businessdictionary.com/definition/human-health-risk.html> ;
     skos:definition "Degree of likelihood that one or more exposures to a hazardous substance may have damaged or will damage the health of the exposed person(s)." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
-    skos:prefLabel "Health Risks" .
+    skos:prefLabel "Health Risks" ;
+    skos:related <http://data.globalchange.gov/vocab/human-health/concept/Outdoor+activity>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Outdoor+employment> .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Hospital> a skos:Concept ;
     dcterms:source <https://en.wikipedia.org/wiki/Hospital> ;
@@ -183,7 +221,10 @@
     dcterms:source <http://www.who.int/hac/about/definitions/en/> ;
     skos:definition "The degree to which a socio-economic system is either susceptible or resilient to the impact of natural hazards and related technological and environmental disasters. The degree of vulnerability is determined by a combination of several factors including hazard awareness, the condition of human settlements and infrastructure, public policy and administration, and organized abilities in all fields of disaster management. Poverty is also one of the main causes of vulnerability in most parts of the world." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
-    skos:prefLabel "Human Vulnerability" .
+    skos:prefLabel "Human Vulnerability" ;
+    skos:related <http://data.globalchange.gov/vocab/human-health/concept/Health+Risks>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Population+at+risk>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Socio-economic+risk+factors> .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Humidity> a skos:Concept ;
     dcterms:source <http://w1.weather.gov/glossary/index.php?letter=h> ;
@@ -200,6 +241,10 @@
 <http://data.globalchange.gov/vocab/human-health/concept/Infrastructure> a skos:Concept ;
     skos:definition "Basic physical and organizational structures and facilities needed for the operation of society and enterprise.  Examples include buildings, roads and power supplies." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
+    skos:narrower <http://data.globalchange.gov/vocab/human-health/concept/Airports>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Dams+and+Reservoirs>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Hospital>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Irrigation> ;
     skos:prefLabel "Infrastructure" .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Irrigation> a skos:Concept ;
@@ -215,6 +260,9 @@
 <http://data.globalchange.gov/vocab/human-health/concept/Location> a skos:Concept ;
     skos:definition "Geography of where exposure occurs." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
+    skos:narrower <http://data.globalchange.gov/vocab/human-health/concept/Geographic+Distribution>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Proximity+to+water>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Urban> ;
     skos:prefLabel "Location" .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Lyme+disease> a skos:Concept ;
@@ -243,13 +291,11 @@
     dcterms:source <http://www.businessdictionary.com/definition/mitigation.html#ixzz3rOhE5XUn> ;
     skos:definition "The elimination or reduction of the frequency, magnitude, or severity of exposure to risks, or minimization of the potential impact of a threat or warning." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
-    skos:prefLabel "Mitigation" .
-
-<http://data.globalchange.gov/vocab/human-health/concept/Mosquito> a skos:Concept ;
-    dcterms:source <http://www.merriam-webster.com/dictionary/mosquito> ;
-    skos:definition "Any of a family (Culicidae) of dipteran flies with females that have a set of slender organs in the proboscis adapted to puncture the skin of animals and to suck their blood and that are in some cases vectors of serious diseases." ;
-    skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
-    skos:prefLabel "Mosquito" .
+    skos:prefLabel "Mitigation" ;
+    skos:related <http://data.globalchange.gov/vocab/human-health/concept/Control+Methods+%28pesticides%29>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Land+use+practices>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Vector+surveillance>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Water+management+practices> .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Murine+Typhus> a skos:Concept ;
     dcterms:source <http://extension.entm.purdue.edu/publichealth/diseases/flea/typhus.html> ;
@@ -261,6 +307,9 @@
     dcterms:source <https://www.wmo.int/pages/themes/hazards/index_en.html> ;
     skos:definition "Natural hazards are severe and extreme weather and climate events that occur naturally in all parts of the world, although some regions are more vulnerable to certain hazards than others. Natural hazards become natural disasters when people’s lives and livelihoods are destroyed." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
+    skos:narrower <http://data.globalchange.gov/vocab/human-health/concept/Drought>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Flooding>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Hurricane> ;
     skos:prefLabel "Natural Hazard" .
 
 <http://data.globalchange.gov/vocab/human-health/concept/New+pathogen> a skos:Concept ;
@@ -292,19 +341,42 @@
     dcterms:source <http://www.sciencedaily.com/terms/pathogen.htm> ;
     skos:definition "A biological agent that causes disease or illness to its host." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
+    skos:narrower <http://data.globalchange.gov/vocab/human-health/concept/Anaplasmosis%2FEhrlichiosis>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Babesiosis>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Bubonic+Plague>,
+        <http://data.globalchange.gov/vocab/human-health/concept/California+Serogroup+Viruses>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Dengue>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Eastern+Equine+Encephalitis>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Lyme+disease>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Malaria>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Murine+Typhus>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Pneumonic+Plague>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Powassan>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Septisemic+Plague>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Spotted+Fever+Rickettsia>,
+        <http://data.globalchange.gov/vocab/human-health/concept/St.+Louis+encephalitis>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Tularemia>,
+        <http://data.globalchange.gov/vocab/human-health/concept/West+Nile+Virus> ;
     skos:prefLabel "Pathogens" .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Pathway> a skos:Concept ;
     dcterms:source <http://www2.epa.gov/emergency-response/possible-exposure-pathways-during-emergencies> ;
     skos:definition "The way a person can come into contact with a hazardous substance such as: inhalation, ingestion, or direct contact." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
+    skos:narrower <http://data.globalchange.gov/vocab/human-health/concept/Fleas>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Mosquitos>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Ticks> ;
     skos:prefLabel "Pathway" .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Planning> a skos:Concept ;
     dcterms:source <https://en.wikipedia.org/wiki/Planning> ;
     skos:definition "Planning  is the process of thinking about and organizing the activities required to achieve a desired goal." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
-    skos:prefLabel "Planning" .
+    skos:prefLabel "Planning" ;
+    skos:related <http://data.globalchange.gov/vocab/human-health/concept/Global+trade>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Global+travel>,
+        <http://data.globalchange.gov/vocab/human-health/concept/New+pathogen>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Urban+growth> .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Pneumonic+Plague> a skos:Concept ;
     dcterms:source <http://www.who.int/mediacentre/factsheets/fs267/en/> ;
@@ -317,7 +389,11 @@
     skos:definition """Specific group or subgroup that is more likely to be exposed, or is more sensitive to a certain substance than the general
 population.""" ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
-    skos:prefLabel "Population at risk" .
+    skos:prefLabel "Population at risk" ;
+    skos:related <http://data.globalchange.gov/vocab/human-health/concept/Children>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Elderly>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Minorities>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Sex%2FGender> .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Population+density> a skos:Concept ;
     dcterms:source <http://www.ck12.org/biology/Population-Size-Density-and-Distribution/lesson/Population-Size-Density-and-Distribution/> ;
@@ -357,17 +433,14 @@ population.""" ;
     dcterms:source <http://www.who.int/mediacentre/factsheets/fs387/en/> ;
     skos:definition "Responds to vector-borne diseases include: providing the best evidence for controlling vectors and protecting people against infection; providing technical support and guidance to countries so that they can effectively manage cases and outbreaks; supporting countries to improve their reporting systems and capture the true burden of the disease; providing training on clinical management, diagnosis and vector control with some of its collaborating centres throughout the world; and developing new tools to combat the vectors and deal with the disease, for example insecticide products and spraying technologies." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
+    skos:narrower <http://data.globalchange.gov/vocab/human-health/concept/Mitigation>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Notification>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Planning> ;
     skos:prefLabel "Response" .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Rodents> a skos:Concept ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
     skos:prefLabel "Rodents" .
-
-<http://data.globalchange.gov/vocab/human-health/concept/Septicaemic+Plague> a skos:Concept ;
-    dcterms:source <http://www.who.int/mediacentre/factsheets/fs267/en/> ;
-    skos:definition "Septicaemic plague occurs when infection spreads directly through the bloodstream without forming a “bubo\". Septicaemic plague may result from flea bites and from direct contact with infective materials through cracks in the skin. Advanced stages of the bubonic form of plague will also lead to direct spread of Y. pestis in the blood." ;
-    skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
-    skos:prefLabel "Septicaemic Plague" .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Sex%2FGender> a skos:Concept ;
     dcterms:source <http://www.fao.org/docrep/007/y5608e/y5608e01.htm> ;
@@ -379,12 +452,17 @@ population.""" ;
     dcterms:source <http://www.apa.org/topics/socioeconomic-status/> ;
     skos:definition "Risks determined by socioeconomic status, which is commonly conceptualized as the social standing or class of an individualor group. It is often measured as a combination of education, income and occupation." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
-    skos:prefLabel "Socio-economic risk factors" .
+    skos:prefLabel "Socio-economic risk factors" ;
+    skos:related <http://data.globalchange.gov/vocab/human-health/concept/Education>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Housing>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Poverty> .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Source> a skos:Concept ;
     dcterms:source <http://dictionary.reference.com/browse/source> ;
     skos:definition "Any thing or place from which something comes, arises,or is obtained; origin" ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
+    skos:narrower <http://data.globalchange.gov/vocab/human-health/concept/Birds>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Rodents> ;
     skos:prefLabel "Source" .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Spotted+Fever+Rickettsia> a skos:Concept ;
@@ -420,6 +498,7 @@ population.""" ;
     dcterms:source <http://www.merriam-webster.com/dictionary/time> ;
     skos:definition "The measured or measurable period during which an action, process, or condition exists or continues" ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
+    skos:narrower <http://data.globalchange.gov/vocab/human-health/concept/Vector+Seasonal+Activity> ;
     skos:prefLabel "Time" .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Tularemia> a skos:Concept ;
@@ -427,10 +506,6 @@ population.""" ;
     skos:definition "Tularemia, also known as “rabbit fever,” is a disease caused by the bacterium Francisella tularensis. Tularemia is typically found in animals, especially rodents, rabbits, and hares. Tularemia is usually a rural disease and has been reported in all U.S. states except Hawaii." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
     skos:prefLabel "Tularemia" .
-
-<http://data.globalchange.gov/vocab/human-health/concept/Unban+growth> a skos:Concept ;
-    skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
-    skos:prefLabel "Unban growth" .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Urban> a skos:Concept ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
@@ -440,7 +515,14 @@ population.""" ;
     dcterms:source <http://www.who.int/mediacentre/factsheets/fs387/en/> ;
     skos:definition "Illnesses that are transmitted by vectors. “Vector-borne diseases are illnesses caused by pathogens and parasites in human populations….Vector-borne diseases account for over 17% of all infectious diseases. Distribution of these diseases is determined by a complex dynamic of environmental and social factors.”" ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
-    skos:prefLabel "Vector Borne Disease" .
+    skos:prefLabel "Vector Borne Disease" ;
+    skos:related <http://data.globalchange.gov/vocab/human-health/concept/Biological+Variables>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Climate+Indicators>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Exposure>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Human+Vulnerability>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Infrastructure>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Natural+Hazard>,
+        <http://data.globalchange.gov/vocab/human-health/concept/Response> .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Vector+Seasonal+Activity> a skos:Concept ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;

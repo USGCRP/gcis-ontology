@@ -39,6 +39,16 @@ for index, row in df.iterrows():
             source = row["extURI"].strip()
             concept.add(DCT.source, URIRef(source))
 
-# TODO use 'SubPredObj' sheet for relationships?
+df = pandas.read_excel(csv_file, sheetname='SubPredObj')
+for index, row in df.iterrows():
+    if row["Predicate"] is not pandas.np.nan:
+
+        _subject = vocab_uri + "/concept/" + urllib.parse.quote_plus(row["Subject"].strip())
+        _object = vocab_uri + "/concept/" + urllib.parse.quote_plus(row["Object"].strip())
+
+        if row["Predicate"] == "skos:narrower":
+            g.add((URIRef(_subject), SKOS.narrower, URIRef(_object)))
+        else:
+            g.add((URIRef(_subject), SKOS.related, URIRef(_object)))
 
 g.serialize("human-health.ttl", format="turtle")
