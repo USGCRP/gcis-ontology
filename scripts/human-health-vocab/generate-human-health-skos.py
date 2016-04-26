@@ -8,10 +8,12 @@ vocab_uri = "http://data.globalchange.gov/vocab/human-health"
 SKOS = Namespace("http://www.w3.org/2004/02/skos/core#")
 DCT = Namespace("http://purl.org/dc/terms/")
 GCIS = Namespace("http://data.globalchange.gov/gcis.owl#")
+MESH = Namespace("http://id.nlm.nih.gov/mesh/")
 
 g = Graph()
 g.bind("skos", SKOS)
 g.bind("dcterms", DCT)
+g.bind("mesh", MESH)
 
 vocab = g.resource(URIRef(vocab_uri))
 vocab.add(RDF.type, SKOS.ConceptScheme)
@@ -38,6 +40,12 @@ for index, row in df.iterrows():
         if row["extURI"] is not pandas.np.nan:
             source = row["extURI"].strip()
             concept.add(DCT.source, URIRef(source))
+
+        if row["MeSH Unique ID"] is not pandas.np.nan:
+            mesh_id = row["MeSH Unique ID"].strip()
+            mesh_uri = MESH+mesh_id
+            concept.add(SKOS.closeMatch, URIRef(mesh_uri))
+
 
 df = pandas.read_excel(csv_file, sheetname='SubPredObj')
 for index, row in df.iterrows():

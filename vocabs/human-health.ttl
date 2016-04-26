@@ -1,4 +1,5 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -36,12 +37,14 @@
 
 <http://data.globalchange.gov/vocab/human-health/concept/Anaplasmosis%2FEhrlichiosis> a skos:Concept ;
     dcterms:source <http://www.cdc.gov/anaplasmosis/symptoms/index.html> ;
+    skos:closeMatch mesh:D016873 ;
     skos:definition "A disease caused by the Anaplasma phagocytophilium bacterium that is transmitted to humans by the bite of an infected ticks.   The black-legged tick (Ixodes scapularis) is the vector of A. phagocytophilum in the northeast and upper midwestern United States and the western black-legged tick (Ixodes pacificus) in Northern California. Symptoms begin within 1-2 weeks after the infected tick bite and include fever, headache, muscle pain, chills, malaise, cough, confusion, rash, and nausea/abdominal pain. Anaplasmosis is fatal if not treated correctly." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
     skos:prefLabel "Anaplasmosis/Ehrlichiosis" .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Babesiosis> a skos:Concept ;
     dcterms:source <http://www.cdc.gov/parasites/babesiosis/gen_info/faqs.html> ;
+    skos:closeMatch mesh:D001404 ;
     skos:definition "A disease caused from microscopic parasites that infect red blood cells that are transmitted by ticks. Babesiosis mainly occurs in parts of the Northeast and upper Midwest U.S. peaking during warm months. Many people do not experience symptoms, however some symptoms include fever, chills, sweats, headache, body aches, loss of appetite, nausea, or fatigue. Babesiosi can be a life-threatening disease in people who don’t have a spleen, have a weakened immune system, serious health conditions, or are elderly." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
     skos:prefLabel "Babesiosis" .
@@ -112,6 +115,7 @@
 
 <http://data.globalchange.gov/vocab/human-health/concept/Dengue> a skos:Concept ;
     dcterms:source <http://www.cdc.gov/Dengue/> ;
+    skos:closeMatch mesh:D003715 ;
     skos:definition "A disease transmitted by infected mosquitoes that is the leading cause of illness and death in the tropics and subtropics.  Symptoms include high fever, severe headaches, severe pain behind the eyes, joint pain, muscle and bone pain, rash, and mild bleeding. Early recognition and treatment can substantially lower risk of medical complication and death" ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
     skos:prefLabel "Dengue" .
@@ -124,6 +128,7 @@
 
 <http://data.globalchange.gov/vocab/human-health/concept/Eastern+Equine+Encephalitis> a skos:Concept ;
     dcterms:source <http://www.cdc.gov/EasternEquineEncephalitis/> ;
+    skos:closeMatch mesh:D020242 ;
     skos:definition "A rare illness transmitted to humans by  the bite of an infected mosquitos, with only a few cases reported each year in the United States; most cases occur in Atlantic and Gulf Coast states.  Most persons infected with this virus have no apparent illness, however severe cases begin with sudden  onset of  headache, high fever, chills, and vomiting, which may then progress into disorientation, seizures, or coma. EEE is one of the most severe mosquito-transmitted diseases in the United States with approximately 33% mortality and significant brain damage in most survivors. There is no specific treatment for EEE; care is based on symptoms." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
     skos:prefLabel "Eastern Equine Encephalitis" .
@@ -267,12 +272,14 @@
 
 <http://data.globalchange.gov/vocab/human-health/concept/Lyme+disease> a skos:Concept ;
     dcterms:source <http://www.cdc.gov/lyme/> ;
+    skos:closeMatch mesh:D008193 ;
     skos:definition "Lyme disease is caused by the bacterium Borrelia burgdorferi and is transmitted to humans through the bite of infected blacklegged ticks." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
     skos:prefLabel "Lyme disease" .
 
 <http://data.globalchange.gov/vocab/human-health/concept/Malaria> a skos:Concept ;
     dcterms:source <http://www.who.int/topics/malaria/en/> ;
+    skos:closeMatch mesh:D008288 ;
     skos:definition "Illness caused by the parasite called Plasmodium, which is transmitted by infected mosquitoes. The parasite multiplies in the liver, moving on to infect red blood cells in the human body. Symptoms include fever, headache, and vomiting which appear between 10-15 days after exposure." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
     skos:prefLabel "Malaria" .
@@ -299,6 +306,7 @@
 
 <http://data.globalchange.gov/vocab/human-health/concept/Murine+Typhus> a skos:Concept ;
     dcterms:source <http://extension.entm.purdue.edu/publichealth/diseases/flea/typhus.html> ;
+    skos:closeMatch mesh:D014437 ;
     skos:definition "Murine typhus, also known as \"endemic typhus,\" \"Mexican typhus,\" and \"flea-borne typhus,\" is a flea-borne infection of humans worldwide. Symptoms are similar to those of epidemic typhus fever (transmitted by the human body louse), but typically much less severe. If untreated, patients with murine typhus can require hospitalization, but the case fatality rate is only about 2% in the U.S. However, travelers to Asia and African should note that the case fatality rate is thought to approach 70% in certain areas in which murine typhus occurs." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
     skos:prefLabel "Murine Typhus" .
@@ -397,6 +405,7 @@ population.""" ;
 
 <http://data.globalchange.gov/vocab/human-health/concept/Population+density> a skos:Concept ;
     dcterms:source <http://www.ck12.org/biology/Population-Size-Density-and-Distribution/lesson/Population-Size-Density-and-Distribution/> ;
+    skos:closeMatch mesh:D011156 ;
     skos:definition "Population density is the average number of individuals in a population per unit of area or volume." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
     skos:prefLabel "Population density" .
@@ -450,7 +459,7 @@ population.""" ;
 
 <http://data.globalchange.gov/vocab/human-health/concept/Socio-economic+risk+factors> a skos:Concept ;
     dcterms:source <http://www.apa.org/topics/socioeconomic-status/> ;
-    skos:definition "Risks determined by socioeconomic status, which is commonly conceptualized as the social standing or class of an individualor group. It is often measured as a combination of education, income and occupation." ;
+    skos:definition "Risks determined by socioeconomic status, which is commonly conceptualized as the social standing or class of an individual or group. It is often measured as a combination of education, income and occupation." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
     skos:prefLabel "Socio-economic risk factors" ;
     skos:related <http://data.globalchange.gov/vocab/human-health/concept/Education>,
@@ -473,6 +482,7 @@ population.""" ;
 
 <http://data.globalchange.gov/vocab/human-health/concept/St.+Louis+encephalitis> a skos:Concept ;
     dcterms:source <http://www.cdc.gov/sle/> ;
+    skos:closeMatch mesh:D004674 ;
     skos:definition "Virus transmitted to humans by infected mosquitoes occurring mostly in the eastern and central United States. Initial symptoms include fever, headache, nausea, vomiting, and tiredness.   Severe neuroinvasive disease (often involving encephalitis, an inflammation of the brain) occurs more commonly in older adults, and in rare cases, long-term disability or death can result." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
     skos:prefLabel "St. Louis encephalitis" .
@@ -503,6 +513,7 @@ population.""" ;
 
 <http://data.globalchange.gov/vocab/human-health/concept/Tularemia> a skos:Concept ;
     dcterms:source <http://www.bt.cdc.gov/agent/tularemia/faq.asp> ;
+    skos:closeMatch mesh:D014406 ;
     skos:definition "Tularemia, also known as “rabbit fever,” is a disease caused by the bacterium Francisella tularensis. Tularemia is typically found in animals, especially rodents, rabbits, and hares. Tularemia is usually a rural disease and has been reported in all U.S. states except Hawaii." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
     skos:prefLabel "Tularemia" .
@@ -538,6 +549,7 @@ population.""" ;
 
 <http://data.globalchange.gov/vocab/human-health/concept/West+Nile+Virus> a skos:Concept ;
     dcterms:source <https://en.wikipedia.org/wiki/West_Nile_virus> ;
+    skos:closeMatch mesh:D014902 ;
     skos:definition "A zoonotic arbovirus belonging to the genus Flavivirus in the family Flaviviridae." ;
     skos:inScheme <http://data.globalchange.gov/vocab/human-health> ;
     skos:prefLabel "West Nile Virus" .
