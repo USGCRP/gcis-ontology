@@ -1,6 +1,7 @@
 __author__ = 'szednik'
 
-import sys
+import sys, html5lib
+
 from bs4 import BeautifulSoup
 
 
